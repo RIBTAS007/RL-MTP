@@ -101,11 +101,11 @@ def gen_gama(g0,d0,the,d):  #input position as array
 
 def list_gama(g0,d0,the,UAVlist,P_cen):
     num_U=len(UAVlist)
-    for i in range(num_U):
-        P_self=np.array([UAVlist[i].position[0],UAVlist[i].position[1]])
+    for uk in range(num_U):
+        P_self=np.array([UAVlist[uk].position[0],UAVlist[uk].position[1]])
         d=max(50,np.linalg.norm(P_cen-P_self))
         gama=gen_gama(g0,d0,the,d)
-        UAVlist[i].gama=gama
+        UAVlist[uk].gama=gama
     return 1
 
 def find_pos(position):
