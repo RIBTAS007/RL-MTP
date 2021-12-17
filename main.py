@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Oct 25 16:29:07 2018
 
-@author: wansh
-"""
 
 import numpy as np
 import gmap as gp
@@ -78,6 +74,11 @@ for i in range(num_sensor): # 20,000
 
 # initailize a DQN
 Center = Center_DQN((84, 84, 1), 9, num_UAV, batch_size)
+#reference network weights dont know where it is initialized
+#alpha = 0.1
+#gamma = 0.8
+#rj =0
+#what is rowj and alpha max
 
 # Center.load("./save/center-dqn.h5")
 prebuf = np.zeros([num_UAV])
@@ -99,77 +100,105 @@ X = np.zeros([num_UAV])
 Y = np.zeros([num_UAV])
 fg = 1
 
+# for each epoc do
 for t in range(Ed):  # move first, get the data, offload collected data
     gp.gen_datarate(averate, region_rate)
 #    print(t)
+#    epsilon be reset and the trained weights will be stored after every T steps
     if t % T == 0 and t > 0:
         Center.epsilon = ep0
         Center.save("./save/center-dqn.h5")
+
+# The system plan the next destination for each UAV after every pl_step
 
     if t % pl_step == 0:
         pre_feature = []
         aft_feature = []
         act_note = []
-        for i in range(num_UAV): 
-            pre_feature.append(UAVlist[i].map_feature(region_rate, UAVlist, E_wait))    # record former feature
-            act=Center.act(pre_feature[i],fg)          # get the action V
+
+        # for each uk do
+        #    collect around service requirements and generate observations Ok(tp)
+        #    randomnly generate epsilon(tp)
+        #    choose action a(tp) by
+        #    if p< (epsilon(tp) then
+        #       randomnly select an action a(tp)
+        #    else
+        #       a(tp) = argmax_a Q(okt(p),a,theta)
+        #    end if
+
+        for uk in range(num_UAV):
+            pre_feature.append(UAVlist[uk].map_feature(region_rate, UAVlist, E_wait))    # record former feature
+            act=Center.act(pre_feature[uk],fg)          # get the action V
             act_note.append(act)                       # record the taken action
     
-    for i in range(num_UAV):
-        OUT[i]=UAVlist[i].fresh_position(vlist[act_note[i]],region_obstacle)     #execute the action
-        UAVlist[i].cal_hight()
-        X[i]=UAVlist[i].position[0]
-        Y[i]=UAVlist[i].position[1]
-        UAVlist[i].fresh_buf()
-        prebuf[i]=UAVlist[i].data_buf   #the buf after fresh by server
-        
+    for uk in range(num_UAV):
+        # execute the action a(t)
+        OUT[uk]=UAVlist[uk].fresh_position(vlist[act_note[uk]],region_obstacle)
+
+        #calculate(x,y,h)
+        UAVlist[uk].cal_hight() # calculate optimal UAV height
+        X[uk]=UAVlist[uk].position[0] #updating the X coordinate
+        Y[uk]=UAVlist[uk].position[1] # updating the y coordinate
+
+        # do edge processing and add the data to the queue
+        UAVlist[uk].fresh_buf()
+        prebuf[uk]=UAVlist[uk].data_buf   #the buf after fresh by server
+
+    # update the gamma values for each drone
     gp.list_gama(g0,d0,the,UAVlist,P_cen)
 
-    for i in range(num_sensor):          #fresh buf send data to UAV
-        sensorlist[i].data_rate=region_rate[sensorlist[i].rNo]
-        sensorlist[i].fresh_buf(UAVlist)
-        cover[t]=cover[t]+sensorlist[i].wait
+    #collect data from covered sensors
+    for dl in range(num_sensor):          #fresh buf send data to UAV
+        sensorlist[dl].data_rate=region_rate[sensorlist[dl].rNo]
+        sensorlist[dl].fresh_buf(UAVlist) #accumulate data in the former slot, transmit to UAV
+        cover[t]=cover[t]+sensorlist[dl].wait
     cover[t]=cover[t]/num_sensor
     print(cover[t])
-        
-    for i in range(num_UAV):
-        reward[i]=reward[i]+UAVlist[i].data_buf-prebuf[i]
-        Mentrd[i,t]=reward[i]
+
+    # storing reward for each timestamp for drone uk
+    for uk in range(num_UAV):
+        reward[uk]=reward[uk]+UAVlist[uk].data_buf-prebuf[uk]
+        Mentrd[uk,t]=reward[uk]
 #    if sum(OUT)>=num_UAV/2:
 #        fg=0
 #    if np.random.rand()>0.82 and fg==0:
 #        fg=1
-    
-    if t%pl_step==0:    
+
+# after every pl_step store the reward generated for each of the drones
+    if t%pl_step==0:
+        #generate observations
         E_wait=gp.W_wait(600,400,sensorlist)
         rdw=sum(sum(E_wait))
-        print(t)
-        for i in range(num_UAV):        #calculate the reward : need the modify
-#            aft_feature.append(UAVlist[i].map_feature(region_rate,UAVlist,E_wait))    #recode the current feature
-            rd=reward[i]/1000
-            reward[i]=0
-    #        UAVlist[i].reward=reward
-    #        reward=get_data/(pre_data[i]+1)
-#            if OUT[i]>0:
-#                rd=-200000
-    
-    #        if get_data<700:
-    #            reward=-1
-    #        pre_data[i]=get_data
-            UAVlist[i].reward=rd
-#            l_queue[t]=l_queue[t]+UAVlist[i].data_buf
-#            print("%f, %f, %f, %f"%(rd,UAVlist[i].data_buf,UAVlist[i].D_l,UAVlist[i].D_tr))
-    #        if UAVlist[i].data_buf>jud:
-    #            reward=reward/(reward-jud)
-#            if t>0:
-#                Center.remember(pre_feature[i],act_note[i],rd,aft_feature[i],i)  #record the training data 
-#    if t>1000:
-#        Center.epsilon=ep0
-#        Center.epsilon_decay=1
-#    if t>batch_size*pl_step and t%pl_step==0:
-#        for turn in range(num_UAV):
-##            Center.replay(batch_size,turn,t%reset_p_T)
-#            Center.replay(batch_size,turn,t-batch_size*pl_step)
+        #print(t)
+        for i in range(num_UAV):  # calculate the reward : need the modify
+            aft_feature.append(UAVlist[i].map_feature(region_rate,UAVlist,E_wait))    #recode the current feature
+            rd = reward[i] / 1000
+            reward[i] = 0
+            UAVlist[i].reward=reward[i]
+            reward[i]=data[i]/(prebuf[i]+1)
+            if OUT[i]>0:
+               rd=-200000
+
+            if data[i]<700:
+                reward=-1
+            prebuf[i]= data[i]
+            UAVlist[i].reward = rd
+            # l_queue[t]=l_queue[t]+UAVlist[i].data_buf
+            print("%f, %f, %f, %f"%(rd,UAVlist[i].data_buf,UAVlist[i].D_l,UAVlist[i].D_tr))
+            #if UAVlist[i].data_buf>jud:
+            #    reward=reward/(reward-jud)
+            if t>0:
+                Center.remember(pre_feature[i],act_note[i],rd,aft_feature[i],i)  #record the training data
+
+        if t>1000:
+            Center.epsilon=ep0
+            Center.epsilon_decay=1
+
+        if t>batch_size*pl_step and t%pl_step==0:
+            for turn in range(num_UAV):
+                Center.replay(batch_size,turn,t%reset_p_T)
+                Center.replay(batch_size,turn,t-batch_size*pl_step)
+
 
     if t>0:
         ax.clear()
