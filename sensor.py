@@ -21,18 +21,18 @@ class sensor_agent:
     
     def fresh_buf(self,UAVlist):  #accumulate data in the former slot, transmit to UAV
         distance=[]
-        num=len(UAVlist)
+        num_UAV=len(UAVlist)
         self.databuf=self.databuf+np.random.poisson(self.data_rate*self.slot)
 #        print(self.databuf)
-        for i in range(num):
-            p1=np.array([UAVlist[i].position[0],UAVlist[i].position[1]])
+        for uk in range(num_UAV):
+            p1=np.array([UAVlist[uk].position[0],UAVlist[uk].position[1]])
             p2=np.array([self.position[0],self.position[1]])
-            distance.append(np.linalg.norm(p1-p2))
+            distance.append(np.linalg.norm(p1-p2)) # distance between sensor and UAV
         
         min_d=min(distance)
         temp=[]
         inf=1e15
-        for i in range(num):
+        for uk in range(num_UAV):
             md=min(distance)
             if md>min_d+1:
                 break
