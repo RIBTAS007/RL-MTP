@@ -77,7 +77,13 @@ class Center_DQN:
     def remember(self, state, action, reward, next_state,i):
         self.memory[i].append((state, action, reward, next_state))
 
-        
+    # randomnly generate epsilon(tp)
+    #    choose action a(tp) by
+    #    if p< (epsilon(tp) then
+    #       randomnly select an action a(tp)
+    #    else
+    #       a(tp) = argmax_a Q(okt(p),a,theta)
+
     def act(self, state,fg):
         nrd=np.random.rand()
         if nrd <= self.epsilon:
