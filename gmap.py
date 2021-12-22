@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Oct 23 09:43:48 2018
 
-@author: wansh
-"""
 import numpy as np
 
 #Generate the system map
