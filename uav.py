@@ -1,16 +1,12 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Oct 24 10:34:15 2018
 
-@author: wansh
-"""
 from gmap import j_region
 from gmap import W_wait,find_pos
 import numpy as np
 
 class UAV_agent:
-    def __init__(self,No,com_r,region_obstacle,region,omeg,slot,t_bandwidth,cal_L,k,f_max,p_max):
-        self.No=No
+    def __init__(self,uk,com_r,region_obstacle,region,omeg,slot,t_bandwidth,cal_L,k,f_max,p_max):
+        self.No=uk
         self.position=[np.random.uniform(0.0,region[-1]['width']),np.random.uniform(0.0,region[-1]['hight'])]
         self.r=com_r
         self.region_ifo=region
@@ -60,11 +56,10 @@ class UAV_agent:
         
         self.hight=self.r*mid
         return self.hight
-
-    #edge processing
+    
     def fresh_buf(self):   #update the data queue
-        self.D_l=self.slot*self.f/self.L  # eq 8 from paper
-        self.D_tr=self.alpha*self.omeg*self.bandwidth*self.slot*np.log2(1+self.gama*self.p_tr/(self.alpha*self.noise*self.bandwidth)) #eq 9 from paper
+        self.D_l=self.slot*self.f/self.L
+        self.D_tr=self.alpha*self.omeg*self.bandwidth*self.slot*np.log2(1+self.gama*self.p_tr/(self.alpha*self.noise*self.bandwidth))
         self.data_buf=max(self.data_buf-self.D_l-self.D_tr,0)
         
         return self.data_buf
