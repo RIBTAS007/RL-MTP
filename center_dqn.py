@@ -9,55 +9,52 @@ from gmap import find_pos,j_region
 
 
 class Center_DQN:
-    def __init__(self, state_size, action_size,num_UAV,batch_size):
-        self.state_size = state_size # 84,84,1
-        self.action_size = action_size # 9
+    def __init__(self, state_size, action_size, num_UAV, batch_size):
+        self.state_size = state_size    # 84,84,1
+        self.action_size = action_size  # 9
 #        self.memory = deque(maxlen=124)
-        self.memory=[]
+        self.memory = []
         self.gamma = 0.8    # discount rate
         self.epsilon = 0.97  # exploration rate
         self.epsilon_min = 0.05
         self.epsilon_decay = 0.92
-        self.N=36
-        self.rtz=200
-        self.jr=0
-        self.num=0
-        self.alpha=0.1 # update rate
-        self.pro=np.zeros([action_size])
-        self.loss=[]
+        self.N = 36
+        self.rtz = 200
+        self.jr = 0
+        self.num = 0
+        self.alpha = 0.1     # update rate
+        self.pro = np.zeros([action_size])
+        self.loss = []
 #        self.learning_rate = 0.001
         self.model = self._build_model()
-        self.tmodel= self._build_model()
-        self.num_U=num_UAV
-        for i in range(num_UAV):
+        self.tmodel = self._build_model()
+        self.num_U = num_UAV
+        for uk in range(num_UAV):       # each UAV has a memory in the form of a deque of size 12 +10 = 22
             self.memory.append(deque(maxlen=batch_size+10))
 
-    def _build_model(self): #Set network of central training
-        # Neural Net for Deep-Q learning Model
+    def _build_model(self):                     # Set network of central training
+                                                # Neural Net for Deep-Q learning Model
         model = keras.Sequential()
-        model.add(keras.layers.Conv2D(32, (8,8), strides=4,activation='relu',input_shape = self.state_size))
-        #model.add(keras.layers.Dropout(0.25))
-        model.add(keras.layers.Conv2D(64, (4,4), strides=2,activation='relu'))
-        model.add(keras.layers.Conv2D(64, (3,3), strides=1,activation='relu'))
-        #model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
-        #model.add(keras.layers.Dropout(0.25))
+        model.add(keras.layers.Conv2D(32, (8, 8), strides=4, activation='relu', input_shape = self.state_size))
+        # model.add(keras.layers.Dropout(0.25))
+        model.add(keras.layers.Conv2D(64, (4, 4), strides=2, activation='relu'))
+        model.add(keras.layers.Conv2D(64, (3, 3), strides=1, activation='relu'))
+        # model.add(keras.layers.MaxPooling2D(pool_size=(2, 2)))
+        # model.add(keras.layers.Dropout(0.25))
         model.add(keras.layers.Flatten())
         model.add(keras.layers.Dense(512, activation='relu'))
         model.add(keras.layers.Dense(self.action_size, activation='linear'))
-        model.compile(optimizer='rmsprop',loss='mse')
+        model.compile(optimizer='rmsprop', loss='mse')
         return model
 
-    def remember(self, state, action, reward, next_state,uk):
+    def remember(self, state, action, reward, next_state, uk):
         self.memory[uk].append((state, action, reward, next_state))
 
-        
-
-        
-    def act(self, state,fg):
+    def act(self, state, fg):
         nrd=np.random.rand()
         if nrd <= self.epsilon:
             return random.randrange(self.action_size)
-        state=np.reshape(state,[1,self.state_size[0],self.state_size[1],self.state_size[2]])
+        state=np.reshape(state, [1, self.state_size[0], self.state_size[1], self.state_size[2]])
         act_values = self.model.predict(state)
         print(np.amax(act_values[0]))
         return np.argmax(act_values[0])  # returns action
