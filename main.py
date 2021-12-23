@@ -5,55 +5,55 @@ from uav import UAV_agent
 from sensor import sensor_agent
 import matplotlib.pyplot as plt
 
-Ed= 10                          #total slot
-pl_step=5                        #How many steps will The system plan the next destination
-#jud=70000
+Ed = 10000                          # total slot
+pl_step = 7                        # How many steps will The system plan the next destination
+# jud = 70000
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Create Regions in Map
 #---------------------------------------------------------------------------------------------------------------------------
 
-num1=5
-num2=4
+num1 = 5
+num2 = 4
 num_region = num1*num2          # there are now 20 regions in the map
-region=gp.genmap(600,400,num1,num2)
-m=8
-v1=m*np.sin(np.pi/4)   #equation 20, assumed to be constant
-vlist=[[0,0],[m,0],[v1,v1],[0,m],[-v1,v1],[-m,0],[-v1,-v1],[0,-m],[v1,-v1]] #movements possible for each UAV
+region = gp.genmap(600, 400, num1, num2)
+m = 8
+v1 = m*np.sin(np.pi/4)   #equation 20, assumed to be constant
+vlist = [[0, 0], [m, 0], [v1, v1], [0, m], [-v1, v1], [-m, 0], [-v1, -v1], [0, -m], [v1, -v1]] # movements/directions possible for each UAV
 # vlist = [[0,0],[8,0],[5.6,5.6],[0,8],[-5.6,5.6],[-8,0],[-5.6,-5.6],[0,-8],[5.6,-5.6]]
 
 #---------------------------------------------------------------------------------------------------------------------------
 # UAVlist parameters
 #---------------------------------------------------------------------------------------------------------------------------
 
-num_UAV=6
-com_r=60                                         # communication radius
-region_obstacle=gp.gen_obs(num_region)
-region_rate=np.zeros([num_region])
-omeg=1/num_UAV
-slot=0.5
-t_bandwidth=2e6
-cal_L=3000
-k=1e-26
-f_max=2e9    #the max CPU cycle frequency of UAV from eq 8
-p_max=5
-OUT=np.zeros([num_UAV])
-reward=np.zeros([num_UAV])
-reset_p_T=800
-E_wait=np.ones([401,601]) # Storing the local observations ?
+num_UAV = 6                                        # number of UAVs
+com_r = 60                                         # communication radius
+region_obstacle = gp.gen_obs(num_region)           # generates locations for 20 obstacles
+region_rate = np.zeros([num_region])
+omeg = 1/num_UAV
+slot = 0.5
+t_bandwidth = 2e6
+cal_L = 3000
+k = 1e-26
+f_max = 2e9                                         #the max CPU cycle frequency of UAV from eq 8
+p_max = 5
+OUT = np.zeros([num_UAV])
+reward = np.zeros([num_UAV])
+reset_p_T = 800
+E_wait = np.ones([401, 601])                        # Storing the local observations ?
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Sensor parameters
 #---------------------------------------------------------------------------------------------------------------------------
 
-num_sensor=20000
-averate=np.random.uniform(280,300,[num_region])
-p_sensor=gp.position_sensor(region,num_sensor)
+num_sensor = 20000
+averate = np.random.uniform(280, 300, [num_region])
+p_sensor = gp.position_sensor(region, num_sensor)   # position of sensors
 # sX = p_sensor['W']
 # sY = p_sensor['H']
 # plt.scatter(sX, sY)
 # plt.show()
-C=2e3                            # Data Transmission rate
+C = 2e3                            # Data Transmission rate
 prebuf = np.zeros([num_UAV])
 data = np.zeros([num_UAV])
 cover = np.zeros([Ed])             # record data buffer to store average data collected in each timestamp
@@ -62,38 +62,38 @@ cover = np.zeros([Ed])             # record data buffer to store average data co
 # DQN Model parameters
 #---------------------------------------------------------------------------------------------------------------------------
 
-T=100                            # How many steps will the epsilon be reset and the trained weights will be stored
-ep0=0.97                         # initial exploration rate
-batch_size=12                    # training samples per batch
-update_target=10
-losses = np.empty((num_UAV, 0), int) # to store loss for each timestamp
-Mentrd = np.zeros([num_UAV,Ed])  # stores the reward for each UAV at each timestamp
+T = 100                            # How many steps will the epsilon be reset and the trained weights will be stored
+ep0 = 0.97                         # initial exploration rate
+batch_size = 12                    # training samples per batch
+update_target = 10
+losses = np.empty((num_UAV, 0), int)     # to store loss for each timestamp
+Mentrd = np.zeros([num_UAV, Ed])  # stores the reward for each UAV at each timestamp
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Gamma value parameters
 #---------------------------------------------------------------------------------------------------------------------------
 
-g0=1e-4
-d0=1
-the=4
-P_cen=np.array([300,200])
-gammalist=[0,0.1,0.2,0.3,0.5,0.6,0.7,0.8,0.9]
+g0 = 1e-4
+d0 = 1
+the = 4
+P_cen = np.array([300, 200])
+gammalist = [0, 0.1, 0.2, 0.3, 0.5, 0.6, 0.7, 0.8, 0.9]
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Generate UAV agent
 #---------------------------------------------------------------------------------------------------------------------------
 
-UAVlist=[]
-for uk in range(num_UAV): #6
-    UAVlist.append(UAV_agent(uk,com_r,region_obstacle,region,omeg,slot,t_bandwidth,cal_L,k,f_max,p_max))
+UAVlist = []                         # contains the list of UAV objects created
+for uk in range(num_UAV):            # 6
+    UAVlist.append(UAV_agent(uk, com_r, region_obstacle, region, omeg, slot, t_bandwidth, cal_L, k, f_max, p_max))
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Generate sensor agent
 #---------------------------------------------------------------------------------------------------------------------------
 
-sensorlist=[]
-for dl in range(num_sensor):
-    sensorlist.append(sensor_agent([p_sensor['W'][dl],p_sensor['H'][dl]],C,region,averate,slot))
+sensorlist=[]                       # contains the list of sensor objects created
+for dl in range(num_sensor):        # 20,000
+    sensorlist.append(sensor_agent([p_sensor['W'][dl], p_sensor['H'][dl]], C, region, averate, slot))
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Initialize a DQN
@@ -107,98 +107,99 @@ for dl in range(num_sensor):
 # alpha =0.1
 # rj =0
 
-Center = Center_DQN((84,84,1),9,num_UAV,batch_size)
+Center = Center_DQN((84, 84, 1), 9, num_UAV, batch_size)
 
-#Center.load("./save/center-dqn.h5")
+# Center.load("./save/center-dqn.h5")
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Initialize Plot
 #---------------------------------------------------------------------------------------------------------------------------
 
-y =[]
-for t in range(0,Ed):            # To store all timestamps for plotting
+y = []
+for t in range(0, Ed):            # To store all timestamps for plotting
     y.append(t)
 plt.close()
-fig=plt.figure()
-ax=fig.add_subplot(1,1,1)
-plt.xlim((0,600))
-plt.ylim((0,400))
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1)
+plt.xlim((0, 600))
+plt.ylim((0, 400))
 plt.grid(True)
-plt.ion()  #interactive mode on
-X=np.zeros([num_UAV])
-Y=np.zeros([num_UAV])
-
-fg=1
+plt.ion()  # interactive mode on
+X = np.zeros([num_UAV])
+Y = np.zeros([num_UAV])
+fg = 1
 
 #---------------------------------------------------------------------------------------------------------------------------
 # move first, get the data, offload collected data
 #---------------------------------------------------------------------------------------------------------------------------
 
 for t in range(Ed):                                     # for each epoc do
-    gp.gen_datarate(averate,region_rate)                # for each region genrate the data rate
+    gp.gen_datarate(averate, region_rate)               # for each region generate the data rate
+    print("t is ", t, "\n")
 
     # ---------------------------------------------------------------------------------------------------------------------
 
-    if t%T==0 and t>0:                                  # After every T steps
-        Center.epsilon=ep0                              #   reset epsilon
-        Center.save("./save/center-dqn.h5")             #   save trained weights
-        np.save("record_rd3",Mentrd)                    #   save the rewards
+    if t % T == 0 and t > 0:                            # After every T steps
+        Center.epsilon = ep0                            # reset epsilon
+        Center.save("./save/center-dqn.h5")             # save trained weights
+        np.save("record_rd3", Mentrd)                   # save the rewards
 
     # --------------------------------------------------------------------------------------------------------------------
 
-    if t%pl_step==0:                                    # system plans the next action after every pl_step
-        pre_feature=[]
-        aft_feature=[]
-        act_note=[]
+    if t % pl_step == 0:                                    # system plans the next action after every planning step
+        pre_feature = []
+        aft_feature = []
+        act_note = []
 
         # for each uk do
         #    collect around service requirements and generate observations Ok(tp)
-        #    randomnly generate epsilon(tp)
+        #    randomly generate epsilon(tp)
         #    choose action a(tp) by
         #    if p< epsilon(tp) then
-        #       randomnly select an action a(tp)
+        #       randomly select an action a(tp)
         #    else
         #       a(tp) = argmax_a Q(okt(p),a,theta)
         #    end if
 
-        for uk in range(num_UAV):                                                      # for each UAV
-            pre_feature.append(UAVlist[uk].map_feature(region_rate,UAVlist,E_wait))    #   record former feature
-            act=Center.act(pre_feature[uk],fg)                                         #   get the action V
-            act_note.append(act)                                                       #   record the taken action
+        for uk in range(num_UAV):                                                        # for each UAV
+            pre_feature.append(UAVlist[uk].map_feature(region_rate, UAVlist, E_wait))    # record former feature of each drone 84x84x1
+            act = Center.act(pre_feature[uk], fg)                                        # get the action V
+            act_note.append(act)                                                         # record the taken action
 
     # ----------------------------------------------------------------------------------------------------------------------
 
     for uk in range(num_UAV):                                                           # execute the action a(t)
-        OUT[uk]=UAVlist[uk].fresh_position(vlist[act_note[uk]],region_obstacle)           # out = (1 means moving out of the map), (0 means inside the map)
-        UAVlist[uk].cal_hight()                                                          # calculate h
-        X[uk]=UAVlist[uk].position[0]                                                     # calculate x
-        Y[uk]=UAVlist[uk].position[1]                                                     # calculate y
-        UAVlist[uk].fresh_buf()                                                          # do edge processing and add the data to the queue
-        prebuf[uk]=UAVlist[uk].data_buf                                                   # Update the data left in buffer
+        OUT[uk]=UAVlist[uk].fresh_position(vlist[act_note[uk]], region_obstacle)         # Update the UAV position accroding to the path
+        # out = (1 means moving out of the map), (0 means inside the map)
+        UAVlist[uk].cal_hight()                                                            # calculate h
+        X[uk] = UAVlist[uk].position[0]                                                    # calculate x
+        Y[uk] = UAVlist[uk].position[1]                                                    # calculate y
+        UAVlist[uk].fresh_buf()                                                            # do edge processing and add the data to the queue
+        prebuf[uk] = UAVlist[uk].data_buf                                                  # Update the data left in buffer
 
     # ----------------------------------------------------------------------------------------------------------------------
 
-    gp.list_gama(g0,d0,the,UAVlist,P_cen)                                               # update discount rate for each UAV
+    gp.list_gama(g0, d0, the, UAVlist, P_cen)                                               # update discount rate for each UAV
 
     # ----------------------------------------------------------------------------------------------------------------------
 
-    for dl in range(num_sensor):                                                        # for each sensor do
-        sensorlist[dl].data_rate=region_rate[sensorlist[dl].rNo]                        #    find data rate at region r
-        sensorlist[dl].fresh_buf(UAVlist)                                               #    calculate data present in the buffer of that sensor
-        cover[t]=cover[t]+sensorlist[dl].wait                                           #    collecet the data from covered sensors
+    for dl in range(num_sensor):                                                # for each sensor do
+        sensorlist[dl].data_rate = region_rate[sensorlist[dl].rNo]              # find data rate at region r
+        sensorlist[dl].fresh_buf(UAVlist)                          # calculate data present in the buffer of that sensor
+        cover[t] = cover[t]+sensorlist[dl].wait                                 # collect the data from covered sensors
 
-    cover[t]=cover[t]/num_sensor                                                        #    average data generated at time t
+    cover[t] = cover[t]/num_sensor                                              # average data generated at time t
     # print(cover[t])
 
     # ----------------------------------------------------------------------------------------------------------------------
 
-    for i in range(num_UAV):
-        reward[i]=reward[i]+UAVlist[i].data_buf-prebuf[i]                               # reward is 1D array that stores reward for each drone
-        Mentrd[i,t]=reward[i]                                                           # at time t what is reward set generated
+    for uk in range(num_UAV):
+        reward[uk] = reward[uk]+UAVlist[uk].data_buf-prebuf[uk]   # reward is 1D array that stores reward for each drone
+        Mentrd[uk, t]=reward[uk]                                     # at time t what is reward set generated
 
     # ----------------------------------------------------------------------------------------------------------------------
 
-#    if sum(OUT)>=num_UAV/2:                                                            # if more number of UAV have gone out of the map
+#    if sum(OUT)>=num_UAV/2:                                           # if more number of UAV have gone out of the map
 #        fg=0
 #    if np.random.rand()>0.82 and fg==0:
 #        fg=1
@@ -312,7 +313,7 @@ plt.legend()
 plt.savefig('Average_Loss_Values.png')
 plt.close(fal)
 
-'''
+
 
 #print("losses: ", losses)
 
@@ -343,7 +344,7 @@ plt.legend()
 # function to show the plot
 plt.savefig('Loss_Values.png')
 plt.close(fi)
-'''
+
 
 #calculate the average reward
 avg_reward = []
@@ -376,7 +377,7 @@ plt.legend()
 plt.savefig('Average_Reward_Values.png')
 plt.close(far)
 
-'''
+
 
 # plotting the rewards
 
@@ -405,6 +406,6 @@ plt.legend()
 # function to show the plot
 plt.savefig('Reward_Values.png')
 plt.close(fr)
-'''
+
 
 
