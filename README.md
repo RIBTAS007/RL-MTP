@@ -5,3 +5,9 @@ Install tensorflow keras numpy mathplotlib
 Simulate the path planning and data scheduling
 
 UAVs are supposed to move straight along path in each time slot
+
+![Image1](Average_Loss_Values.png)
+
+![Iamge2](Average_Reward_Values.png)
+
+![Image3](Buffer_data.png)
