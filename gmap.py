@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
+"""
+Created on Tue Oct 23 09:43:48 2018
 
+@author: wansh
+"""
 import numpy as np
 
 #Generate the system map
@@ -53,16 +57,18 @@ region =
 
 '''
 
-def j_region(point,region):
-    num_r=len(region)-1
+
+def j_region(point, region):        # called while initializing the sensors
+    num_r = len(region)-1           # -1 is done because last values just store width and height
     for j_r in range(num_r):
-        bound=region[j_r]
-        b1=((bound['bl'][0]*point[0]+bound['bl'][1]*point[1]+bound['bl'][2])*bound['bl'][3] >=0)
-        b2=((bound['br'][0]*point[0]+bound['br'][1]*point[1]+bound['br'][2])*bound['br'][3] >=0)
-        b3=((bound['bd'][0]*point[0]+bound['bd'][1]*point[1]+bound['bd'][2])*bound['bd'][3] >=0)
-        b4=((bound['bu'][0]*point[0]+bound['bu'][1]*point[1]+bound['bu'][2])*bound['bu'][3] >=0)
-        judg=(b1 and b2 and b3 and b4)
-        if judg==1:
+        bound = region[j_r]
+        b1 = ((bound['bl'][0]*point[0]+bound['bl'][1]*point[1]+bound['bl'][2])*bound['bl'][3] >= 0)
+        b2 = ((bound['br'][0]*point[0]+bound['br'][1]*point[1]+bound['br'][2])*bound['br'][3] >= 0)
+        b3 = ((bound['bd'][0]*point[0]+bound['bd'][1]*point[1]+bound['bd'][2])*bound['bd'][3] >= 0)
+        b4 = ((bound['bu'][0]*point[0]+bound['bu'][1]*point[1]+bound['bu'][2])*bound['bu'][3] >= 0)
+        judg = (b1 and b2 and b3 and b4)
+
+        if judg == 1:               # if all the bounds are satisfied then return the region else return -1
             return j_r
     return -1
 
@@ -93,10 +99,10 @@ sensor positions =
         62.17959722, 160.73615453, 153.02138101, 165.23278849]
 }
 '''
-def gen_datarate(averate,region_rate):
-    num=len(region_rate)
+def gen_datarate( averate, region_rate):
+    num = len(region_rate)       # 20
     for i in range(num):
-        region_rate[i]=np.random.uniform(0.9*averate[i],1.2*averate[i])
+        region_rate[i] = np.random.uniform(0.9*averate[i], 1.2*averate[i])
     return 1
     
 def gen_obs(num_region): # generates locations of obstacles in the map.
