@@ -57,11 +57,10 @@ class UAV_agent:
         self.hight=self.r*mid
         return self.hight
     
-    def fresh_buf(self):   #update the data queue
-        self.D_l=self.slot*self.f/self.L
-        self.D_tr=self.alpha*self.omeg*self.bandwidth*self.slot*np.log2(1+self.gama*self.p_tr/(self.alpha*self.noise*self.bandwidth))
-        self.data_buf=max(self.data_buf-self.D_l-self.D_tr,0)
-        
+    def fresh_buf(self):   # update the data queue using Eq 8 and Eq 9
+        self.D_l = self.slot*self.f/self.L
+        self.D_tr = self.alpha*self.omeg*self.bandwidth*self.slot*np.log2(1+self.gama*self.p_tr/(self.alpha*self.noise* self.bandwidth))
+        self.data_buf = max(self.data_buf-self.D_l-self.D_tr, 0)
         return self.data_buf
         
     def cal_f(self,V):      #calculate local frequency
@@ -108,73 +107,89 @@ class UAV_agent:
 
 
 #update the UAV position according to the path    
-    def fresh_position(self,v,region_obstacle):   #out=1 represents moving out of map
-        out=0
-        self.v=[]
-        self.v=v.copy()
-        width=self.region_ifo[-1]['width']
-        hight=self.region_ifo[-1]['hight']
-        self.position[0]=self.position[0]+v[0]
-        self.position[1]=self.position[1]+v[1]
+    def fresh_position(self, v, region_obstacle):   #out=1 represents moving out of map
+        out = 0
+        self.v = []
+        self.v = v.copy()
+        width = self.region_ifo[-1]['width']
+        hight = self.region_ifo[-1]['hight']
+        self.position[0] = self.position[0]+v[0]
+        self.position[1] = self.position[1]+v[1]
 #        l0=self.r/np.sqrt(2)
-        l0=0
-        if self.position[0]>=width-l0:
-            self.position[0]=width-l0
-            out=1
-        elif self.position[0]<=l0:
-            out=1
-            self.position[0]=l0
+        l0 = 0
+        if self.position[0] >= width-l0:
+            self.position[0] = width-l0
+            out = 1
+        elif self.position[0] <= l0:
+            out = 1
+            self.position[0] = l0
         
-        if self.position[1]>=hight-l0:
-            self.position[1]=hight-l0
-            out=1
-        elif self.position[1]<=l0:
-            out=1
-            self.position[1]=l0
+        if self.position[1] >= hight-l0:
+            self.position[1] = hight-l0
+            out = 1
+        elif self.position[1] <= l0:
+            out = 1
+            self.position[1] = l0
 
-        self.region_No=j_region(self.position,self.region_ifo)
-        self.obs=region_obstacle[self.region_No]
+        self.region_No = j_region(self.position, self.region_ifo)
+        self.obs = region_obstacle[self.region_No]
         return out
 
             
 
-#Generate the local observation (Can be varied by different observation definition)    
-    def map_feature(self,datarate,UAVlist,E_wait): #return 84 84 2 feature
-        size_f=84
-        size_h=size_f/2
-        sight=3
-        position=np.zeros([size_f,size_f,2])
-        feature=np.zeros([size_f,size_f,1])
-        inrange=[]
-        num_uav=len(UAVlist)
-        for i in range(num_uav):    #find neighbor UAVs
-            ps=UAVlist[i].position
-            No=UAVlist[i].No
-            if No==self.No:
+# Generate the local observation (Can be varied by different observation definition)
+
+    def map_feature(self, datarate, UAVlist, E_wait):     # return 84 84 2 feature
+        size_f = 84
+        size_h = size_f/2                                 # 42
+        sight = 3
+        position = np.zeros([size_f, size_f, 2])          # 84x84x2 array
+        feature = np.zeros([size_f, size_f, 1])           # 84x84x1 array
+        inrange = []
+        num_uav = len(UAVlist)                            # 6
+
+        for uk in range(num_uav):                         # find neighbor UAVs
+            ps = UAVlist[uk].position                     # Take the UAV position
+            No = UAVlist[uk].No                           # Take the UAV number
+            if No == self.No:
                 inrange.append(No)
                 continue
-            if ps[0]>=self.position[0]-(size_h-1)*sight-self.r and ps[0]<=self.position[0]+size_h*sight+self.r and ps[1]>=self.position[1]-(size_h-1)*sight-self.r and ps[1]<=self.position[1]+size_h*sight+self.r:
+
+            condition1 = (ps[0] >= self.position[0] - (size_h-1) * sight - self.r)
+            condition2 = (ps[0] <= self.position[0] + size_h * sight + self.r)
+            condition3 = (ps[1] >= self.position[1] - (size_h-1) * sight - self.r)
+            condition4 = (ps[1] <= self.position[1] + size_h * sight + self.r)
+
+            if condition1 and condition2 and condition3 and condition4:
                 inrange.append(No)
-        for i in range(size_f):      #define positions of each points in the feature
-            position[:,i,0]=self.position[0]-(size_h-1)*sight+sight*i
-            position[i,:,1]=self.position[1]+(size_h-1)*sight-sight*i
+
+        for f in range(size_f):                          # define positions of each points in the feature
+            position[:, f, 0] = self.position[0] - (size_h-1)*sight + sight*f
+            position[f, :, 1] = self.position[1] + (size_h-1)*sight - sight*f
+
         for i in range(84):
             for j in range(84):
-                if position[i,j,0]<0 or position[i,j,0]>self.region_ifo[-1]['width'] or position[i,j,1]<0 or position[i,j,1]>self.region_ifo[-1]['hight']:
-                    feature[i,j,0]=0
+                c1 = position[i, j, 0] < 0
+                c2 = position[i, j, 0] > self.region_ifo[-1]['width']
+                c3 = position[i, j, 1] < 0
+                c4 = position[i, j, 1] > self.region_ifo[-1]['hight']
+
+                if c1 or c2 or c3 or c4:
                     continue
-                r_no=j_region([position[i,j,0],position[i,j,1]],self.region_ifo)  #the region No with the current point in
-                pos=find_pos(position[i,j,:])
-                feature[i,j,0]=datarate[r_no]*E_wait[pos[1],pos[0]]
+
+                r_no = j_region([position[i, j, 0], position[i, j, 1]], self.region_ifo)                 # the region No with the current point in
+                pos = find_pos(position[i, j, :])                                                        # returns the floor value
+                feature[i, j, 0] = datarate[r_no] * E_wait[pos[1], pos[0]]
+
                 for k in range(len(inrange)):
-                    d=np.linalg.norm(np.array([position[i,j,0]-UAVlist[inrange[k]].position[0],position[i,j,1]-UAVlist[inrange[k]].position[1]]))
-                    if d<=self.r:
-                        if inrange[k]==self.No:
+                    d = np.linalg.norm(np.array([position[i, j, 0]-UAVlist[inrange[k]].position[0], position[i, j, 1]- UAVlist[inrange[k]].position[1]]))
+                    if d <= self.r:
+                        if inrange[k] == self.No:
                             continue
                         else:
-                            if feature[i,j,0]>0:
-                                feature[i,j,0]=0
-                            feature[i,j,0]=feature[i,j,0]-8000
-        feature=feature/100
+                            if feature[i, j, 0] > 0:
+                                feature[i, j, 0] = 0
+                            feature[i, j, 0]=feature[i, j, 0] - 8000
+        feature = feature/100
 #                            break
         return feature.copy()
