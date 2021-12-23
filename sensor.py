@@ -5,14 +5,14 @@ import numpy as np
 import random
 
 class sensor_agent:
-    def __init__(self,position,C,region,data_rate,slot):
-        self.position=position.copy()
-        self.capacity=C
-        self.rNo=j_region(self.position,region)
-        self.databuf=0
-        self.data_rate=data_rate[self.rNo]
-        self.slot=slot
-        self.wait=0
+    def __init__(self, position, C, region, data_rate, slot):
+        self.position = position.copy()
+        self.capacity = C
+        self.rNo = j_region(self.position, region)  # it will be either -1 else it will be the region
+        self.databuf = 0                            # data buffer of the sensor
+        self.data_rate = data_rate[self.rNo]
+        self.slot = slot
+        self.wait = 0
         
     
     def fresh_buf(self,UAVlist):  #accumulate data in the former slot, transmit to UAV
