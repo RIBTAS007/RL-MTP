@@ -47,7 +47,7 @@ E_wait = np.ones([401, 601])                        # Storing the local observat
 #---------------------------------------------------------------------------------------------------------------------------
 
 num_sensor = 20000
-averate = np.random.uniform(280, 300, [num_region])
+averate = np.random.uniform(250, 300, [num_region])
 p_sensor = gp.position_sensor(region, num_sensor)   # position of sensors
 # sX = p_sensor['W']
 # sY = p_sensor['H']
