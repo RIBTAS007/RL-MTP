@@ -10,24 +10,23 @@ from gmap import find_pos,j_region
 
 class Center_DQN:
     def __init__(self, state_size, action_size, num_UAV, batch_size):
-        self.state_size = state_size    # 84,84,1
-        self.action_size = action_size  # 9
+        self.state_size = state_size                    # 84,84,1
+        self.action_size = action_size                  # 9
 #        self.memory = deque(maxlen=124)
         self.memory = []
-        self.gamma = 0.8    # discount rate
-        self.epsilon = 0.97  # exploration rate
+        self.gamma = 0.9                                # discount rate
+        self.epsilon = 0.97                             # exploration rate
         self.epsilon_min = 0.05
         self.epsilon_decay = 0.92
-        self.N = 36
+        self.N = 36                                     # exp buffer size
         self.rtz = 200
         self.jr = 0
         self.num = 0
-        self.alpha = 0.1     # update rate
+        self.alpha = 0.1                                # update rate
         self.pro = np.zeros([action_size])
         self.loss = []
-#        self.learning_rate = 0.001
-        self.model = self._build_model()
-        self.tmodel = self._build_model()
+        self.model = self._build_model()         # Q nework
+        self.tmodel = self._build_model()        # target value
         self.num_U = num_UAV
         for uk in range(num_UAV):       # each UAV has a memory in the form of a deque of size 12 +10 = 22
             self.memory.append(deque(maxlen=batch_size+10))
@@ -50,39 +49,46 @@ class Center_DQN:
     def remember(self, state, action, reward, next_state, uk):
         self.memory[uk].append((state, action, reward, next_state))
 
-    def act(self, state, fg):
+    def act(self, state, fg):  # state = 84 x84 x 1
         nrd=np.random.rand()
         if nrd <= self.epsilon:
-            return random.randrange(self.action_size)
-        state=np.reshape(state, [1, self.state_size[0], self.state_size[1], self.state_size[2]])
+            return random.randrange(self.action_size) # take a random action
+
+        state=np.reshape(state, [1, self.state_size[0], self.state_size[1], self.state_size[2]]) # 1 x 84 x 84 x 1
         act_values = self.model.predict(state)
-        print(np.amax(act_values[0]))
         return np.argmax(act_values[0])  # returns action
 
 #training process
     def replay(self, batch_size, i1,t):
         self.alpha=1/np.sqrt((t+1)/5)
+
         if self.num==0:
             self.model.save_weights("./save/temp.h5")
             self.tmodel.load_weights("./save/temp.h5")
+
         minibatch = random.sample(self.memory[i1], batch_size)
+
         train_sp=np.zeros([batch_size,self.state_size[0],self.state_size[1],self.state_size[2]])
-        tg=np.zeros([batch_size,self.action_size])
+        tg=np.zeros([batch_size,self.action_size]) # 12 x 9
+
 #        minibatch=self.memory[i]
         error=0
         i=0
-        for state1, action, reward, next_state in minibatch:
-            state=np.reshape(state1,[1,self.state_size[0],self.state_size[1],self.state_size[2]])
+        for state1, action, reward, next_state in minibatch: # 12
+            # (s,a,r, s')
+            state=np.reshape(state1,[1,self.state_size[0],self.state_size[1],self.state_size[2]]) # 1 x 84 x 84 x 1
             next_state=np.reshape(next_state,[1,self.state_size[0],self.state_size[1],self.state_size[2]])
-            pdc=self.model.predict(state)[0]
+            pdc=self.model.predict(state)[0] 
+            # state -> argmax(action) 
+             
             self.pro[action]+=1
             w=sum(self.pro)/self.pro[action]
 #            if reward<=0:
 #                w=6
             ap=min(0.9,self.alpha*w)
 #            ap=self.alpha
-            target = ap*(reward + self.gamma *
-                          np.amax(self.tmodel.predict(next_state)[0]))+(1-ap)*pdc[action] #第一维是属于哪个batch
+            target = ap*(reward + self.gamma * np.amax(self.tmodel.predict(next_state)[0]))+(1-ap)*pdc[action] 
+
             target_f = self.model.predict(state)
             target_f[0][action] = target
             tg[i]=target_f[0]
@@ -120,9 +126,7 @@ class Center_DQN:
                 ld_U=ldu_t
         return [ld_L,ld_U]
             
-            
-        
-    
+
     def cal_com(self,UAVlist,alfmin,ite=20):
         [ld_L,ld_U]=self.find_ld(UAVlist,alfmin)
 #        print("%f,%f"%(ld_L,ld_U))
@@ -165,3 +169,5 @@ class Center_DQN:
 
     def update_target_network(self):
         self.tmodel.set_weights(self.model.get_weights())
+
+
