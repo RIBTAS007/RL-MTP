@@ -10,7 +10,7 @@ class sensor_agent:
         self.capacity = C                           #2000
         self.rNo = j_region(self.position, region)  # it will be either -1 else it will be the region
         self.databuf = 0                            # data buffer of the sensor
-        self.data_rate = data_rate[self.rNo]       
+        self.data_rate = data_rate[self.rNo]        # give a data rate to each sensor based on the region
         self.slot = slot                            #0.5
         self.wait = 0
         
@@ -47,6 +47,6 @@ class sensor_agent:
             pre_buf=self.databuf
             self.databuf=max(0,self.databuf-self.slot*self.capacity)
             self.wait=self.databuf*self.wait/pre_buf   #eq 18 from algorithm 2
-            return min_idx 
+            return min_idx
 
 
