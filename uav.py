@@ -6,9 +6,9 @@ import numpy as np
 
 class UAV_agent:
     def __init__(self,uk,com_r,region_obstacle,region,omeg,slot,t_bandwidth,cal_L,k,f_max,p_max):
+        self.position = [np.random.uniform(0.0, region[-1]['width']), np.random.uniform(0.0, region[-1]['hight'])]
         self.No=uk
-        self.position=[np.random.uniform(0.0,region[-1]['width']),np.random.uniform(0.0,region[-1]['hight'])]
-        self.r=com_r
+        self.r = com_r
         self.region_ifo=region
         self.region_No=j_region(self.position,region)
         self.obs=region_obstacle[self.region_No]
@@ -110,13 +110,14 @@ class UAV_agent:
     def fresh_position(self, v, region_obstacle):   #out=1 represents moving out of map
         out = 0
         self.v = []
-        self.v = v.copy()
+        self.v = v.copy() 
         width = self.region_ifo[-1]['width']
         hight = self.region_ifo[-1]['hight']
         self.position[0] = self.position[0]+v[0]
         self.position[1] = self.position[1]+v[1]
 #        l0=self.r/np.sqrt(2)
         l0 = 0
+        # x cooridnate
         if self.position[0] >= width-l0:
             self.position[0] = width-l0
             out = 1
@@ -124,6 +125,7 @@ class UAV_agent:
             out = 1
             self.position[0] = l0
         
+        # y coordinate 
         if self.position[1] >= hight-l0:
             self.position[1] = hight-l0
             out = 1
@@ -140,11 +142,11 @@ class UAV_agent:
 # Generate the local observation (Can be varied by different observation definition)
 
     def map_feature(self, datarate, UAVlist, E_wait):     # return 84 84 2 feature
-        size_f = 84
-        size_h = size_f/2                                 # 42
-        sight = 3
-        position = np.zeros([size_f, size_f, 2])          # 84x84x2 array
-        feature = np.zeros([size_f, size_f, 1])           # 84x84x1 array
+        size_f = 84                                       # 84  Oij RxR
+        size_h = size_f/2                                 # 42  
+        sight = 3                                         # 3
+        position = np.zeros([size_f, size_f, 2])          # 84x84x2 array  Pkij 
+        feature = np.zeros([size_f, size_f, 1])           # 84x84x1 array  O 
         inrange = []
         num_uav = len(UAVlist)                            # 6
 
@@ -154,42 +156,55 @@ class UAV_agent:
             if No == self.No:
                 inrange.append(No)
                 continue
-
-            condition1 = (ps[0] >= self.position[0] - (size_h-1) * sight - self.r)
+            
+            # x cordinate positions
+            condition1 = (ps[0] >= self.position[0] - (size_h-1) * sight - self.r) 
             condition2 = (ps[0] <= self.position[0] + size_h * sight + self.r)
+
+            # y coordinate position
             condition3 = (ps[1] >= self.position[1] - (size_h-1) * sight - self.r)
             condition4 = (ps[1] <= self.position[1] + size_h * sight + self.r)
 
             if condition1 and condition2 and condition3 and condition4:
                 inrange.append(No)
-
+        
+        # position array
         for f in range(size_f):                          # define positions of each points in the feature
-            position[:, f, 0] = self.position[0] - (size_h-1)*sight + sight*f
-            position[f, :, 1] = self.position[1] + (size_h-1)*sight - sight*f
-
+            position[:, f, 0] = self.position[0] - (size_h-1)*sight + sight*f  # x - 123 + 3*{0,1,2...83}
+            position[f, :, 1] = self.position[1] + (size_h-1)*sight - sight*f  # y + 123 - 3*{0,1,2,...83}
+        
+        # feature array 
         for i in range(84):
             for j in range(84):
+
                 c1 = position[i, j, 0] < 0
                 c2 = position[i, j, 0] > self.region_ifo[-1]['width']
+
                 c3 = position[i, j, 1] < 0
                 c4 = position[i, j, 1] > self.region_ifo[-1]['hight']
-
+                
+                # if any condition is true then skip the inner loop
                 if c1 or c2 or c3 or c4:
                     continue
-
+                
+                #  if it is in the region then only update feature i.e. observations
                 r_no = j_region([position[i, j, 0], position[i, j, 1]], self.region_ifo)                 # the region No with the current point in
                 pos = find_pos(position[i, j, :])                                                        # returns the floor value
-                feature[i, j, 0] = datarate[r_no] * E_wait[pos[1], pos[0]]
+                feature[i, j, 0] = datarate[r_no] * E_wait[pos[1], pos[0]]  #  20  * 301 * 401
 
                 for k in range(len(inrange)):
+
                     d = np.linalg.norm(np.array([position[i, j, 0]-UAVlist[inrange[k]].position[0], position[i, j, 1]- UAVlist[inrange[k]].position[1]]))
-                    if d <= self.r:
+                    # print(" for", k , "th UAV", "distance is:",d, "self. UAV radius is",self.r, "\n" )
+                    if d <= self.r:                        # if distance is less than the radius
                         if inrange[k] == self.No:
                             continue
                         else:
-                            if feature[i, j, 0] > 0:
+                            if feature[i, j, 0] > 0:      # if feature > 0 then make them 0 else let them whatever they are
                                 feature[i, j, 0] = 0
-                            feature[i, j, 0]=feature[i, j, 0] - 8000
-        feature = feature/100
+
+                            feature[i, j, 0]=feature[i, j, 0] - 8000 # subtract 8000 from the features #eq 19
+                   # print(" for", k , "th UAV", "feature is",  "\n" )
+        feature = feature/100    # we will get negative feature values
 #                            break
-        return feature.copy()
+        return feature.copy()     # Ok(tp)
