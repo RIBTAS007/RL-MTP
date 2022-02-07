@@ -5,14 +5,14 @@ import numpy as np
 #Generate the system map
 #Can be modified by varied map definition
 
-def genmap(width=500,hight=400,lw=4,lh=2):
+def genmap(width=600,hight=400,lw=5,lh=4):
     F_map={'width':width,'hight':hight}
     region=[]
-    dw=width/lw
-    dh=hight/lh
+    dw=width/lw  #120
+    dh=hight/lh  #100
     for h in range(lh):
         for w in range(lw):
-            left=(w-1)*dw
+            left=(w-1)*dw    
             right=left+dw
             down=(h-1)*dh
             up=down+dh
@@ -24,9 +24,10 @@ def genmap(width=500,hight=400,lw=4,lh=2):
             region.append(new_region)
     
     region.append(F_map)
-    print(region)
+    # print(region)
     return region
 
+    # what are regions denote
 '''
 region =
 {'bl': (1, 0, 120.0, 1), 'br': (1, 0, -0.0, -1), 'bd': (0, 1, 100.0, 1), 'bu': (0, 1, -0.0, -1)}, 
@@ -70,14 +71,13 @@ def j_region(point, region):        # called while initializing the sensors
 
 #Sensor position
 def position_sensor(region,num_sensor):
-    ep=10.0
-    num_r=len(region)-1
+    ep=10.0                      # why ?
+    num_r=len(region)-1          #20
     width=region[num_r]['width'] #600
     hight=region[num_r]['hight'] #400
     position_w=np.random.uniform(0.0+ep,float(width)-ep,[num_sensor])
     position_h=np.random.uniform(0.0+ep,float(hight)-ep,[num_sensor])
     p_sensor={'W':position_w,'H':position_h}
-    #print(p_sensor)
     return p_sensor
 
 '''
@@ -104,10 +104,9 @@ def gen_datarate( averate, region_rate):
 def gen_obs(num_region): # generates locations of obstacles in the map.
     region_obstacle=[[9.61,0.16,1,20],[12.08,0.11,1.6,23],[4.88,0.43,0.1,21]]
     obs=[]
-    for i in range(num_region):
+    for reg in range(num_region):
         type=np.random.randint(3)
         obs.append(region_obstacle[type])
-    print(obs)
     return obs
 
 '''
@@ -146,22 +145,28 @@ def find_pos(position):
     return [int(x),int(y)]
 
 # The observations in discrete map nodes
+# Ewaits update around each sensor across 1 unit on all sides
 def W_wait(width,height,sensorlist):
     E_wait=np.zeros([height+1,width+1])
     num_sen=len(sensorlist)
     step=1
     for i in range(num_sen):
+
         pos=find_pos(sensorlist[i].position)
-        E_wait[pos[1],pos[0]] +=sensorlist[i].wait
+        E_wait[pos[1],pos[0]] +=sensorlist[i].wait                        # 0,0
         for j in range(step):
             j+=1
-            E_wait[pos[1]+j,pos[0]+j] +=sensorlist[i].wait
-            E_wait[max(0,pos[1]-j),max(0,pos[0]-j)] +=sensorlist[i].wait
-            E_wait[max(0,pos[1]-j),pos[0]] +=sensorlist[i].wait
-            E_wait[pos[1],max(0,pos[0]-j)] +=sensorlist[i].wait
-            E_wait[pos[1],pos[0]+j] +=sensorlist[i].wait
-            E_wait[pos[1]+j,pos[0]] +=sensorlist[i].wait
+            E_wait[pos[1]+j,pos[0]+j] +=sensorlist[i].wait                # +1, +1
+            E_wait[max(0,pos[1]-j),max(0,pos[0]-j)] +=sensorlist[i].wait  # -1, -1
+            E_wait[max(0,pos[1]-j),pos[0]] +=sensorlist[i].wait           # -1,0
+            E_wait[pos[1],max(0,pos[0]-j)] +=sensorlist[i].wait           # 0,-1
+            E_wait[pos[1],pos[0]+j] +=sensorlist[i].wait                  # 0, +1
+            E_wait[pos[1]+j,pos[0]] +=sensorlist[i].wait                  # +1, 0
+           # E_wait[pos[1]-j,pos[0]+j] +=sensorlist[i].wait                # -1 , +1
+           # E_wait[pos[1]+j,pos[0]-j] +=sensorlist[i].wait                # +1, -1
     return E_wait
+
+     
         
         
     
