@@ -7,8 +7,8 @@ from sensor import sensor_agent
 import matplotlib.pyplot as plt
 
 
-Ed = 10000                      # Total iterations
-pl_step = 10                    # How many steps will the system plan the next destination
+Ed = 200                      # Total iterations
+pl_step = 5                    # How many steps will the system plan the next destination
 
 #---------------------------------------------------------------------------------------------------------------------------
 # Create Regions in Map
@@ -18,7 +18,7 @@ pl_step = 10                    # How many steps will the system plan the next d
 num1 = 5
 num2 = 4
 num_region = num1*num2             # there are now 20 regions in the map
-region = gp.genmap(300, 400, num1, num2)  # let it be something
+region = gp.genmap(600, 400, num1, num2)  # let it be something
 # print("genmap took", time.time() - st, "to run \n")
 
 #---------------------------------------------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ slot = 0.5                                         # system time slot(τ)
 t_bandwidth = 2e6
 OUT    = np.zeros([num_UAV])
 reward = np.zeros([num_UAV]) 
-E_wait = np.ones([401, 301])                       # Storing the local observations
+E_wait = np.ones([401, 601])                       # Storing the local observations
 UAVlist = []                                       # contains the list of UAV objects created
 X = np.zeros([num_UAV])
 Y = np.zeros([num_UAV])
@@ -63,7 +63,7 @@ p_max = 5
 # Sensor parameters
 #---------------------------------------------------------------------------------------------------------------------------
 
-num_sensor = 20                                  # reduce this value 50
+num_sensor = 20000                                  # reduce this value 50
 averate = np.random.uniform(250, 300, [num_region])
 # st = time.time()
 p_sensor = gp.position_sensor(region, num_sensor)   # position of sensors
@@ -245,7 +245,7 @@ for t in range(Ed):                                     # for each epoc do 10000
     # ----------------------------------------------------------------------------------------------------------------------
     # st = time.time()
     if t%pl_step==0:
-        E_wait = gp.W_wait(300,400,sensorlist)                                         # generate observatiosn after every pl_step
+        E_wait = gp.W_wait(600,400,sensorlist)                                         # generate observatiosn after every pl_step
 
         for uk in range(num_UAV):                                                      # For each UAV
             aft_feature.append(UAVlist[uk].map_feature(region_rate,UAVlist,E_wait))    #    Obtain the observations Ok(tp+1)
@@ -285,13 +285,13 @@ for t in range(Ed):                                     # for each epoc do 10000
 
     if t>0:
       ax.clear()
-    plt.xlim((0,300))
+    plt.xlim((0,600))
     plt.ylim((0,400))
     plt.grid(True)
     colors = np.array(
         ["red", "green", "blue", "pink",   "purple", "magenta"])
     ax.scatter(X,Y,c= colors,marker='H',label= "UAVs")
-    ax.scatter(sX,sY, marker='*')
+   # ax.scatter(sX,sY, marker='*')
     if t>0:
       plt.pause(0.1)
 
@@ -477,7 +477,6 @@ plt.close(fr)
 # # function to show the plot
 # plt.savefig('Sensors.png')
 # plt.close(fr)
-
 
 
 
