@@ -1,10 +1,14 @@
+
 import numpy as np
+import matplotlib.pyplot as plt
 import time
 import gmap as gp
+import graph as g
+from ssl import get_default_verify_paths
 from center_dqn import Center_DQN
 from uav import UAV_agent
 from sensor import sensor_agent
-import matplotlib.pyplot as plt
+
 
 
 Ed = 10000                      # Total iterations
@@ -99,6 +103,8 @@ the = 4
 P_cen = np.array([300, 200])
 gammalist = [0, 0.1, 0.2, 0.3, 0.5, 0.6, 0.7, 0.8, 0.9]
 
+fp = open("output_file.txt","w+")
+
 #---------------------------------------------------------------------------------------------------------------------------
 # Generate UAV agent
 #---------------------------------------------------------------------------------------------------------------------------
@@ -161,6 +167,9 @@ plt.ion()  # interactive mode on
 #---------------------------------------------------------------------------------------------------------------------------
 
 for t in range(Ed):                                     # for each epoc do 10000
+    fp.write("t is ")
+    fp.write(repr(t))
+    fp.write("\n")
     print("t is ", t, "\n")
     # st = time.time()
     gp.gen_datarate(averate, region_rate)               # for each region generate the data rate
@@ -295,6 +304,7 @@ for t in range(Ed):                                     # for each epoc do 10000
     if t>0:
       plt.pause(0.1)
 
+fp.close()
 # ----------------------------------------------------------------------------------------------------------------------
 # Save the reward and data buffer
 # ----------------------------------------------------------------------------------------------------------------------
@@ -302,181 +312,15 @@ for t in range(Ed):                                     # for each epoc do 10000
 np.save("record_rd3",Mentrd)
 np.save("cover_hungry_10",cover)
 
-# ----------------------------------------------------------------------------------------------------------------------
-# plotting the Average Service Urgency
-# ----------------------------------------------------------------------------------------------------------------------
+#----------------------------------------
+#  Print the graphs
+#-----------------------------------------
 
-fig=plt.figure()
-#print(cover)
-plt.xlabel('Timestamp(t)')
-plt.ylabel('Average Service Urgency')
-plt.title('Average Service Urgency Vs. Time')
-plt.grid(True)
-
-plt.plot( y,cover, label= "stars", color= "blue",linestyle='--',marker="." )
-#for a,b in zip(y ,cover):
-#    plt.text(a, b, str(b))
-#plt.plot(cover)
-
-plt.savefig('Average Service Urgency for equal alpha.png')
-plt.close(fig)
-
-
-# plotting the average loss value
-
-#calculate the average loss
-avg_loss = []
-for i in range(len(losses[0])):
-    summ = 0
-    for j in range(len(losses)):
-        summ += losses[j][i]
-    avg_loss.append(summ / len(losses))
-
-fal = plt.figure()
-
-x = []
-for i in range(1, len(avg_loss) + 1):
-    x.append(i)
-# print(x)
-
-y = avg_loss
-plt.plot(x, y, label="loss_values ")
-# naming the x axis
-plt.xlabel('iterations')
-# naming the y axis
-plt.ylabel('loss_value')
-# giving a title to my graph
-plt.title('average loss values')
-plt.grid(True)
-# show a legend on the plot
-plt.legend()
-
-# function to show the plot
-plt.savefig('Average_Loss_Values.png')
-plt.close(fal)
-
-
-
-#print("losses: ", losses)
-
-# plotting the losses for each UAVs
-
-fi = plt.figure()
-
-x = []
-for i in range(1, len(losses[1]) + 1):
-    x.append(i)
-# print(x)
-
-it = 0
-for i in losses:
-    it = it + 1
-    y = i
-    plt.plot(x, y, label="UAV " + str(it), marker="." )
-# naming the x axis
-plt.xlabel('iterations')
-# naming the y axis
-plt.ylabel('loss_value')
-# giving a title to my graph
-plt.title('loss values for each UAVs')
-plt.grid(True)
-# show a legend on the plot
-plt.legend()
-
-# function to show the plot
-plt.savefig('Loss_Values.png')
-plt.close(fi)
-
-
-#calculate the average reward
-avg_reward = []
-for i in range(len(Mentrd[0])):
-    summ = 0
-    for j in range(len(Mentrd)):
-        summ += Mentrd[j][i]
-    avg_reward.append(summ / len(Mentrd))
-
-far = plt.figure()
-
-x = []
-for i in range(1, len(avg_reward) + 1):
-    x.append(i)
-# print(x)
-
-y = avg_reward
-plt.plot(x, y, label="reward_values ")
-# naming the x axis
-plt.xlabel('iterations')
-# naming the y axis
-plt.ylabel('reward_value')
-# giving a title to my graph
-plt.title('average reward values')
-plt.grid(True)
-# show a legend on the plot
-plt.legend()
-
-# function to show the plot
-plt.savefig('Average_Reward_Values.png')
-plt.close(far)
-
-
-
-#---------------------------------------------------------------------------------------------------------------------------
-# Plotting the rewards
-#---------------------------------------------------------------------------------------------------------------------------
-
-fr = plt.figure()
-
-x = []
-for i in range(1, len(Mentrd[1]) + 1):
-    x.append(i)
-
-it = 0
-for i in Mentrd:
-    it = it + 1
-    y = i
-    plt.plot(x, y, label="UAV " + str(it), marker="." )
-# naming the x axis
-plt.xlabel('iterations')
-# naming the y axis
-plt.ylabel('Reward_value')
-# giving a title to my graph
-plt.title('Reward values for each UAVs')
-plt.grid(True)
-# show a legend on the plot
-plt.legend()
-
-# function to show the plot
-plt.savefig('Reward_Values.png')
-plt.close(fr)
-
-#---------------------------------------------------------------------------------------------------------------------------
-# Plotting the sensors
-#---------------------------------------------------------------------------------------------------------------------------
-
-# fs = plt.figure()
-
-# x = sX
-# y = sY
-
-# plt.scatter(x, y, marker="*" )
-# plt.xlim((0, 300))
-# plt.ylim((0, 400))
-# plt.grid(True)
-
-# # naming the x axis
-# plt.xlabel('iterations')
-# # naming the y axis
-# plt.ylabel('Sensors')
-# # giving a title to my graph
-# plt.title('Sensor locations')
-# plt.grid(True)
-# # show a legend on the plot
-# plt.legend()
-
-# # function to show the plot
-# plt.savefig('Sensors.png')
-# plt.close(fr)
-
+g.Avg_Service_Urgency(cover,y)
+g.Avg_Loss(losses)
+g.UAV_Loss(losses)
+g.Avg_Reward_Values(Mentrd)
+g.UAV_Rewards(Mentrd)
+g.Sensor_Graph(sX, sY)
 
 
