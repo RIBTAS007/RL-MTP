@@ -1,7 +1,8 @@
 # Simulation-of-UAV-based-edge-data-processing-Dqn-based-path-planning
 
-Doing the path planning od UAVs to take the data from IoT devices and transfer it to the clous servers.
-Tools used: Deep Reinforcement learning
+Doing the path planning od UAVs to take the data from IoT devices and transfer it to the cloud servers.
+
+**Tools used**: Deep Reinforcement learning
 
 ![Image1](wip.jpeg)
 
