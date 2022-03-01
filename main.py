@@ -11,7 +11,7 @@ from sensor import sensor_agent
 
 
 
-Ed = 10000                        # Total iterations
+Ed = 100                        # Total iterations
 pl_step = 5                    # How many steps will the system plan the next destination
 
 #---------------------------------------------------------------------------------------------------------------------------
@@ -179,11 +179,11 @@ for t in range(Ed):                                     # for each epoc do 10000
     if t % T == 0 and t > 0:                            # After every T steps
         Center.epsilon = ep0                            # reset epsilon
         Center.save("./save/center-dqn.h5")             # save trained weights
-        np.save("record_rd3", Mentrd)                   # save the rewards
+        np.save("./save/record_rd3", Mentrd)            # save the rewards
 
     # --------------------------------------------------------------------------------------------------------------------
 
-    if t % pl_step == 0:                                    # system plans the next action after every planning step
+    if t % pl_step == 0:                                # system plans the next action after every planning step
         pre_feature = []                                # ok(tp)
         aft_feature = []                                # ok(tp+1)
         act_note = []
@@ -309,9 +309,10 @@ fp.close()
 # Save the reward and data buffer
 # ----------------------------------------------------------------------------------------------------------------------
 
-np.save("record_rd3",Mentrd)
-np.save("cover_hungry_10",cover)
-
+np.save("./save/record_rd3",Mentrd)
+np.save("./save/cover_hungry_10",cover)
+fp = open("output_file.txt","w+")
+fp.write("testing process \n \n ")
 #----------------------------------------
 #  Print the graphs
 #-----------------------------------------
@@ -323,4 +324,100 @@ g.Avg_Reward_Values(Mentrd)
 g.UAV_Rewards(Mentrd)
 g.Sensor_Graph(sX, sY)
 
+# ----------------------------------------------------------------------------------------------------------------------
+# Validating the DQN Model
+# ----------------------------------------------------------------------------------------------------------------------
 
+Center.load("./save/center-dqn.h5")
+
+for t in range(Ed):
+    fp.write("t is ")
+    fp.write(repr(t))
+    fp.write("\n")
+    print("t is ", t, "\n")
+    # st = time.time()
+    gp.gen_datarate(averate, region_rate)               # for each region generate the data rate
+
+    if t % T == 0 and t > 0:                            # After every T steps
+        Center.epsilon = ep0                            # reset epsilon
+        #Center.save("./save/center-dqn.h5")             # save trained weights
+        #np.save("./save/record_rd3", Mentrd)            # save the rewards
+    
+    if t % pl_step == 0:                                # system plans the next action after every planning step
+        pre_feature = []                                # ok(tp)
+        aft_feature = []                                # ok(tp+1)
+        act_note = []
+
+        # for each uk do
+        #    collect around service requirements and generate observations Ok(tp)
+        #    randomly generate epsilon(tp)
+        #    choose action a(tp) by
+        #    if p< epsilon(tp) then
+        #       randomly select an action a(tp)
+        #    else
+        #       a(tp) = argmax_a Q(okt(p),a,theta)
+        #    end if
+        
+        for uk in range(num_UAV):                                                        # for each UAV
+            # st = time.time()
+            pre_feature.append(UAVlist[uk].map_feature(region_rate, UAVlist, E_wait))    # record former feature of each drone 84x84x1
+            # Ok tp = { o1 tp , O2 tp, .... Ok tp}
+            
+            act = Center.actv(pre_feature[uk], fg)                                        # get the action V
+            act_note.append(act)
+
+    for uk in range(num_UAV):                                                           # execute the action a(t)
+        OUT[uk]=UAVlist[uk].fresh_position(vlist[act_note[uk]], region_obstacle)         # Update the UAV position accroding to the path
+        # out = (1 means moving out of the map), (0 means inside the map)
+        UAVlist[uk].cal_hight()                                                            # calculate h
+        X[uk] = UAVlist[uk].position[0]                                                    # calculate x
+        Y[uk] = UAVlist[uk].position[1]                                                    # calculate y
+        UAVlist[uk].fresh_buf()                                                            # do edge processing and add the data to the queue
+        prebuf[uk] = UAVlist[uk].data_buf 
+
+    gp.list_gama(g0, d0, the, UAVlist, P_cen)                                               # update discount rate for each UAV
+    
+    for dl in range(num_sensor):                                                # for each sensor do
+        sensorlist[dl].data_rate = region_rate[sensorlist[dl].rNo]              # find data rate at region r
+        sensorlist[dl].fresh_buf(UAVlist)                          # calculate data present in the buffer of that sensor
+        cover[t] = cover[t]+sensorlist[dl].wait                                 # collect the data from covered sensors
+
+    cover[t] = cover[t]/num_sensor 
+
+    for uk in range(num_UAV):
+        reward[uk] = reward[uk]+UAVlist[uk].data_buf-prebuf[uk]   # reward is 1D array that stores reward for each drone
+        Mentrd[uk, t]=reward[uk]
+
+    if t>batch_size*pl_step and t%pl_step==0:
+       larr = []
+       for turn in range(num_UAV):
+#            Center.replay(batch_size,turn,t%G)
+             larr = np.append( larr, Center.vreplay(batch_size,turn,t-batch_size*pl_step))
+       #print("larr",larr)
+       losses = np.append(losses, np.array([larr]).transpose(), axis=1)
+
+    if t>0:
+      ax.clear()
+      plt.xlim((0,600))
+      plt.ylim((0,400))
+      plt.grid(True)
+      colors = np.array(
+        ["red", "green", "blue", "pink",   "purple", "magenta"])
+      ax.scatter(X,Y,c= colors,marker='H',label= "UAVs")
+      # ax.scatter(sX,sY, marker='*')
+      if t>0:
+        plt.pause(0.1)
+
+fp.close()
+
+#----------------------------------------
+#  Print the graphs
+#-----------------------------------------
+
+g.Avg_Service_Urgencyt(cover,y)
+g.Avg_Reward_Valuest(Mentrd)
+g.Avg_Losst(losses)
+g.UAV_Losst(losses)
+g.UAV_Rewardst(Mentrd)
+
+    
