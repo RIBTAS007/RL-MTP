@@ -58,6 +58,11 @@ class Center_DQN:
         act_values = self.model.predict(state)
         return np.argmax(act_values[0])  # returns action
 
+    def actv(self, state, fg):  # state = 84 x84 x 1
+        state=np.reshape(state, [1, self.state_size[0], self.state_size[1], self.state_size[2]]) # 1 x 84 x 84 x 1
+        act_values = self.model.predict(state)
+        return np.argmax(act_values[0])  # returns action
+
 #training process
     def replay(self, batch_size, i1,t):
         self.alpha=1/np.sqrt((t+1)/5)
@@ -99,6 +104,57 @@ class Center_DQN:
         
         self.loss.append(error/batch_size)    
         self.model.fit(train_sp, tg, epochs=1, verbose=0)
+        if self.epsilon > self.epsilon_min and i1==self.num_U-1:
+            self.epsilon *= self.epsilon_decay
+        self.num +=1
+        self.jr +=1
+        if self.num==self.N:
+            self.num=0
+#        if self.jr==self.rtz:
+#            self.jr=0
+#            for i in range(self.action_size):
+#                self.pro[i]=0
+        return error/batch_size
+
+    def vreplay(self, batch_size, i1,t):
+        self.alpha=1/np.sqrt((t+1)/5)
+
+        if self.num==0:
+            self.tmodel.load_weights("./save/temp.h5")
+
+        minibatch = random.sample(self.memory[i1], batch_size)
+
+        train_sp=np.zeros([batch_size,self.state_size[0],self.state_size[1],self.state_size[2]])
+        tg=np.zeros([batch_size,self.action_size]) # 12 x 9
+
+#        minibatch=self.memory[i]
+        error=0
+        i=0
+        for state1, action, reward, next_state in minibatch: # 12
+            # (s,a,r, s')
+            state=np.reshape(state1,[1,self.state_size[0],self.state_size[1],self.state_size[2]]) # 1 x 84 x 84 x 1
+            next_state=np.reshape(next_state,[1,self.state_size[0],self.state_size[1],self.state_size[2]])
+            pdc=self.model.predict(state)[0] 
+            # state -> argmax(action) 
+             
+            self.pro[action]+=1
+            w=sum(self.pro)/self.pro[action]
+#            if reward<=0:
+#                w=6
+            ap=min(0.9,self.alpha*w)
+#            ap=self.alpha
+            target = ap*(reward + self.gamma * np.amax(self.tmodel.predict(next_state)[0]))+(1-ap)*pdc[action] 
+
+            target_f = self.model.predict(state)
+            target_f[0][action] = target
+            tg[i]=target_f[0]
+            train_sp[i]=state1
+            i+=1
+            error+=  abs((target-pdc[action])/ap)
+#            self.model.fit(state, target_f, epochs=1, verbose=0)
+        
+        self.loss.append(error/batch_size)    
+        self.model.evaluate(train_sp, tg, verbose=0)
         if self.epsilon > self.epsilon_min and i1==self.num_U-1:
             self.epsilon *= self.epsilon_decay
         self.num +=1
