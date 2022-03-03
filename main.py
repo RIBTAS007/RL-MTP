@@ -11,7 +11,7 @@ from sensor import sensor_agent
 
 
 
-Ed = 10000                        # Total iterations
+Ed = 100                        # Total iterations
 pl_step = 5                    # How many steps will the system plan the next destination
 
 #---------------------------------------------------------------------------------------------------------------------------
@@ -88,6 +88,7 @@ ep0 = 1                         # initial exploration rate
 batch_size = 12                    # training samples per batch
 update_target = 10
 losses = np.empty((num_UAV, 0), int)     # to store loss for each timestamp
+tlosses = np.empty((num_UAV, 0), int)     # to store loss for each timestamp
 Mentrd = np.zeros([num_UAV, Ed])  # stores the reward for each UAV at each timestamp
 prebuf = np.zeros([num_UAV])
 data = np.zeros([num_UAV])
@@ -151,9 +152,9 @@ Center = Center_DQN((84, 84, 1), 9, num_UAV, batch_size)
 #---------------------------------------------------------------------------------------------------------------------------
 
 y = []
-# for t in range(0, Ed):            # To store all timestamps for plotting
-#     y.append(t)
-# plt.close()
+for t in range(0, Ed):            # To store all timestamps for plotting
+     y.append(t)
+plt.close()
 # fig = plt.figure()
 # ax = fig.add_subplot(1, 1, 1)
 # plt.xlim((0, 300))
@@ -170,7 +171,7 @@ for t in range(Ed):                                     # for each epoc do 10000
     fp.write("t is ")
     fp.write(repr(t))
     fp.write("\n")
-    # print("t is ", t, "\n")
+    print("t is ", t, "\n")
     # st = time.time()
     gp.gen_datarate(averate, region_rate)               # for each region generate the data rate
     # print("gen_datarate took", time.time() - st, "to run \n")
@@ -329,6 +330,7 @@ g.Sensor_Graph(sX, sY)
 # ----------------------------------------------------------------------------------------------------------------------
 
 Center.load("./save/center-dqn.h5")
+cover = np.zeros([Ed]) 
 
 for t in range(Ed):
     fp.write("t is ")
@@ -409,7 +411,7 @@ for t in range(Ed):
 #            Center.replay(batch_size,turn,t%G)
              larr = np.append( larr, Center.vreplay(batch_size,turn,t-batch_size*pl_step))
        #print("larr",larr)
-       losses = np.append(losses, np.array([larr]).transpose(), axis=1)
+       tlosses = np.append(tlosses, np.array([larr]).transpose(), axis=1)
 
     # if t>0:
     #   ax.clear()
@@ -431,8 +433,8 @@ fp.close()
 
 g.Avg_Service_Urgencyt(cover,y)
 g.Avg_Reward_Valuest(Mentrd)
-g.Avg_Losst(losses)
-g.UAV_Losst(losses)
+g.Avg_Losst(tlosses)
+g.UAV_Losst(tlosses)
 g.UAV_Rewardst(Mentrd)
 
     
