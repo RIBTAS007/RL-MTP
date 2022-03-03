@@ -12,3 +12,20009 @@
 Skipping registering GPU devices...
 2022-03-01 17:38:09.392679: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
 To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+t is  0 
+
+t is  1 
+
+t is  2 
+
+t is  3 
+
+t is  4 
+
+t is  5 
+
+t is  6 
+
+t is  7 
+
+t is  8 
+
+t is  9 
+
+t is  10 
+
+t is  11 
+
+t is  12 
+
+t is  13 
+
+t is  14 
+
+t is  15 
+
+t is  16 
+
+t is  17 
+
+t is  18 
+
+t is  19 
+
+t is  20 
+
+t is  21 
+
+t is  22 
+
+t is  23 
+
+t is  24 
+
+t is  25 
+
+t is  26 
+
+t is  27 
+
+t is  28 
+
+t is  29 
+
+t is  30 
+
+t is  31 
+
+t is  32 
+
+t is  33 
+
+t is  34 
+
+t is  35 
+
+t is  36 
+
+t is  37 
+
+t is  38 
+
+t is  39 
+
+t is  40 
+
+t is  41 
+
+t is  42 
+
+t is  43 
+
+t is  44 
+
+t is  45 
+
+t is  46 
+
+t is  47 
+
+t is  48 
+
+t is  49 
+
+t is  50 
+
+t is  51 
+
+t is  52 
+
+t is  53 
+
+t is  54 
+
+t is  55 
+
+t is  56 
+
+t is  57 
+
+t is  58 
+
+t is  59 
+
+t is  60 
+
+t is  61 
+
+t is  62 
+
+t is  63 
+
+t is  64 
+
+t is  65 
+
+t is  66 
+
+t is  67 
+
+t is  68 
+
+t is  69 
+
+t is  70 
+
+t is  71 
+
+t is  72 
+
+t is  73 
+
+t is  74 
+
+t is  75 
+
+t is  76 
+
+t is  77 
+
+t is  78 
+
+t is  79 
+
+t is  80 
+
+t is  81 
+
+t is  82 
+
+t is  83 
+
+t is  84 
+
+t is  85 
+
+t is  86 
+
+t is  87 
+
+t is  88 
+
+t is  89 
+
+t is  90 
+
+t is  91 
+
+t is  92 
+
+t is  93 
+
+t is  94 
+
+t is  95 
+
+t is  96 
+
+t is  97 
+
+t is  98 
+
+t is  99 
+
+t is  100 
+
+t is  101 
+
+t is  102 
+
+t is  103 
+
+t is  104 
+
+t is  105 
+
+t is  106 
+
+t is  107 
+
+t is  108 
+
+t is  109 
+
+t is  110 
+
+t is  111 
+
+t is  112 
+
+t is  113 
+
+t is  114 
+
+t is  115 
+
+t is  116 
+
+t is  117 
+
+t is  118 
+
+t is  119 
+
+t is  120 
+
+t is  121 
+
+t is  122 
+
+t is  123 
+
+t is  124 
+
+t is  125 
+
+t is  126 
+
+t is  127 
+
+t is  128 
+
+t is  129 
+
+t is  130 
+
+t is  131 
+
+t is  132 
+
+t is  133 
+
+t is  134 
+
+t is  135 
+
+t is  136 
+
+t is  137 
+
+t is  138 
+
+t is  139 
+
+t is  140 
+
+t is  141 
+
+t is  142 
+
+t is  143 
+
+t is  144 
+
+t is  145 
+
+t is  146 
+
+t is  147 
+
+t is  148 
+
+t is  149 
+
+t is  150 
+
+t is  151 
+
+t is  152 
+
+t is  153 
+
+t is  154 
+
+t is  155 
+
+t is  156 
+
+t is  157 
+
+t is  158 
+
+t is  159 
+
+t is  160 
+
+t is  161 
+
+t is  162 
+
+t is  163 
+
+t is  164 
+
+t is  165 
+
+t is  166 
+
+t is  167 
+
+t is  168 
+
+t is  169 
+
+t is  170 
+
+t is  171 
+
+t is  172 
+
+t is  173 
+
+t is  174 
+
+t is  175 
+
+t is  176 
+
+t is  177 
+
+t is  178 
+
+t is  179 
+
+t is  180 
+
+t is  181 
+
+t is  182 
+
+t is  183 
+
+t is  184 
+
+t is  185 
+
+t is  186 
+
+t is  187 
+
+t is  188 
+
+t is  189 
+
+t is  190 
+
+t is  191 
+
+t is  192 
+
+t is  193 
+
+t is  194 
+
+t is  195 
+
+t is  196 
+
+t is  197 
+
+t is  198 
+
+t is  199 
+
+t is  200 
+
+t is  201 
+
+t is  202 
+
+t is  203 
+
+t is  204 
+
+t is  205 
+
+t is  206 
+
+t is  207 
+
+t is  208 
+
+t is  209 
+
+t is  210 
+
+t is  211 
+
+t is  212 
+
+t is  213 
+
+t is  214 
+
+t is  215 
+
+t is  216 
+
+t is  217 
+
+t is  218 
+
+t is  219 
+
+t is  220 
+
+t is  221 
+
+t is  222 
+
+t is  223 
+
+t is  224 
+
+t is  225 
+
+t is  226 
+
+t is  227 
+
+t is  228 
+
+t is  229 
+
+t is  230 
+
+t is  231 
+
+t is  232 
+
+t is  233 
+
+t is  234 
+
+t is  235 
+
+t is  236 
+
+t is  237 
+
+t is  238 
+
+t is  239 
+
+t is  240 
+
+t is  241 
+
+t is  242 
+
+t is  243 
+
+t is  244 
+
+t is  245 
+
+t is  246 
+
+t is  247 
+
+t is  248 
+
+t is  249 
+
+t is  250 
+
+t is  251 
+
+t is  252 
+
+t is  253 
+
+t is  254 
+
+t is  255 
+
+t is  256 
+
+t is  257 
+
+t is  258 
+
+t is  259 
+
+t is  260 
+
+t is  261 
+
+t is  262 
+
+t is  263 
+
+t is  264 
+
+t is  265 
+
+t is  266 
+
+t is  267 
+
+t is  268 
+
+t is  269 
+
+t is  270 
+
+t is  271 
+
+t is  272 
+
+t is  273 
+
+t is  274 
+
+t is  275 
+
+t is  276 
+
+t is  277 
+
+t is  278 
+
+t is  279 
+
+t is  280 
+
+t is  281 
+
+t is  282 
+
+t is  283 
+
+t is  284 
+
+t is  285 
+
+t is  286 
+
+t is  287 
+
+t is  288 
+
+t is  289 
+
+t is  290 
+
+t is  291 
+
+t is  292 
+
+t is  293 
+
+t is  294 
+
+t is  295 
+
+t is  296 
+
+t is  297 
+
+t is  298 
+
+t is  299 
+
+t is  300 
+
+t is  301 
+
+t is  302 
+
+t is  303 
+
+t is  304 
+
+t is  305 
+
+t is  306 
+
+t is  307 
+
+t is  308 
+
+t is  309 
+
+t is  310 
+
+t is  311 
+
+t is  312 
+
+t is  313 
+
+t is  314 
+
+t is  315 
+
+t is  316 
+
+t is  317 
+
+t is  318 
+
+t is  319 
+
+t is  320 
+
+t is  321 
+
+t is  322 
+
+t is  323 
+
+t is  324 
+
+t is  325 
+
+t is  326 
+
+t is  327 
+
+t is  328 
+
+t is  329 
+
+t is  330 
+
+t is  331 
+
+t is  332 
+
+t is  333 
+
+t is  334 
+
+t is  335 
+
+t is  336 
+
+t is  337 
+
+t is  338 
+
+t is  339 
+
+t is  340 
+
+t is  341 
+
+t is  342 
+
+t is  343 
+
+t is  344 
+
+t is  345 
+
+t is  346 
+
+t is  347 
+
+t is  348 
+
+t is  349 
+
+t is  350 
+
+t is  351 
+
+t is  352 
+
+t is  353 
+
+t is  354 
+
+t is  355 
+
+t is  356 
+
+t is  357 
+
+t is  358 
+
+t is  359 
+
+t is  360 
+
+t is  361 
+
+t is  362 
+
+t is  363 
+
+t is  364 
+
+t is  365 
+
+t is  366 
+
+t is  367 
+
+t is  368 
+
+t is  369 
+
+t is  370 
+
+t is  371 
+
+t is  372 
+
+t is  373 
+
+t is  374 
+
+t is  375 
+
+t is  376 
+
+t is  377 
+
+t is  378 
+
+t is  379 
+
+t is  380 
+
+t is  381 
+
+t is  382 
+
+t is  383 
+
+t is  384 
+
+t is  385 
+
+t is  386 
+
+t is  387 
+
+t is  388 
+
+t is  389 
+
+t is  390 
+
+t is  391 
+
+t is  392 
+
+t is  393 
+
+t is  394 
+
+t is  395 
+
+t is  396 
+
+t is  397 
+
+t is  398 
+
+t is  399 
+
+t is  400 
+
+t is  401 
+
+t is  402 
+
+t is  403 
+
+t is  404 
+
+t is  405 
+
+t is  406 
+
+t is  407 
+
+t is  408 
+
+t is  409 
+
+t is  410 
+
+t is  411 
+
+t is  412 
+
+t is  413 
+
+t is  414 
+
+t is  415 
+
+t is  416 
+
+t is  417 
+
+t is  418 
+
+t is  419 
+
+t is  420 
+
+t is  421 
+
+t is  422 
+
+t is  423 
+
+t is  424 
+
+t is  425 
+
+t is  426 
+
+t is  427 
+
+t is  428 
+
+t is  429 
+
+t is  430 
+
+t is  431 
+
+t is  432 
+
+t is  433 
+
+t is  434 
+
+t is  435 
+
+t is  436 
+
+t is  437 
+
+t is  438 
+
+t is  439 
+
+t is  440 
+
+t is  441 
+
+t is  442 
+
+t is  443 
+
+t is  444 
+
+t is  445 
+
+t is  446 
+
+t is  447 
+
+t is  448 
+
+t is  449 
+
+t is  450 
+
+t is  451 
+
+t is  452 
+
+t is  453 
+
+t is  454 
+
+t is  455 
+
+t is  456 
+
+t is  457 
+
+t is  458 
+
+t is  459 
+
+t is  460 
+
+t is  461 
+
+t is  462 
+
+t is  463 
+
+t is  464 
+
+t is  465 
+
+t is  466 
+
+t is  467 
+
+t is  468 
+
+t is  469 
+
+t is  470 
+
+t is  471 
+
+t is  472 
+
+t is  473 
+
+t is  474 
+
+t is  475 
+
+t is  476 
+
+t is  477 
+
+t is  478 
+
+t is  479 
+
+t is  480 
+
+t is  481 
+
+t is  482 
+
+t is  483 
+
+t is  484 
+
+t is  485 
+
+t is  486 
+
+t is  487 
+
+t is  488 
+
+t is  489 
+
+t is  490 
+
+t is  491 
+
+t is  492 
+
+t is  493 
+
+t is  494 
+
+t is  495 
+
+t is  496 
+
+t is  497 
+
+t is  498 
+
+t is  499 
+
+t is  500 
+
+t is  501 
+
+t is  502 
+
+t is  503 
+
+t is  504 
+
+t is  505 
+
+t is  506 
+
+t is  507 
+
+t is  508 
+
+t is  509 
+
+t is  510 
+
+t is  511 
+
+t is  512 
+
+t is  513 
+
+t is  514 
+
+t is  515 
+
+t is  516 
+
+t is  517 
+
+t is  518 
+
+t is  519 
+
+t is  520 
+
+t is  521 
+
+t is  522 
+
+t is  523 
+
+t is  524 
+
+t is  525 
+
+t is  526 
+
+t is  527 
+
+t is  528 
+
+t is  529 
+
+t is  530 
+
+t is  531 
+
+t is  532 
+
+t is  533 
+
+t is  534 
+
+t is  535 
+
+t is  536 
+
+t is  537 
+
+t is  538 
+
+t is  539 
+
+t is  540 
+
+t is  541 
+
+t is  542 
+
+t is  543 
+
+t is  544 
+
+t is  545 
+
+t is  546 
+
+t is  547 
+
+t is  548 
+
+t is  549 
+
+t is  550 
+
+t is  551 
+
+t is  552 
+
+t is  553 
+
+t is  554 
+
+t is  555 
+
+t is  556 
+
+t is  557 
+
+t is  558 
+
+t is  559 
+
+t is  560 
+
+t is  561 
+
+t is  562 
+
+t is  563 
+
+t is  564 
+
+t is  565 
+
+t is  566 
+
+t is  567 
+
+t is  568 
+
+t is  569 
+
+t is  570 
+
+t is  571 
+
+t is  572 
+
+t is  573 
+
+t is  574 
+
+t is  575 
+
+t is  576 
+
+t is  577 
+
+t is  578 
+
+t is  579 
+
+t is  580 
+
+t is  581 
+
+t is  582 
+
+t is  583 
+
+t is  584 
+
+t is  585 
+
+t is  586 
+
+t is  587 
+
+t is  588 
+
+t is  589 
+
+t is  590 
+
+t is  591 
+
+t is  592 
+
+t is  593 
+
+t is  594 
+
+t is  595 
+
+t is  596 
+
+t is  597 
+
+t is  598 
+
+t is  599 
+
+t is  600 
+
+t is  601 
+
+t is  602 
+
+t is  603 
+
+t is  604 
+
+t is  605 
+
+t is  606 
+
+t is  607 
+
+t is  608 
+
+t is  609 
+
+t is  610 
+
+t is  611 
+
+t is  612 
+
+t is  613 
+
+t is  614 
+
+t is  615 
+
+t is  616 
+
+t is  617 
+
+t is  618 
+
+t is  619 
+
+t is  620 
+
+t is  621 
+
+t is  622 
+
+t is  623 
+
+t is  624 
+
+t is  625 
+
+t is  626 
+
+t is  627 
+
+t is  628 
+
+t is  629 
+
+t is  630 
+
+t is  631 
+
+t is  632 
+
+t is  633 
+
+t is  634 
+
+t is  635 
+
+t is  636 
+
+t is  637 
+
+t is  638 
+
+t is  639 
+
+t is  640 
+
+t is  641 
+
+t is  642 
+
+t is  643 
+
+t is  644 
+
+t is  645 
+
+t is  646 
+
+t is  647 
+
+t is  648 
+
+t is  649 
+
+t is  650 
+
+t is  651 
+
+t is  652 
+
+t is  653 
+
+t is  654 
+
+t is  655 
+
+t is  656 
+
+t is  657 
+
+t is  658 
+
+t is  659 
+
+t is  660 
+
+t is  661 
+
+t is  662 
+
+t is  663 
+
+t is  664 
+
+t is  665 
+
+t is  666 
+
+t is  667 
+
+t is  668 
+
+t is  669 
+
+t is  670 
+
+t is  671 
+
+t is  672 
+
+t is  673 
+
+t is  674 
+
+t is  675 
+
+t is  676 
+
+t is  677 
+
+t is  678 
+
+t is  679 
+
+t is  680 
+
+t is  681 
+
+t is  682 
+
+t is  683 
+
+t is  684 
+
+t is  685 
+
+t is  686 
+
+t is  687 
+
+t is  688 
+
+t is  689 
+
+t is  690 
+
+t is  691 
+
+t is  692 
+
+t is  693 
+
+t is  694 
+
+t is  695 
+
+t is  696 
+
+t is  697 
+
+t is  698 
+
+t is  699 
+
+t is  700 
+
+t is  701 
+
+t is  702 
+
+t is  703 
+
+t is  704 
+
+t is  705 
+
+t is  706 
+
+t is  707 
+
+t is  708 
+
+t is  709 
+
+t is  710 
+
+t is  711 
+
+t is  712 
+
+t is  713 
+
+t is  714 
+
+t is  715 
+
+t is  716 
+
+t is  717 
+
+t is  718 
+
+t is  719 
+
+t is  720 
+
+t is  721 
+
+t is  722 
+
+t is  723 
+
+t is  724 
+
+t is  725 
+
+t is  726 
+
+t is  727 
+
+t is  728 
+
+t is  729 
+
+t is  730 
+
+t is  731 
+
+t is  732 
+
+t is  733 
+
+t is  734 
+
+t is  735 
+
+t is  736 
+
+t is  737 
+
+t is  738 
+
+t is  739 
+
+t is  740 
+
+t is  741 
+
+t is  742 
+
+t is  743 
+
+t is  744 
+
+t is  745 
+
+t is  746 
+
+t is  747 
+
+t is  748 
+
+t is  749 
+
+t is  750 
+
+t is  751 
+
+t is  752 
+
+t is  753 
+
+t is  754 
+
+t is  755 
+
+t is  756 
+
+t is  757 
+
+t is  758 
+
+t is  759 
+
+t is  760 
+
+t is  761 
+
+t is  762 
+
+t is  763 
+
+t is  764 
+
+t is  765 
+
+t is  766 
+
+t is  767 
+
+t is  768 
+
+t is  769 
+
+t is  770 
+
+t is  771 
+
+t is  772 
+
+t is  773 
+
+t is  774 
+
+t is  775 
+
+t is  776 
+
+t is  777 
+
+t is  778 
+
+t is  779 
+
+t is  780 
+
+t is  781 
+
+t is  782 
+
+t is  783 
+
+t is  784 
+
+t is  785 
+
+t is  786 
+
+t is  787 
+
+t is  788 
+
+t is  789 
+
+t is  790 
+
+t is  791 
+
+t is  792 
+
+t is  793 
+
+t is  794 
+
+t is  795 
+
+t is  796 
+
+t is  797 
+
+t is  798 
+
+t is  799 
+
+t is  800 
+
+t is  801 
+
+t is  802 
+
+t is  803 
+
+t is  804 
+
+t is  805 
+
+t is  806 
+
+t is  807 
+
+t is  808 
+
+t is  809 
+
+t is  810 
+
+t is  811 
+
+t is  812 
+
+t is  813 
+
+t is  814 
+
+t is  815 
+
+t is  816 
+
+t is  817 
+
+t is  818 
+
+t is  819 
+
+t is  820 
+
+t is  821 
+
+t is  822 
+
+t is  823 
+
+t is  824 
+
+t is  825 
+
+t is  826 
+
+t is  827 
+
+t is  828 
+
+t is  829 
+
+t is  830 
+
+t is  831 
+
+t is  832 
+
+t is  833 
+
+t is  834 
+
+t is  835 
+
+t is  836 
+
+t is  837 
+
+t is  838 
+
+t is  839 
+
+t is  840 
+
+t is  841 
+
+t is  842 
+
+t is  843 
+
+t is  844 
+
+t is  845 
+
+t is  846 
+
+t is  847 
+
+t is  848 
+
+t is  849 
+
+t is  850 
+
+t is  851 
+
+t is  852 
+
+t is  853 
+
+t is  854 
+
+t is  855 
+
+t is  856 
+
+t is  857 
+
+t is  858 
+
+t is  859 
+
+t is  860 
+
+t is  861 
+
+t is  862 
+
+t is  863 
+
+t is  864 
+
+t is  865 
+
+t is  866 
+
+t is  867 
+
+t is  868 
+
+t is  869 
+
+t is  870 
+
+t is  871 
+
+t is  872 
+
+t is  873 
+
+t is  874 
+
+t is  875 
+
+t is  876 
+
+t is  877 
+
+t is  878 
+
+t is  879 
+
+t is  880 
+
+t is  881 
+
+t is  882 
+
+t is  883 
+
+t is  884 
+
+t is  885 
+
+t is  886 
+
+t is  887 
+
+t is  888 
+
+t is  889 
+
+t is  890 
+
+t is  891 
+
+t is  892 
+
+t is  893 
+
+t is  894 
+
+t is  895 
+
+t is  896 
+
+t is  897 
+
+t is  898 
+
+t is  899 
+
+t is  900 
+
+t is  901 
+
+t is  902 
+
+t is  903 
+
+t is  904 
+
+t is  905 
+
+t is  906 
+
+t is  907 
+
+t is  908 
+
+t is  909 
+
+t is  910 
+
+t is  911 
+
+t is  912 
+
+t is  913 
+
+t is  914 
+
+t is  915 
+
+t is  916 
+
+t is  917 
+
+t is  918 
+
+t is  919 
+
+t is  920 
+
+t is  921 
+
+t is  922 
+
+t is  923 
+
+t is  924 
+
+t is  925 
+
+t is  926 
+
+t is  927 
+
+t is  928 
+
+t is  929 
+
+t is  930 
+
+t is  931 
+
+t is  932 
+
+t is  933 
+
+t is  934 
+
+t is  935 
+
+t is  936 
+
+t is  937 
+
+t is  938 
+
+t is  939 
+
+t is  940 
+
+t is  941 
+
+t is  942 
+
+t is  943 
+
+t is  944 
+
+t is  945 
+
+t is  946 
+
+t is  947 
+
+t is  948 
+
+t is  949 
+
+t is  950 
+
+t is  951 
+
+t is  952 
+
+t is  953 
+
+t is  954 
+
+t is  955 
+
+t is  956 
+
+t is  957 
+
+t is  958 
+
+t is  959 
+
+t is  960 
+
+t is  961 
+
+t is  962 
+
+t is  963 
+
+t is  964 
+
+t is  965 
+
+t is  966 
+
+t is  967 
+
+t is  968 
+
+t is  969 
+
+t is  970 
+
+t is  971 
+
+t is  972 
+
+t is  973 
+
+t is  974 
+
+t is  975 
+
+t is  976 
+
+t is  977 
+
+t is  978 
+
+t is  979 
+
+t is  980 
+
+t is  981 
+
+t is  982 
+
+t is  983 
+
+t is  984 
+
+t is  985 
+
+t is  986 
+
+t is  987 
+
+t is  988 
+
+t is  989 
+
+t is  990 
+
+t is  991 
+
+t is  992 
+
+t is  993 
+
+t is  994 
+
+t is  995 
+
+t is  996 
+
+t is  997 
+
+t is  998 
+
+t is  999 
+
+t is  1000 
+
+t is  1001 
+
+t is  1002 
+
+t is  1003 
+
+t is  1004 
+
+t is  1005 
+
+t is  1006 
+
+t is  1007 
+
+t is  1008 
+
+t is  1009 
+
+t is  1010 
+
+t is  1011 
+
+t is  1012 
+
+t is  1013 
+
+t is  1014 
+
+t is  1015 
+
+t is  1016 
+
+t is  1017 
+
+t is  1018 
+
+t is  1019 
+
+t is  1020 
+
+t is  1021 
+
+t is  1022 
+
+t is  1023 
+
+t is  1024 
+
+t is  1025 
+
+t is  1026 
+
+t is  1027 
+
+t is  1028 
+
+t is  1029 
+
+t is  1030 
+
+t is  1031 
+
+t is  1032 
+
+t is  1033 
+
+t is  1034 
+
+t is  1035 
+
+t is  1036 
+
+t is  1037 
+
+t is  1038 
+
+t is  1039 
+
+t is  1040 
+
+t is  1041 
+
+t is  1042 
+
+t is  1043 
+
+t is  1044 
+
+t is  1045 
+
+t is  1046 
+
+t is  1047 
+
+t is  1048 
+
+t is  1049 
+
+t is  1050 
+
+t is  1051 
+
+t is  1052 
+
+t is  1053 
+
+t is  1054 
+
+t is  1055 
+
+t is  1056 
+
+t is  1057 
+
+t is  1058 
+
+t is  1059 
+
+t is  1060 
+
+t is  1061 
+
+t is  1062 
+
+t is  1063 
+
+t is  1064 
+
+t is  1065 
+
+t is  1066 
+
+t is  1067 
+
+t is  1068 
+
+t is  1069 
+
+t is  1070 
+
+t is  1071 
+
+t is  1072 
+
+t is  1073 
+
+t is  1074 
+
+t is  1075 
+
+t is  1076 
+
+t is  1077 
+
+t is  1078 
+
+t is  1079 
+
+t is  1080 
+
+t is  1081 
+
+t is  1082 
+
+t is  1083 
+
+t is  1084 
+
+t is  1085 
+
+t is  1086 
+
+t is  1087 
+
+t is  1088 
+
+t is  1089 
+
+t is  1090 
+
+t is  1091 
+
+t is  1092 
+
+t is  1093 
+
+t is  1094 
+
+t is  1095 
+
+t is  1096 
+
+t is  1097 
+
+t is  1098 
+
+t is  1099 
+
+t is  1100 
+
+t is  1101 
+
+t is  1102 
+
+t is  1103 
+
+t is  1104 
+
+t is  1105 
+
+t is  1106 
+
+t is  1107 
+
+t is  1108 
+
+t is  1109 
+
+t is  1110 
+
+t is  1111 
+
+t is  1112 
+
+t is  1113 
+
+t is  1114 
+
+t is  1115 
+
+t is  1116 
+
+t is  1117 
+
+t is  1118 
+
+t is  1119 
+
+t is  1120 
+
+t is  1121 
+
+t is  1122 
+
+t is  1123 
+
+t is  1124 
+
+t is  1125 
+
+t is  1126 
+
+t is  1127 
+
+t is  1128 
+
+t is  1129 
+
+t is  1130 
+
+t is  1131 
+
+t is  1132 
+
+t is  1133 
+
+t is  1134 
+
+t is  1135 
+
+t is  1136 
+
+t is  1137 
+
+t is  1138 
+
+t is  1139 
+
+t is  1140 
+
+t is  1141 
+
+t is  1142 
+
+t is  1143 
+
+t is  1144 
+
+t is  1145 
+
+t is  1146 
+
+t is  1147 
+
+t is  1148 
+
+t is  1149 
+
+t is  1150 
+
+t is  1151 
+
+t is  1152 
+
+t is  1153 
+
+t is  1154 
+
+t is  1155 
+
+t is  1156 
+
+t is  1157 
+
+t is  1158 
+
+t is  1159 
+
+t is  1160 
+
+t is  1161 
+
+t is  1162 
+
+t is  1163 
+
+t is  1164 
+
+t is  1165 
+
+t is  1166 
+
+t is  1167 
+
+t is  1168 
+
+t is  1169 
+
+t is  1170 
+
+t is  1171 
+
+t is  1172 
+
+t is  1173 
+
+t is  1174 
+
+t is  1175 
+
+t is  1176 
+
+t is  1177 
+
+t is  1178 
+
+t is  1179 
+
+t is  1180 
+
+t is  1181 
+
+t is  1182 
+
+t is  1183 
+
+t is  1184 
+
+t is  1185 
+
+t is  1186 
+
+t is  1187 
+
+t is  1188 
+
+t is  1189 
+
+t is  1190 
+
+t is  1191 
+
+t is  1192 
+
+t is  1193 
+
+t is  1194 
+
+t is  1195 
+
+t is  1196 
+
+t is  1197 
+
+t is  1198 
+
+t is  1199 
+
+t is  1200 
+
+t is  1201 
+
+t is  1202 
+
+t is  1203 
+
+t is  1204 
+
+t is  1205 
+
+t is  1206 
+
+t is  1207 
+
+t is  1208 
+
+t is  1209 
+
+t is  1210 
+
+t is  1211 
+
+t is  1212 
+
+t is  1213 
+
+t is  1214 
+
+t is  1215 
+
+t is  1216 
+
+t is  1217 
+
+t is  1218 
+
+t is  1219 
+
+t is  1220 
+
+t is  1221 
+
+t is  1222 
+
+t is  1223 
+
+t is  1224 
+
+t is  1225 
+
+t is  1226 
+
+t is  1227 
+
+t is  1228 
+
+t is  1229 
+
+t is  1230 
+
+t is  1231 
+
+t is  1232 
+
+t is  1233 
+
+t is  1234 
+
+t is  1235 
+
+t is  1236 
+
+t is  1237 
+
+t is  1238 
+
+t is  1239 
+
+t is  1240 
+
+t is  1241 
+
+t is  1242 
+
+t is  1243 
+
+t is  1244 
+
+t is  1245 
+
+t is  1246 
+
+t is  1247 
+
+t is  1248 
+
+t is  1249 
+
+t is  1250 
+
+t is  1251 
+
+t is  1252 
+
+t is  1253 
+
+t is  1254 
+
+t is  1255 
+
+t is  1256 
+
+t is  1257 
+
+t is  1258 
+
+t is  1259 
+
+t is  1260 
+
+t is  1261 
+
+t is  1262 
+
+t is  1263 
+
+t is  1264 
+
+t is  1265 
+
+t is  1266 
+
+t is  1267 
+
+t is  1268 
+
+t is  1269 
+
+t is  1270 
+
+t is  1271 
+
+t is  1272 
+
+t is  1273 
+
+t is  1274 
+
+t is  1275 
+
+t is  1276 
+
+t is  1277 
+
+t is  1278 
+
+t is  1279 
+
+t is  1280 
+
+t is  1281 
+
+t is  1282 
+
+t is  1283 
+
+t is  1284 
+
+t is  1285 
+
+t is  1286 
+
+t is  1287 
+
+t is  1288 
+
+t is  1289 
+
+t is  1290 
+
+t is  1291 
+
+t is  1292 
+
+t is  1293 
+
+t is  1294 
+
+t is  1295 
+
+t is  1296 
+
+t is  1297 
+
+t is  1298 
+
+t is  1299 
+
+t is  1300 
+
+t is  1301 
+
+t is  1302 
+
+t is  1303 
+
+t is  1304 
+
+t is  1305 
+
+t is  1306 
+
+t is  1307 
+
+t is  1308 
+
+t is  1309 
+
+t is  1310 
+
+t is  1311 
+
+t is  1312 
+
+t is  1313 
+
+t is  1314 
+
+t is  1315 
+
+t is  1316 
+
+t is  1317 
+
+t is  1318 
+
+t is  1319 
+
+t is  1320 
+
+t is  1321 
+
+t is  1322 
+
+t is  1323 
+
+t is  1324 
+
+t is  1325 
+
+t is  1326 
+
+t is  1327 
+
+t is  1328 
+
+t is  1329 
+
+t is  1330 
+
+t is  1331 
+
+t is  1332 
+
+t is  1333 
+
+t is  1334 
+
+t is  1335 
+
+t is  1336 
+
+t is  1337 
+
+t is  1338 
+
+t is  1339 
+
+t is  1340 
+
+t is  1341 
+
+t is  1342 
+
+t is  1343 
+
+t is  1344 
+
+t is  1345 
+
+t is  1346 
+
+t is  1347 
+
+t is  1348 
+
+t is  1349 
+
+t is  1350 
+
+t is  1351 
+
+t is  1352 
+
+t is  1353 
+
+t is  1354 
+
+t is  1355 
+
+t is  1356 
+
+t is  1357 
+
+t is  1358 
+
+t is  1359 
+
+t is  1360 
+
+t is  1361 
+
+t is  1362 
+
+t is  1363 
+
+t is  1364 
+
+t is  1365 
+
+t is  1366 
+
+t is  1367 
+
+t is  1368 
+
+t is  1369 
+
+t is  1370 
+
+t is  1371 
+
+t is  1372 
+
+t is  1373 
+
+t is  1374 
+
+t is  1375 
+
+t is  1376 
+
+t is  1377 
+
+t is  1378 
+
+t is  1379 
+
+t is  1380 
+
+t is  1381 
+
+t is  1382 
+
+t is  1383 
+
+t is  1384 
+
+t is  1385 
+
+t is  1386 
+
+t is  1387 
+
+t is  1388 
+
+t is  1389 
+
+t is  1390 
+
+t is  1391 
+
+t is  1392 
+
+t is  1393 
+
+t is  1394 
+
+t is  1395 
+
+t is  1396 
+
+t is  1397 
+
+t is  1398 
+
+t is  1399 
+
+t is  1400 
+
+t is  1401 
+
+t is  1402 
+
+t is  1403 
+
+t is  1404 
+
+t is  1405 
+
+t is  1406 
+
+t is  1407 
+
+t is  1408 
+
+t is  1409 
+
+t is  1410 
+
+t is  1411 
+
+t is  1412 
+
+t is  1413 
+
+t is  1414 
+
+t is  1415 
+
+t is  1416 
+
+t is  1417 
+
+t is  1418 
+
+t is  1419 
+
+t is  1420 
+
+t is  1421 
+
+t is  1422 
+
+t is  1423 
+
+t is  1424 
+
+t is  1425 
+
+t is  1426 
+
+t is  1427 
+
+t is  1428 
+
+t is  1429 
+
+t is  1430 
+
+t is  1431 
+
+t is  1432 
+
+t is  1433 
+
+t is  1434 
+
+t is  1435 
+
+t is  1436 
+
+t is  1437 
+
+t is  1438 
+
+t is  1439 
+
+t is  1440 
+
+t is  1441 
+
+t is  1442 
+
+t is  1443 
+
+t is  1444 
+
+t is  1445 
+
+t is  1446 
+
+t is  1447 
+
+t is  1448 
+
+t is  1449 
+
+t is  1450 
+
+t is  1451 
+
+t is  1452 
+
+t is  1453 
+
+t is  1454 
+
+t is  1455 
+
+t is  1456 
+
+t is  1457 
+
+t is  1458 
+
+t is  1459 
+
+t is  1460 
+
+t is  1461 
+
+t is  1462 
+
+t is  1463 
+
+t is  1464 
+
+t is  1465 
+
+t is  1466 
+
+t is  1467 
+
+t is  1468 
+
+t is  1469 
+
+t is  1470 
+
+t is  1471 
+
+t is  1472 
+
+t is  1473 
+
+t is  1474 
+
+t is  1475 
+
+t is  1476 
+
+t is  1477 
+
+t is  1478 
+
+t is  1479 
+
+t is  1480 
+
+t is  1481 
+
+t is  1482 
+
+t is  1483 
+
+t is  1484 
+
+t is  1485 
+
+t is  1486 
+
+t is  1487 
+
+t is  1488 
+
+t is  1489 
+
+t is  1490 
+
+t is  1491 
+
+t is  1492 
+
+t is  1493 
+
+t is  1494 
+
+t is  1495 
+
+t is  1496 
+
+t is  1497 
+
+t is  1498 
+
+t is  1499 
+
+t is  1500 
+
+t is  1501 
+
+t is  1502 
+
+t is  1503 
+
+t is  1504 
+
+t is  1505 
+
+t is  1506 
+
+t is  1507 
+
+t is  1508 
+
+t is  1509 
+
+t is  1510 
+
+t is  1511 
+
+t is  1512 
+
+t is  1513 
+
+t is  1514 
+
+t is  1515 
+
+t is  1516 
+
+t is  1517 
+
+t is  1518 
+
+t is  1519 
+
+t is  1520 
+
+t is  1521 
+
+t is  1522 
+
+t is  1523 
+
+t is  1524 
+
+t is  1525 
+
+t is  1526 
+
+t is  1527 
+
+t is  1528 
+
+t is  1529 
+
+t is  1530 
+
+t is  1531 
+
+t is  1532 
+
+t is  1533 
+
+t is  1534 
+
+t is  1535 
+
+t is  1536 
+
+t is  1537 
+
+t is  1538 
+
+t is  1539 
+
+t is  1540 
+
+t is  1541 
+
+t is  1542 
+
+t is  1543 
+
+t is  1544 
+
+t is  1545 
+
+t is  1546 
+
+t is  1547 
+
+t is  1548 
+
+t is  1549 
+
+t is  1550 
+
+t is  1551 
+
+t is  1552 
+
+t is  1553 
+
+t is  1554 
+
+t is  1555 
+
+t is  1556 
+
+t is  1557 
+
+t is  1558 
+
+t is  1559 
+
+t is  1560 
+
+t is  1561 
+
+t is  1562 
+
+t is  1563 
+
+t is  1564 
+
+t is  1565 
+
+t is  1566 
+
+t is  1567 
+
+t is  1568 
+
+t is  1569 
+
+t is  1570 
+
+t is  1571 
+
+t is  1572 
+
+t is  1573 
+
+t is  1574 
+
+t is  1575 
+
+t is  1576 
+
+t is  1577 
+
+t is  1578 
+
+t is  1579 
+
+t is  1580 
+
+t is  1581 
+
+t is  1582 
+
+t is  1583 
+
+t is  1584 
+
+t is  1585 
+
+t is  1586 
+
+t is  1587 
+
+t is  1588 
+
+t is  1589 
+
+t is  1590 
+
+t is  1591 
+
+t is  1592 
+
+t is  1593 
+
+t is  1594 
+
+t is  1595 
+
+t is  1596 
+
+t is  1597 
+
+t is  1598 
+
+t is  1599 
+
+t is  1600 
+
+t is  1601 
+
+t is  1602 
+
+t is  1603 
+
+t is  1604 
+
+t is  1605 
+
+t is  1606 
+
+t is  1607 
+
+t is  1608 
+
+t is  1609 
+
+t is  1610 
+
+t is  1611 
+
+t is  1612 
+
+t is  1613 
+
+t is  1614 
+
+t is  1615 
+
+t is  1616 
+
+t is  1617 
+
+t is  1618 
+
+t is  1619 
+
+t is  1620 
+
+t is  1621 
+
+t is  1622 
+
+t is  1623 
+
+t is  1624 
+
+t is  1625 
+
+t is  1626 
+
+t is  1627 
+
+t is  1628 
+
+t is  1629 
+
+t is  1630 
+
+t is  1631 
+
+t is  1632 
+
+t is  1633 
+
+t is  1634 
+
+t is  1635 
+
+t is  1636 
+
+t is  1637 
+
+t is  1638 
+
+t is  1639 
+
+t is  1640 
+
+t is  1641 
+
+t is  1642 
+
+t is  1643 
+
+t is  1644 
+
+t is  1645 
+
+t is  1646 
+
+t is  1647 
+
+t is  1648 
+
+t is  1649 
+
+t is  1650 
+
+t is  1651 
+
+t is  1652 
+
+t is  1653 
+
+t is  1654 
+
+t is  1655 
+
+t is  1656 
+
+t is  1657 
+
+t is  1658 
+
+t is  1659 
+
+t is  1660 
+
+t is  1661 
+
+t is  1662 
+
+t is  1663 
+
+t is  1664 
+
+t is  1665 
+
+t is  1666 
+
+t is  1667 
+
+t is  1668 
+
+t is  1669 
+
+t is  1670 
+
+t is  1671 
+
+t is  1672 
+
+t is  1673 
+
+t is  1674 
+
+t is  1675 
+
+t is  1676 
+
+t is  1677 
+
+t is  1678 
+
+t is  1679 
+
+t is  1680 
+
+t is  1681 
+
+t is  1682 
+
+t is  1683 
+
+t is  1684 
+
+t is  1685 
+
+t is  1686 
+
+t is  1687 
+
+t is  1688 
+
+t is  1689 
+
+t is  1690 
+
+t is  1691 
+
+t is  1692 
+
+t is  1693 
+
+t is  1694 
+
+t is  1695 
+
+t is  1696 
+
+t is  1697 
+
+t is  1698 
+
+t is  1699 
+
+t is  1700 
+
+t is  1701 
+
+t is  1702 
+
+t is  1703 
+
+t is  1704 
+
+t is  1705 
+
+t is  1706 
+
+t is  1707 
+
+t is  1708 
+
+t is  1709 
+
+t is  1710 
+
+t is  1711 
+
+t is  1712 
+
+t is  1713 
+
+t is  1714 
+
+t is  1715 
+
+t is  1716 
+
+t is  1717 
+
+t is  1718 
+
+t is  1719 
+
+t is  1720 
+
+t is  1721 
+
+t is  1722 
+
+t is  1723 
+
+t is  1724 
+
+t is  1725 
+
+t is  1726 
+
+t is  1727 
+
+t is  1728 
+
+t is  1729 
+
+t is  1730 
+
+t is  1731 
+
+t is  1732 
+
+t is  1733 
+
+t is  1734 
+
+t is  1735 
+
+t is  1736 
+
+t is  1737 
+
+t is  1738 
+
+t is  1739 
+
+t is  1740 
+
+t is  1741 
+
+t is  1742 
+
+t is  1743 
+
+t is  1744 
+
+t is  1745 
+
+t is  1746 
+
+t is  1747 
+
+t is  1748 
+
+t is  1749 
+
+t is  1750 
+
+t is  1751 
+
+t is  1752 
+
+t is  1753 
+
+t is  1754 
+
+t is  1755 
+
+t is  1756 
+
+t is  1757 
+
+t is  1758 
+
+t is  1759 
+
+t is  1760 
+
+t is  1761 
+
+t is  1762 
+
+t is  1763 
+
+t is  1764 
+
+t is  1765 
+
+t is  1766 
+
+t is  1767 
+
+t is  1768 
+
+t is  1769 
+
+t is  1770 
+
+t is  1771 
+
+t is  1772 
+
+t is  1773 
+
+t is  1774 
+
+t is  1775 
+
+t is  1776 
+
+t is  1777 
+
+t is  1778 
+
+t is  1779 
+
+t is  1780 
+
+t is  1781 
+
+t is  1782 
+
+t is  1783 
+
+t is  1784 
+
+t is  1785 
+
+t is  1786 
+
+t is  1787 
+
+t is  1788 
+
+t is  1789 
+
+t is  1790 
+
+t is  1791 
+
+t is  1792 
+
+t is  1793 
+
+t is  1794 
+
+t is  1795 
+
+t is  1796 
+
+t is  1797 
+
+t is  1798 
+
+t is  1799 
+
+t is  1800 
+
+t is  1801 
+
+t is  1802 
+
+t is  1803 
+
+t is  1804 
+
+t is  1805 
+
+t is  1806 
+
+t is  1807 
+
+t is  1808 
+
+t is  1809 
+
+t is  1810 
+
+t is  1811 
+
+t is  1812 
+
+t is  1813 
+
+t is  1814 
+
+t is  1815 
+
+t is  1816 
+
+t is  1817 
+
+t is  1818 
+
+t is  1819 
+
+t is  1820 
+
+t is  1821 
+
+t is  1822 
+
+t is  1823 
+
+t is  1824 
+
+t is  1825 
+
+t is  1826 
+
+t is  1827 
+
+t is  1828 
+
+t is  1829 
+
+t is  1830 
+
+t is  1831 
+
+t is  1832 
+
+t is  1833 
+
+t is  1834 
+
+t is  1835 
+
+t is  1836 
+
+t is  1837 
+
+t is  1838 
+
+t is  1839 
+
+t is  1840 
+
+t is  1841 
+
+t is  1842 
+
+t is  1843 
+
+t is  1844 
+
+t is  1845 
+
+t is  1846 
+
+t is  1847 
+
+t is  1848 
+
+t is  1849 
+
+t is  1850 
+
+t is  1851 
+
+t is  1852 
+
+t is  1853 
+
+t is  1854 
+
+t is  1855 
+
+t is  1856 
+
+t is  1857 
+
+t is  1858 
+
+t is  1859 
+
+t is  1860 
+
+t is  1861 
+
+t is  1862 
+
+t is  1863 
+
+t is  1864 
+
+t is  1865 
+
+t is  1866 
+
+t is  1867 
+
+t is  1868 
+
+t is  1869 
+
+t is  1870 
+
+t is  1871 
+
+t is  1872 
+
+t is  1873 
+
+t is  1874 
+
+t is  1875 
+
+t is  1876 
+
+t is  1877 
+
+t is  1878 
+
+t is  1879 
+
+t is  1880 
+
+t is  1881 
+
+t is  1882 
+
+t is  1883 
+
+t is  1884 
+
+t is  1885 
+
+t is  1886 
+
+t is  1887 
+
+t is  1888 
+
+t is  1889 
+
+t is  1890 
+
+t is  1891 
+
+t is  1892 
+
+t is  1893 
+
+t is  1894 
+
+t is  1895 
+
+t is  1896 
+
+t is  1897 
+
+t is  1898 
+
+t is  1899 
+
+t is  1900 
+
+t is  1901 
+
+t is  1902 
+
+t is  1903 
+
+t is  1904 
+
+t is  1905 
+
+t is  1906 
+
+t is  1907 
+
+t is  1908 
+
+t is  1909 
+
+t is  1910 
+
+t is  1911 
+
+t is  1912 
+
+t is  1913 
+
+t is  1914 
+
+t is  1915 
+
+t is  1916 
+
+t is  1917 
+
+t is  1918 
+
+t is  1919 
+
+t is  1920 
+
+t is  1921 
+
+t is  1922 
+
+t is  1923 
+
+t is  1924 
+
+t is  1925 
+
+t is  1926 
+
+t is  1927 
+
+t is  1928 
+
+t is  1929 
+
+t is  1930 
+
+t is  1931 
+
+t is  1932 
+
+t is  1933 
+
+t is  1934 
+
+t is  1935 
+
+t is  1936 
+
+t is  1937 
+
+t is  1938 
+
+t is  1939 
+
+t is  1940 
+
+t is  1941 
+
+t is  1942 
+
+t is  1943 
+
+t is  1944 
+
+t is  1945 
+
+t is  1946 
+
+t is  1947 
+
+t is  1948 
+
+t is  1949 
+
+t is  1950 
+
+t is  1951 
+
+t is  1952 
+
+t is  1953 
+
+t is  1954 
+
+t is  1955 
+
+t is  1956 
+
+t is  1957 
+
+t is  1958 
+
+t is  1959 
+
+t is  1960 
+
+t is  1961 
+
+t is  1962 
+
+t is  1963 
+
+t is  1964 
+
+t is  1965 
+
+t is  1966 
+
+t is  1967 
+
+t is  1968 
+
+t is  1969 
+
+t is  1970 
+
+t is  1971 
+
+t is  1972 
+
+t is  1973 
+
+t is  1974 
+
+t is  1975 
+
+t is  1976 
+
+t is  1977 
+
+t is  1978 
+
+t is  1979 
+
+t is  1980 
+
+t is  1981 
+
+t is  1982 
+
+t is  1983 
+
+t is  1984 
+
+t is  1985 
+
+t is  1986 
+
+t is  1987 
+
+t is  1988 
+
+t is  1989 
+
+t is  1990 
+
+t is  1991 
+
+t is  1992 
+
+t is  1993 
+
+t is  1994 
+
+t is  1995 
+
+t is  1996 
+
+t is  1997 
+
+t is  1998 
+
+t is  1999 
+
+t is  2000 
+
+t is  2001 
+
+t is  2002 
+
+t is  2003 
+
+t is  2004 
+
+t is  2005 
+
+t is  2006 
+
+t is  2007 
+
+t is  2008 
+
+t is  2009 
+
+t is  2010 
+
+t is  2011 
+
+t is  2012 
+
+t is  2013 
+
+t is  2014 
+
+t is  2015 
+
+t is  2016 
+
+t is  2017 
+
+t is  2018 
+
+t is  2019 
+
+t is  2020 
+
+t is  2021 
+
+t is  2022 
+
+t is  2023 
+
+t is  2024 
+
+t is  2025 
+
+t is  2026 
+
+t is  2027 
+
+t is  2028 
+
+t is  2029 
+
+t is  2030 
+
+t is  2031 
+
+t is  2032 
+
+t is  2033 
+
+t is  2034 
+
+t is  2035 
+
+t is  2036 
+
+t is  2037 
+
+t is  2038 
+
+t is  2039 
+
+t is  2040 
+
+t is  2041 
+
+t is  2042 
+
+t is  2043 
+
+t is  2044 
+
+t is  2045 
+
+t is  2046 
+
+t is  2047 
+
+t is  2048 
+
+t is  2049 
+
+t is  2050 
+
+t is  2051 
+
+t is  2052 
+
+t is  2053 
+
+t is  2054 
+
+t is  2055 
+
+t is  2056 
+
+t is  2057 
+
+t is  2058 
+
+t is  2059 
+
+t is  2060 
+
+t is  2061 
+
+t is  2062 
+
+t is  2063 
+
+t is  2064 
+
+t is  2065 
+
+t is  2066 
+
+t is  2067 
+
+t is  2068 
+
+t is  2069 
+
+t is  2070 
+
+t is  2071 
+
+t is  2072 
+
+t is  2073 
+
+t is  2074 
+
+t is  2075 
+
+t is  2076 
+
+t is  2077 
+
+t is  2078 
+
+t is  2079 
+
+t is  2080 
+
+t is  2081 
+
+t is  2082 
+
+t is  2083 
+
+t is  2084 
+
+t is  2085 
+
+t is  2086 
+
+t is  2087 
+
+t is  2088 
+
+t is  2089 
+
+t is  2090 
+
+t is  2091 
+
+t is  2092 
+
+t is  2093 
+
+t is  2094 
+
+t is  2095 
+
+t is  2096 
+
+t is  2097 
+
+t is  2098 
+
+t is  2099 
+
+t is  2100 
+
+t is  2101 
+
+t is  2102 
+
+t is  2103 
+
+t is  2104 
+
+t is  2105 
+
+t is  2106 
+
+t is  2107 
+
+t is  2108 
+
+t is  2109 
+
+t is  2110 
+
+t is  2111 
+
+t is  2112 
+
+t is  2113 
+
+t is  2114 
+
+t is  2115 
+
+t is  2116 
+
+t is  2117 
+
+t is  2118 
+
+t is  2119 
+
+t is  2120 
+
+t is  2121 
+
+t is  2122 
+
+t is  2123 
+
+t is  2124 
+
+t is  2125 
+
+t is  2126 
+
+t is  2127 
+
+t is  2128 
+
+t is  2129 
+
+t is  2130 
+
+t is  2131 
+
+t is  2132 
+
+t is  2133 
+
+t is  2134 
+
+t is  2135 
+
+t is  2136 
+
+t is  2137 
+
+t is  2138 
+
+t is  2139 
+
+t is  2140 
+
+t is  2141 
+
+t is  2142 
+
+t is  2143 
+
+t is  2144 
+
+t is  2145 
+
+t is  2146 
+
+t is  2147 
+
+t is  2148 
+
+t is  2149 
+
+t is  2150 
+
+t is  2151 
+
+t is  2152 
+
+t is  2153 
+
+t is  2154 
+
+t is  2155 
+
+t is  2156 
+
+t is  2157 
+
+t is  2158 
+
+t is  2159 
+
+t is  2160 
+
+t is  2161 
+
+t is  2162 
+
+t is  2163 
+
+t is  2164 
+
+t is  2165 
+
+t is  2166 
+
+t is  2167 
+
+t is  2168 
+
+t is  2169 
+
+t is  2170 
+
+t is  2171 
+
+t is  2172 
+
+t is  2173 
+
+t is  2174 
+
+t is  2175 
+
+t is  2176 
+
+t is  2177 
+
+t is  2178 
+
+t is  2179 
+
+t is  2180 
+
+t is  2181 
+
+t is  2182 
+
+t is  2183 
+
+t is  2184 
+
+t is  2185 
+
+t is  2186 
+
+t is  2187 
+
+t is  2188 
+
+t is  2189 
+
+t is  2190 
+
+t is  2191 
+
+t is  2192 
+
+t is  2193 
+
+t is  2194 
+
+t is  2195 
+
+t is  2196 
+
+t is  2197 
+
+t is  2198 
+
+t is  2199 
+
+t is  2200 
+
+t is  2201 
+
+t is  2202 
+
+t is  2203 
+
+t is  2204 
+
+t is  2205 
+
+t is  2206 
+
+t is  2207 
+
+t is  2208 
+
+t is  2209 
+
+t is  2210 
+
+t is  2211 
+
+t is  2212 
+
+t is  2213 
+
+t is  2214 
+
+t is  2215 
+
+t is  2216 
+
+t is  2217 
+
+t is  2218 
+
+t is  2219 
+
+t is  2220 
+
+t is  2221 
+
+t is  2222 
+
+t is  2223 
+
+t is  2224 
+
+t is  2225 
+
+t is  2226 
+
+t is  2227 
+
+t is  2228 
+
+t is  2229 
+
+t is  2230 
+
+t is  2231 
+
+t is  2232 
+
+t is  2233 
+
+t is  2234 
+
+t is  2235 
+
+t is  2236 
+
+t is  2237 
+
+t is  2238 
+
+t is  2239 
+
+t is  2240 
+
+t is  2241 
+
+t is  2242 
+
+t is  2243 
+
+t is  2244 
+
+t is  2245 
+
+t is  2246 
+
+t is  2247 
+
+t is  2248 
+
+t is  2249 
+
+t is  2250 
+
+t is  2251 
+
+t is  2252 
+
+t is  2253 
+
+t is  2254 
+
+t is  2255 
+
+t is  2256 
+
+t is  2257 
+
+t is  2258 
+
+t is  2259 
+
+t is  2260 
+
+t is  2261 
+
+t is  2262 
+
+t is  2263 
+
+t is  2264 
+
+t is  2265 
+
+t is  2266 
+
+t is  2267 
+
+t is  2268 
+
+t is  2269 
+
+t is  2270 
+
+t is  2271 
+
+t is  2272 
+
+t is  2273 
+
+t is  2274 
+
+t is  2275 
+
+t is  2276 
+
+t is  2277 
+
+t is  2278 
+
+t is  2279 
+
+t is  2280 
+
+t is  2281 
+
+t is  2282 
+
+t is  2283 
+
+t is  2284 
+
+t is  2285 
+
+t is  2286 
+
+t is  2287 
+
+t is  2288 
+
+t is  2289 
+
+t is  2290 
+
+t is  2291 
+
+t is  2292 
+
+t is  2293 
+
+t is  2294 
+
+t is  2295 
+
+t is  2296 
+
+t is  2297 
+
+t is  2298 
+
+t is  2299 
+
+t is  2300 
+
+t is  2301 
+
+t is  2302 
+
+t is  2303 
+
+t is  2304 
+
+t is  2305 
+
+t is  2306 
+
+t is  2307 
+
+t is  2308 
+
+t is  2309 
+
+t is  2310 
+
+t is  2311 
+
+t is  2312 
+
+t is  2313 
+
+t is  2314 
+
+t is  2315 
+
+t is  2316 
+
+t is  2317 
+
+t is  2318 
+
+t is  2319 
+
+t is  2320 
+
+t is  2321 
+
+t is  2322 
+
+t is  2323 
+
+t is  2324 
+
+t is  2325 
+
+t is  2326 
+
+t is  2327 
+
+t is  2328 
+
+t is  2329 
+
+t is  2330 
+
+t is  2331 
+
+t is  2332 
+
+t is  2333 
+
+t is  2334 
+
+t is  2335 
+
+t is  2336 
+
+t is  2337 
+
+t is  2338 
+
+t is  2339 
+
+t is  2340 
+
+t is  2341 
+
+t is  2342 
+
+t is  2343 
+
+t is  2344 
+
+t is  2345 
+
+t is  2346 
+
+t is  2347 
+
+t is  2348 
+
+t is  2349 
+
+t is  2350 
+
+t is  2351 
+
+t is  2352 
+
+t is  2353 
+
+t is  2354 
+
+t is  2355 
+
+t is  2356 
+
+t is  2357 
+
+t is  2358 
+
+t is  2359 
+
+t is  2360 
+
+t is  2361 
+
+t is  2362 
+
+t is  2363 
+
+t is  2364 
+
+t is  2365 
+
+t is  2366 
+
+t is  2367 
+
+t is  2368 
+
+t is  2369 
+
+t is  2370 
+
+t is  2371 
+
+t is  2372 
+
+t is  2373 
+
+t is  2374 
+
+t is  2375 
+
+t is  2376 
+
+t is  2377 
+
+t is  2378 
+
+t is  2379 
+
+t is  2380 
+
+t is  2381 
+
+t is  2382 
+
+t is  2383 
+
+t is  2384 
+
+t is  2385 
+
+t is  2386 
+
+t is  2387 
+
+t is  2388 
+
+t is  2389 
+
+t is  2390 
+
+t is  2391 
+
+t is  2392 
+
+t is  2393 
+
+t is  2394 
+
+t is  2395 
+
+t is  2396 
+
+t is  2397 
+
+t is  2398 
+
+t is  2399 
+
+t is  2400 
+
+t is  2401 
+
+t is  2402 
+
+t is  2403 
+
+t is  2404 
+
+t is  2405 
+
+t is  2406 
+
+t is  2407 
+
+t is  2408 
+
+t is  2409 
+
+t is  2410 
+
+t is  2411 
+
+t is  2412 
+
+t is  2413 
+
+t is  2414 
+
+t is  2415 
+
+t is  2416 
+
+t is  2417 
+
+t is  2418 
+
+t is  2419 
+
+t is  2420 
+
+t is  2421 
+
+t is  2422 
+
+t is  2423 
+
+t is  2424 
+
+t is  2425 
+
+t is  2426 
+
+t is  2427 
+
+t is  2428 
+
+t is  2429 
+
+t is  2430 
+
+t is  2431 
+
+t is  2432 
+
+t is  2433 
+
+t is  2434 
+
+t is  2435 
+
+t is  2436 
+
+t is  2437 
+
+t is  2438 
+
+t is  2439 
+
+t is  2440 
+
+t is  2441 
+
+t is  2442 
+
+t is  2443 
+
+t is  2444 
+
+t is  2445 
+
+t is  2446 
+
+t is  2447 
+
+t is  2448 
+
+t is  2449 
+
+t is  2450 
+
+t is  2451 
+
+t is  2452 
+
+t is  2453 
+
+t is  2454 
+
+t is  2455 
+
+t is  2456 
+
+t is  2457 
+
+t is  2458 
+
+t is  2459 
+
+t is  2460 
+
+t is  2461 
+
+t is  2462 
+
+t is  2463 
+
+t is  2464 
+
+t is  2465 
+
+t is  2466 
+
+t is  2467 
+
+t is  2468 
+
+t is  2469 
+
+t is  2470 
+
+t is  2471 
+
+t is  2472 
+
+t is  2473 
+
+t is  2474 
+
+t is  2475 
+
+t is  2476 
+
+t is  2477 
+
+t is  2478 
+
+t is  2479 
+
+t is  2480 
+
+t is  2481 
+
+t is  2482 
+
+t is  2483 
+
+t is  2484 
+
+t is  2485 
+
+t is  2486 
+
+t is  2487 
+
+t is  2488 
+
+t is  2489 
+
+t is  2490 
+
+t is  2491 
+
+t is  2492 
+
+t is  2493 
+
+t is  2494 
+
+t is  2495 
+
+t is  2496 
+
+t is  2497 
+
+t is  2498 
+
+t is  2499 
+
+t is  2500 
+
+t is  2501 
+
+t is  2502 
+
+t is  2503 
+
+t is  2504 
+
+t is  2505 
+
+t is  2506 
+
+t is  2507 
+
+t is  2508 
+
+t is  2509 
+
+t is  2510 
+
+t is  2511 
+
+t is  2512 
+
+t is  2513 
+
+t is  2514 
+
+t is  2515 
+
+t is  2516 
+
+t is  2517 
+
+t is  2518 
+
+t is  2519 
+
+t is  2520 
+
+t is  2521 
+
+t is  2522 
+
+t is  2523 
+
+t is  2524 
+
+t is  2525 
+
+t is  2526 
+
+t is  2527 
+
+t is  2528 
+
+t is  2529 
+
+t is  2530 
+
+t is  2531 
+
+t is  2532 
+
+t is  2533 
+
+t is  2534 
+
+t is  2535 
+
+t is  2536 
+
+t is  2537 
+
+t is  2538 
+
+t is  2539 
+
+t is  2540 
+
+t is  2541 
+
+t is  2542 
+
+t is  2543 
+
+t is  2544 
+
+t is  2545 
+
+t is  2546 
+
+t is  2547 
+
+t is  2548 
+
+t is  2549 
+
+t is  2550 
+
+t is  2551 
+
+t is  2552 
+
+t is  2553 
+
+t is  2554 
+
+t is  2555 
+
+t is  2556 
+
+t is  2557 
+
+t is  2558 
+
+t is  2559 
+
+t is  2560 
+
+t is  2561 
+
+t is  2562 
+
+t is  2563 
+
+t is  2564 
+
+t is  2565 
+
+t is  2566 
+
+t is  2567 
+
+t is  2568 
+
+t is  2569 
+
+t is  2570 
+
+t is  2571 
+
+t is  2572 
+
+t is  2573 
+
+t is  2574 
+
+t is  2575 
+
+t is  2576 
+
+t is  2577 
+
+t is  2578 
+
+t is  2579 
+
+t is  2580 
+
+t is  2581 
+
+t is  2582 
+
+t is  2583 
+
+t is  2584 
+
+t is  2585 
+
+t is  2586 
+
+t is  2587 
+
+t is  2588 
+
+t is  2589 
+
+t is  2590 
+
+t is  2591 
+
+t is  2592 
+
+t is  2593 
+
+t is  2594 
+
+t is  2595 
+
+t is  2596 
+
+t is  2597 
+
+t is  2598 
+
+t is  2599 
+
+t is  2600 
+
+t is  2601 
+
+t is  2602 
+
+t is  2603 
+
+t is  2604 
+
+t is  2605 
+
+t is  2606 
+
+t is  2607 
+
+t is  2608 
+
+t is  2609 
+
+t is  2610 
+
+t is  2611 
+
+t is  2612 
+
+t is  2613 
+
+t is  2614 
+
+t is  2615 
+
+t is  2616 
+
+t is  2617 
+
+t is  2618 
+
+t is  2619 
+
+t is  2620 
+
+t is  2621 
+
+t is  2622 
+
+t is  2623 
+
+t is  2624 
+
+t is  2625 
+
+t is  2626 
+
+t is  2627 
+
+t is  2628 
+
+t is  2629 
+
+t is  2630 
+
+t is  2631 
+
+t is  2632 
+
+t is  2633 
+
+t is  2634 
+
+t is  2635 
+
+t is  2636 
+
+t is  2637 
+
+t is  2638 
+
+t is  2639 
+
+t is  2640 
+
+t is  2641 
+
+t is  2642 
+
+t is  2643 
+
+t is  2644 
+
+t is  2645 
+
+t is  2646 
+
+t is  2647 
+
+t is  2648 
+
+t is  2649 
+
+t is  2650 
+
+t is  2651 
+
+t is  2652 
+
+t is  2653 
+
+t is  2654 
+
+t is  2655 
+
+t is  2656 
+
+t is  2657 
+
+t is  2658 
+
+t is  2659 
+
+t is  2660 
+
+t is  2661 
+
+t is  2662 
+
+t is  2663 
+
+t is  2664 
+
+t is  2665 
+
+t is  2666 
+
+t is  2667 
+
+t is  2668 
+
+t is  2669 
+
+t is  2670 
+
+t is  2671 
+
+t is  2672 
+
+t is  2673 
+
+t is  2674 
+
+t is  2675 
+
+t is  2676 
+
+t is  2677 
+
+t is  2678 
+
+t is  2679 
+
+t is  2680 
+
+t is  2681 
+
+t is  2682 
+
+t is  2683 
+
+t is  2684 
+
+t is  2685 
+
+t is  2686 
+
+t is  2687 
+
+t is  2688 
+
+t is  2689 
+
+t is  2690 
+
+t is  2691 
+
+t is  2692 
+
+t is  2693 
+
+t is  2694 
+
+t is  2695 
+
+t is  2696 
+
+t is  2697 
+
+t is  2698 
+
+t is  2699 
+
+t is  2700 
+
+t is  2701 
+
+t is  2702 
+
+t is  2703 
+
+t is  2704 
+
+t is  2705 
+
+t is  2706 
+
+t is  2707 
+
+t is  2708 
+
+t is  2709 
+
+t is  2710 
+
+t is  2711 
+
+t is  2712 
+
+t is  2713 
+
+t is  2714 
+
+t is  2715 
+
+t is  2716 
+
+t is  2717 
+
+t is  2718 
+
+t is  2719 
+
+t is  2720 
+
+t is  2721 
+
+t is  2722 
+
+t is  2723 
+
+t is  2724 
+
+t is  2725 
+
+t is  2726 
+
+t is  2727 
+
+t is  2728 
+
+t is  2729 
+
+t is  2730 
+
+t is  2731 
+
+t is  2732 
+
+t is  2733 
+
+t is  2734 
+
+t is  2735 
+
+t is  2736 
+
+t is  2737 
+
+t is  2738 
+
+t is  2739 
+
+t is  2740 
+
+t is  2741 
+
+t is  2742 
+
+t is  2743 
+
+t is  2744 
+
+t is  2745 
+
+t is  2746 
+
+t is  2747 
+
+t is  2748 
+
+t is  2749 
+
+t is  2750 
+
+t is  2751 
+
+t is  2752 
+
+t is  2753 
+
+t is  2754 
+
+t is  2755 
+
+t is  2756 
+
+t is  2757 
+
+t is  2758 
+
+t is  2759 
+
+t is  2760 
+
+t is  2761 
+
+t is  2762 
+
+t is  2763 
+
+t is  2764 
+
+t is  2765 
+
+t is  2766 
+
+t is  2767 
+
+t is  2768 
+
+t is  2769 
+
+t is  2770 
+
+t is  2771 
+
+t is  2772 
+
+t is  2773 
+
+t is  2774 
+
+t is  2775 
+
+t is  2776 
+
+t is  2777 
+
+t is  2778 
+
+t is  2779 
+
+t is  2780 
+
+t is  2781 
+
+t is  2782 
+
+t is  2783 
+
+t is  2784 
+
+t is  2785 
+
+t is  2786 
+
+t is  2787 
+
+t is  2788 
+
+t is  2789 
+
+t is  2790 
+
+t is  2791 
+
+t is  2792 
+
+t is  2793 
+
+t is  2794 
+
+t is  2795 
+
+t is  2796 
+
+t is  2797 
+
+t is  2798 
+
+t is  2799 
+
+t is  2800 
+
+t is  2801 
+
+t is  2802 
+
+t is  2803 
+
+t is  2804 
+
+t is  2805 
+
+t is  2806 
+
+t is  2807 
+
+t is  2808 
+
+t is  2809 
+
+t is  2810 
+
+t is  2811 
+
+t is  2812 
+
+t is  2813 
+
+t is  2814 
+
+t is  2815 
+
+t is  2816 
+
+t is  2817 
+
+t is  2818 
+
+t is  2819 
+
+t is  2820 
+
+t is  2821 
+
+t is  2822 
+
+t is  2823 
+
+t is  2824 
+
+t is  2825 
+
+t is  2826 
+
+t is  2827 
+
+t is  2828 
+
+t is  2829 
+
+t is  2830 
+
+t is  2831 
+
+t is  2832 
+
+t is  2833 
+
+t is  2834 
+
+t is  2835 
+
+t is  2836 
+
+t is  2837 
+
+t is  2838 
+
+t is  2839 
+
+t is  2840 
+
+t is  2841 
+
+t is  2842 
+
+t is  2843 
+
+t is  2844 
+
+t is  2845 
+
+t is  2846 
+
+t is  2847 
+
+t is  2848 
+
+t is  2849 
+
+t is  2850 
+
+t is  2851 
+
+t is  2852 
+
+t is  2853 
+
+t is  2854 
+
+t is  2855 
+
+t is  2856 
+
+t is  2857 
+
+t is  2858 
+
+t is  2859 
+
+t is  2860 
+
+t is  2861 
+
+t is  2862 
+
+t is  2863 
+
+t is  2864 
+
+t is  2865 
+
+t is  2866 
+
+t is  2867 
+
+t is  2868 
+
+t is  2869 
+
+t is  2870 
+
+t is  2871 
+
+t is  2872 
+
+t is  2873 
+
+t is  2874 
+
+t is  2875 
+
+t is  2876 
+
+t is  2877 
+
+t is  2878 
+
+t is  2879 
+
+t is  2880 
+
+t is  2881 
+
+t is  2882 
+
+t is  2883 
+
+t is  2884 
+
+t is  2885 
+
+t is  2886 
+
+t is  2887 
+
+t is  2888 
+
+t is  2889 
+
+t is  2890 
+
+t is  2891 
+
+t is  2892 
+
+t is  2893 
+
+t is  2894 
+
+t is  2895 
+
+t is  2896 
+
+t is  2897 
+
+t is  2898 
+
+t is  2899 
+
+t is  2900 
+
+t is  2901 
+
+t is  2902 
+
+t is  2903 
+
+t is  2904 
+
+t is  2905 
+
+t is  2906 
+
+t is  2907 
+
+t is  2908 
+
+t is  2909 
+
+t is  2910 
+
+t is  2911 
+
+t is  2912 
+
+t is  2913 
+
+t is  2914 
+
+t is  2915 
+
+t is  2916 
+
+t is  2917 
+
+t is  2918 
+
+t is  2919 
+
+t is  2920 
+
+t is  2921 
+
+t is  2922 
+
+t is  2923 
+
+t is  2924 
+
+t is  2925 
+
+t is  2926 
+
+t is  2927 
+
+t is  2928 
+
+t is  2929 
+
+t is  2930 
+
+t is  2931 
+
+t is  2932 
+
+t is  2933 
+
+t is  2934 
+
+t is  2935 
+
+t is  2936 
+
+t is  2937 
+
+t is  2938 
+
+t is  2939 
+
+t is  2940 
+
+t is  2941 
+
+t is  2942 
+
+t is  2943 
+
+t is  2944 
+
+t is  2945 
+
+t is  2946 
+
+t is  2947 
+
+t is  2948 
+
+t is  2949 
+
+t is  2950 
+
+t is  2951 
+
+t is  2952 
+
+t is  2953 
+
+t is  2954 
+
+t is  2955 
+
+t is  2956 
+
+t is  2957 
+
+t is  2958 
+
+t is  2959 
+
+t is  2960 
+
+t is  2961 
+
+t is  2962 
+
+t is  2963 
+
+t is  2964 
+
+t is  2965 
+
+t is  2966 
+
+t is  2967 
+
+t is  2968 
+
+t is  2969 
+
+t is  2970 
+
+t is  2971 
+
+t is  2972 
+
+t is  2973 
+
+t is  2974 
+
+t is  2975 
+
+t is  2976 
+
+t is  2977 
+
+t is  2978 
+
+t is  2979 
+
+t is  2980 
+
+t is  2981 
+
+t is  2982 
+
+t is  2983 
+
+t is  2984 
+
+t is  2985 
+
+t is  2986 
+
+t is  2987 
+
+t is  2988 
+
+t is  2989 
+
+t is  2990 
+
+t is  2991 
+
+t is  2992 
+
+t is  2993 
+
+t is  2994 
+
+t is  2995 
+
+t is  2996 
+
+t is  2997 
+
+t is  2998 
+
+t is  2999 
+
+t is  3000 
+
+t is  3001 
+
+t is  3002 
+
+t is  3003 
+
+t is  3004 
+
+t is  3005 
+
+t is  3006 
+
+t is  3007 
+
+t is  3008 
+
+t is  3009 
+
+t is  3010 
+
+t is  3011 
+
+t is  3012 
+
+t is  3013 
+
+t is  3014 
+
+t is  3015 
+
+t is  3016 
+
+t is  3017 
+
+t is  3018 
+
+t is  3019 
+
+t is  3020 
+
+t is  3021 
+
+t is  3022 
+
+t is  3023 
+
+t is  3024 
+
+t is  3025 
+
+t is  3026 
+
+t is  3027 
+
+t is  3028 
+
+t is  3029 
+
+t is  3030 
+
+t is  3031 
+
+t is  3032 
+
+t is  3033 
+
+t is  3034 
+
+t is  3035 
+
+t is  3036 
+
+t is  3037 
+
+t is  3038 
+
+t is  3039 
+
+t is  3040 
+
+t is  3041 
+
+t is  3042 
+
+t is  3043 
+
+t is  3044 
+
+t is  3045 
+
+t is  3046 
+
+t is  3047 
+
+t is  3048 
+
+t is  3049 
+
+t is  3050 
+
+t is  3051 
+
+t is  3052 
+
+t is  3053 
+
+t is  3054 
+
+t is  3055 
+
+t is  3056 
+
+t is  3057 
+
+t is  3058 
+
+t is  3059 
+
+t is  3060 
+
+t is  3061 
+
+t is  3062 
+
+t is  3063 
+
+t is  3064 
+
+t is  3065 
+
+t is  3066 
+
+t is  3067 
+
+t is  3068 
+
+t is  3069 
+
+t is  3070 
+
+t is  3071 
+
+t is  3072 
+
+t is  3073 
+
+t is  3074 
+
+t is  3075 
+
+t is  3076 
+
+t is  3077 
+
+t is  3078 
+
+t is  3079 
+
+t is  3080 
+
+t is  3081 
+
+t is  3082 
+
+t is  3083 
+
+t is  3084 
+
+t is  3085 
+
+t is  3086 
+
+t is  3087 
+
+t is  3088 
+
+t is  3089 
+
+t is  3090 
+
+t is  3091 
+
+t is  3092 
+
+t is  3093 
+
+t is  3094 
+
+t is  3095 
+
+t is  3096 
+
+t is  3097 
+
+t is  3098 
+
+t is  3099 
+
+t is  3100 
+
+t is  3101 
+
+t is  3102 
+
+t is  3103 
+
+t is  3104 
+
+t is  3105 
+
+t is  3106 
+
+t is  3107 
+
+t is  3108 
+
+t is  3109 
+
+t is  3110 
+
+t is  3111 
+
+t is  3112 
+
+t is  3113 
+
+t is  3114 
+
+t is  3115 
+
+t is  3116 
+
+t is  3117 
+
+t is  3118 
+
+t is  3119 
+
+t is  3120 
+
+t is  3121 
+
+t is  3122 
+
+t is  3123 
+
+t is  3124 
+
+t is  3125 
+
+t is  3126 
+
+t is  3127 
+
+t is  3128 
+
+t is  3129 
+
+t is  3130 
+
+t is  3131 
+
+t is  3132 
+
+t is  3133 
+
+t is  3134 
+
+t is  3135 
+
+t is  3136 
+
+t is  3137 
+
+t is  3138 
+
+t is  3139 
+
+t is  3140 
+
+t is  3141 
+
+t is  3142 
+
+t is  3143 
+
+t is  3144 
+
+t is  3145 
+
+t is  3146 
+
+t is  3147 
+
+t is  3148 
+
+t is  3149 
+
+t is  3150 
+
+t is  3151 
+
+t is  3152 
+
+t is  3153 
+
+t is  3154 
+
+t is  3155 
+
+t is  3156 
+
+t is  3157 
+
+t is  3158 
+
+t is  3159 
+
+t is  3160 
+
+t is  3161 
+
+t is  3162 
+
+t is  3163 
+
+t is  3164 
+
+t is  3165 
+
+t is  3166 
+
+t is  3167 
+
+t is  3168 
+
+t is  3169 
+
+t is  3170 
+
+t is  3171 
+
+t is  3172 
+
+t is  3173 
+
+t is  3174 
+
+t is  3175 
+
+t is  3176 
+
+t is  3177 
+
+t is  3178 
+
+t is  3179 
+
+t is  3180 
+
+t is  3181 
+
+t is  3182 
+
+t is  3183 
+
+t is  3184 
+
+t is  3185 
+
+t is  3186 
+
+t is  3187 
+
+t is  3188 
+
+t is  3189 
+
+t is  3190 
+
+t is  3191 
+
+t is  3192 
+
+t is  3193 
+
+t is  3194 
+
+t is  3195 
+
+t is  3196 
+
+t is  3197 
+
+t is  3198 
+
+t is  3199 
+
+t is  3200 
+
+t is  3201 
+
+t is  3202 
+
+t is  3203 
+
+t is  3204 
+
+t is  3205 
+
+t is  3206 
+
+t is  3207 
+
+t is  3208 
+
+t is  3209 
+
+t is  3210 
+
+t is  3211 
+
+t is  3212 
+
+t is  3213 
+
+t is  3214 
+
+t is  3215 
+
+t is  3216 
+
+t is  3217 
+
+t is  3218 
+
+t is  3219 
+
+t is  3220 
+
+t is  3221 
+
+t is  3222 
+
+t is  3223 
+
+t is  3224 
+
+t is  3225 
+
+t is  3226 
+
+t is  3227 
+
+t is  3228 
+
+t is  3229 
+
+t is  3230 
+
+t is  3231 
+
+t is  3232 
+
+t is  3233 
+
+t is  3234 
+
+t is  3235 
+
+t is  3236 
+
+t is  3237 
+
+t is  3238 
+
+t is  3239 
+
+t is  3240 
+
+t is  3241 
+
+t is  3242 
+
+t is  3243 
+
+t is  3244 
+
+t is  3245 
+
+t is  3246 
+
+t is  3247 
+
+t is  3248 
+
+t is  3249 
+
+t is  3250 
+
+t is  3251 
+
+t is  3252 
+
+t is  3253 
+
+t is  3254 
+
+t is  3255 
+
+t is  3256 
+
+t is  3257 
+
+t is  3258 
+
+t is  3259 
+
+t is  3260 
+
+t is  3261 
+
+t is  3262 
+
+t is  3263 
+
+t is  3264 
+
+t is  3265 
+
+t is  3266 
+
+t is  3267 
+
+t is  3268 
+
+t is  3269 
+
+t is  3270 
+
+t is  3271 
+
+t is  3272 
+
+t is  3273 
+
+t is  3274 
+
+t is  3275 
+
+t is  3276 
+
+t is  3277 
+
+t is  3278 
+
+t is  3279 
+
+t is  3280 
+
+t is  3281 
+
+t is  3282 
+
+t is  3283 
+
+t is  3284 
+
+t is  3285 
+
+t is  3286 
+
+t is  3287 
+
+t is  3288 
+
+t is  3289 
+
+t is  3290 
+
+t is  3291 
+
+t is  3292 
+
+t is  3293 
+
+t is  3294 
+
+t is  3295 
+
+t is  3296 
+
+t is  3297 
+
+t is  3298 
+
+t is  3299 
+
+t is  3300 
+
+t is  3301 
+
+t is  3302 
+
+t is  3303 
+
+t is  3304 
+
+t is  3305 
+
+t is  3306 
+
+t is  3307 
+
+t is  3308 
+
+t is  3309 
+
+t is  3310 
+
+t is  3311 
+
+t is  3312 
+
+t is  3313 
+
+t is  3314 
+
+t is  3315 
+
+t is  3316 
+
+t is  3317 
+
+t is  3318 
+
+t is  3319 
+
+t is  3320 
+
+t is  3321 
+
+t is  3322 
+
+t is  3323 
+
+t is  3324 
+
+t is  3325 
+
+t is  3326 
+
+t is  3327 
+
+t is  3328 
+
+t is  3329 
+
+t is  3330 
+
+t is  3331 
+
+t is  3332 
+
+t is  3333 
+
+t is  3334 
+
+t is  3335 
+
+t is  3336 
+
+t is  3337 
+
+t is  3338 
+
+t is  3339 
+
+t is  3340 
+
+t is  3341 
+
+t is  3342 
+
+t is  3343 
+
+t is  3344 
+
+t is  3345 
+
+t is  3346 
+
+t is  3347 
+
+t is  3348 
+
+t is  3349 
+
+t is  3350 
+
+t is  3351 
+
+t is  3352 
+
+t is  3353 
+
+t is  3354 
+
+t is  3355 
+
+t is  3356 
+
+t is  3357 
+
+t is  3358 
+
+t is  3359 
+
+t is  3360 
+
+t is  3361 
+
+t is  3362 
+
+t is  3363 
+
+t is  3364 
+
+t is  3365 
+
+t is  3366 
+
+t is  3367 
+
+t is  3368 
+
+t is  3369 
+
+t is  3370 
+
+t is  3371 
+
+t is  3372 
+
+t is  3373 
+
+t is  3374 
+
+t is  3375 
+
+t is  3376 
+
+t is  3377 
+
+t is  3378 
+
+t is  3379 
+
+t is  3380 
+
+t is  3381 
+
+t is  3382 
+
+t is  3383 
+
+t is  3384 
+
+t is  3385 
+
+t is  3386 
+
+t is  3387 
+
+t is  3388 
+
+t is  3389 
+
+t is  3390 
+
+t is  3391 
+
+t is  3392 
+
+t is  3393 
+
+t is  3394 
+
+t is  3395 
+
+t is  3396 
+
+t is  3397 
+
+t is  3398 
+
+t is  3399 
+
+t is  3400 
+
+t is  3401 
+
+t is  3402 
+
+t is  3403 
+
+t is  3404 
+
+t is  3405 
+
+t is  3406 
+
+t is  3407 
+
+t is  3408 
+
+t is  3409 
+
+t is  3410 
+
+t is  3411 
+
+t is  3412 
+
+t is  3413 
+
+t is  3414 
+
+t is  3415 
+
+t is  3416 
+
+t is  3417 
+
+t is  3418 
+
+t is  3419 
+
+t is  3420 
+
+t is  3421 
+
+t is  3422 
+
+t is  3423 
+
+t is  3424 
+
+t is  3425 
+
+t is  3426 
+
+t is  3427 
+
+t is  3428 
+
+t is  3429 
+
+t is  3430 
+
+t is  3431 
+
+t is  3432 
+
+t is  3433 
+
+t is  3434 
+
+t is  3435 
+
+t is  3436 
+
+t is  3437 
+
+t is  3438 
+
+t is  3439 
+
+t is  3440 
+
+t is  3441 
+
+t is  3442 
+
+t is  3443 
+
+t is  3444 
+
+t is  3445 
+
+t is  3446 
+
+t is  3447 
+
+t is  3448 
+
+t is  3449 
+
+t is  3450 
+
+t is  3451 
+
+t is  3452 
+
+t is  3453 
+
+t is  3454 
+
+t is  3455 
+
+t is  3456 
+
+t is  3457 
+
+t is  3458 
+
+t is  3459 
+
+t is  3460 
+
+t is  3461 
+
+t is  3462 
+
+t is  3463 
+
+t is  3464 
+
+t is  3465 
+
+t is  3466 
+
+t is  3467 
+
+t is  3468 
+
+t is  3469 
+
+t is  3470 
+
+t is  3471 
+
+t is  3472 
+
+t is  3473 
+
+t is  3474 
+
+t is  3475 
+
+t is  3476 
+
+t is  3477 
+
+t is  3478 
+
+t is  3479 
+
+t is  3480 
+
+t is  3481 
+
+t is  3482 
+
+t is  3483 
+
+t is  3484 
+
+t is  3485 
+
+t is  3486 
+
+t is  3487 
+
+t is  3488 
+
+t is  3489 
+
+t is  3490 
+
+t is  3491 
+
+t is  3492 
+
+t is  3493 
+
+t is  3494 
+
+t is  3495 
+
+t is  3496 
+
+t is  3497 
+
+t is  3498 
+
+t is  3499 
+
+t is  3500 
+
+t is  3501 
+
+t is  3502 
+
+t is  3503 
+
+t is  3504 
+
+t is  3505 
+
+t is  3506 
+
+t is  3507 
+
+t is  3508 
+
+t is  3509 
+
+t is  3510 
+
+t is  3511 
+
+t is  3512 
+
+t is  3513 
+
+t is  3514 
+
+t is  3515 
+
+t is  3516 
+
+t is  3517 
+
+t is  3518 
+
+t is  3519 
+
+t is  3520 
+
+t is  3521 
+
+t is  3522 
+
+t is  3523 
+
+t is  3524 
+
+t is  3525 
+
+t is  3526 
+
+t is  3527 
+
+t is  3528 
+
+t is  3529 
+
+t is  3530 
+
+t is  3531 
+
+t is  3532 
+
+t is  3533 
+
+t is  3534 
+
+t is  3535 
+
+t is  3536 
+
+t is  3537 
+
+t is  3538 
+
+t is  3539 
+
+t is  3540 
+
+t is  3541 
+
+t is  3542 
+
+t is  3543 
+
+t is  3544 
+
+t is  3545 
+
+t is  3546 
+
+t is  3547 
+
+t is  3548 
+
+t is  3549 
+
+t is  3550 
+
+t is  3551 
+
+t is  3552 
+
+t is  3553 
+
+t is  3554 
+
+t is  3555 
+
+t is  3556 
+
+t is  3557 
+
+t is  3558 
+
+t is  3559 
+
+t is  3560 
+
+t is  3561 
+
+t is  3562 
+
+t is  3563 
+
+t is  3564 
+
+t is  3565 
+
+t is  3566 
+
+t is  3567 
+
+t is  3568 
+
+t is  3569 
+
+t is  3570 
+
+t is  3571 
+
+t is  3572 
+
+t is  3573 
+
+t is  3574 
+
+t is  3575 
+
+t is  3576 
+
+t is  3577 
+
+t is  3578 
+
+t is  3579 
+
+t is  3580 
+
+t is  3581 
+
+t is  3582 
+
+t is  3583 
+
+t is  3584 
+
+t is  3585 
+
+t is  3586 
+
+t is  3587 
+
+t is  3588 
+
+t is  3589 
+
+t is  3590 
+
+t is  3591 
+
+t is  3592 
+
+t is  3593 
+
+t is  3594 
+
+t is  3595 
+
+t is  3596 
+
+t is  3597 
+
+t is  3598 
+
+t is  3599 
+
+t is  3600 
+
+t is  3601 
+
+t is  3602 
+
+t is  3603 
+
+t is  3604 
+
+t is  3605 
+
+t is  3606 
+
+t is  3607 
+
+t is  3608 
+
+t is  3609 
+
+t is  3610 
+
+t is  3611 
+
+t is  3612 
+
+t is  3613 
+
+t is  3614 
+
+t is  3615 
+
+t is  3616 
+
+t is  3617 
+
+t is  3618 
+
+t is  3619 
+
+t is  3620 
+
+t is  3621 
+
+t is  3622 
+
+t is  3623 
+
+t is  3624 
+
+t is  3625 
+
+t is  3626 
+
+t is  3627 
+
+t is  3628 
+
+t is  3629 
+
+t is  3630 
+
+t is  3631 
+
+t is  3632 
+
+t is  3633 
+
+t is  3634 
+
+t is  3635 
+
+t is  3636 
+
+t is  3637 
+
+t is  3638 
+
+t is  3639 
+
+t is  3640 
+
+t is  3641 
+
+t is  3642 
+
+t is  3643 
+
+t is  3644 
+
+t is  3645 
+
+t is  3646 
+
+t is  3647 
+
+t is  3648 
+
+t is  3649 
+
+t is  3650 
+
+t is  3651 
+
+t is  3652 
+
+t is  3653 
+
+t is  3654 
+
+t is  3655 
+
+t is  3656 
+
+t is  3657 
+
+t is  3658 
+
+t is  3659 
+
+t is  3660 
+
+t is  3661 
+
+t is  3662 
+
+t is  3663 
+
+t is  3664 
+
+t is  3665 
+
+t is  3666 
+
+t is  3667 
+
+t is  3668 
+
+t is  3669 
+
+t is  3670 
+
+t is  3671 
+
+t is  3672 
+
+t is  3673 
+
+t is  3674 
+
+t is  3675 
+
+t is  3676 
+
+t is  3677 
+
+t is  3678 
+
+t is  3679 
+
+t is  3680 
+
+t is  3681 
+
+t is  3682 
+
+t is  3683 
+
+t is  3684 
+
+t is  3685 
+
+t is  3686 
+
+t is  3687 
+
+t is  3688 
+
+t is  3689 
+
+t is  3690 
+
+t is  3691 
+
+t is  3692 
+
+t is  3693 
+
+t is  3694 
+
+t is  3695 
+
+t is  3696 
+
+t is  3697 
+
+t is  3698 
+
+t is  3699 
+
+t is  3700 
+
+t is  3701 
+
+t is  3702 
+
+t is  3703 
+
+t is  3704 
+
+t is  3705 
+
+t is  3706 
+
+t is  3707 
+
+t is  3708 
+
+t is  3709 
+
+t is  3710 
+
+t is  3711 
+
+t is  3712 
+
+t is  3713 
+
+t is  3714 
+
+t is  3715 
+
+t is  3716 
+
+t is  3717 
+
+t is  3718 
+
+t is  3719 
+
+t is  3720 
+
+t is  3721 
+
+t is  3722 
+
+t is  3723 
+
+t is  3724 
+
+t is  3725 
+
+t is  3726 
+
+t is  3727 
+
+t is  3728 
+
+t is  3729 
+
+t is  3730 
+
+t is  3731 
+
+t is  3732 
+
+t is  3733 
+
+t is  3734 
+
+t is  3735 
+
+t is  3736 
+
+t is  3737 
+
+t is  3738 
+
+t is  3739 
+
+t is  3740 
+
+t is  3741 
+
+t is  3742 
+
+t is  3743 
+
+t is  3744 
+
+t is  3745 
+
+t is  3746 
+
+t is  3747 
+
+t is  3748 
+
+t is  3749 
+
+t is  3750 
+
+t is  3751 
+
+t is  3752 
+
+t is  3753 
+
+t is  3754 
+
+t is  3755 
+
+t is  3756 
+
+t is  3757 
+
+t is  3758 
+
+t is  3759 
+
+t is  3760 
+
+t is  3761 
+
+t is  3762 
+
+t is  3763 
+
+t is  3764 
+
+t is  3765 
+
+t is  3766 
+
+t is  3767 
+
+t is  3768 
+
+t is  3769 
+
+t is  3770 
+
+t is  3771 
+
+t is  3772 
+
+t is  3773 
+
+t is  3774 
+
+t is  3775 
+
+t is  3776 
+
+t is  3777 
+
+t is  3778 
+
+t is  3779 
+
+t is  3780 
+
+t is  3781 
+
+t is  3782 
+
+t is  3783 
+
+t is  3784 
+
+t is  3785 
+
+t is  3786 
+
+t is  3787 
+
+t is  3788 
+
+t is  3789 
+
+t is  3790 
+
+t is  3791 
+
+t is  3792 
+
+t is  3793 
+
+t is  3794 
+
+t is  3795 
+
+t is  3796 
+
+t is  3797 
+
+t is  3798 
+
+t is  3799 
+
+t is  3800 
+
+t is  3801 
+
+t is  3802 
+
+t is  3803 
+
+t is  3804 
+
+t is  3805 
+
+t is  3806 
+
+t is  3807 
+
+t is  3808 
+
+t is  3809 
+
+t is  3810 
+
+t is  3811 
+
+t is  3812 
+
+t is  3813 
+
+t is  3814 
+
+t is  3815 
+
+t is  3816 
+
+t is  3817 
+
+t is  3818 
+
+t is  3819 
+
+t is  3820 
+
+t is  3821 
+
+t is  3822 
+
+t is  3823 
+
+t is  3824 
+
+t is  3825 
+
+t is  3826 
+
+t is  3827 
+
+t is  3828 
+
+t is  3829 
+
+t is  3830 
+
+t is  3831 
+
+t is  3832 
+
+t is  3833 
+
+t is  3834 
+
+t is  3835 
+
+t is  3836 
+
+t is  3837 
+
+t is  3838 
+
+t is  3839 
+
+t is  3840 
+
+t is  3841 
+
+t is  3842 
+
+t is  3843 
+
+t is  3844 
+
+t is  3845 
+
+t is  3846 
+
+t is  3847 
+
+t is  3848 
+
+t is  3849 
+
+t is  3850 
+
+t is  3851 
+
+t is  3852 
+
+t is  3853 
+
+t is  3854 
+
+t is  3855 
+
+t is  3856 
+
+t is  3857 
+
+t is  3858 
+
+t is  3859 
+
+t is  3860 
+
+t is  3861 
+
+t is  3862 
+
+t is  3863 
+
+t is  3864 
+
+t is  3865 
+
+t is  3866 
+
+t is  3867 
+
+t is  3868 
+
+t is  3869 
+
+t is  3870 
+
+t is  3871 
+
+t is  3872 
+
+t is  3873 
+
+t is  3874 
+
+t is  3875 
+
+t is  3876 
+
+t is  3877 
+
+t is  3878 
+
+t is  3879 
+
+t is  3880 
+
+t is  3881 
+
+t is  3882 
+
+t is  3883 
+
+t is  3884 
+
+t is  3885 
+
+t is  3886 
+
+t is  3887 
+
+t is  3888 
+
+t is  3889 
+
+t is  3890 
+
+t is  3891 
+
+t is  3892 
+
+t is  3893 
+
+t is  3894 
+
+t is  3895 
+
+t is  3896 
+
+t is  3897 
+
+t is  3898 
+
+t is  3899 
+
+t is  3900 
+
+t is  3901 
+
+t is  3902 
+
+t is  3903 
+
+t is  3904 
+
+t is  3905 
+
+t is  3906 
+
+t is  3907 
+
+t is  3908 
+
+t is  3909 
+
+t is  3910 
+
+t is  3911 
+
+t is  3912 
+
+t is  3913 
+
+t is  3914 
+
+t is  3915 
+
+t is  3916 
+
+t is  3917 
+
+t is  3918 
+
+t is  3919 
+
+t is  3920 
+
+t is  3921 
+
+t is  3922 
+
+t is  3923 
+
+t is  3924 
+
+t is  3925 
+
+t is  3926 
+
+t is  3927 
+
+t is  3928 
+
+t is  3929 
+
+t is  3930 
+
+t is  3931 
+
+t is  3932 
+
+t is  3933 
+
+t is  3934 
+
+t is  3935 
+
+t is  3936 
+
+t is  3937 
+
+t is  3938 
+
+t is  3939 
+
+t is  3940 
+
+t is  3941 
+
+t is  3942 
+
+t is  3943 
+
+t is  3944 
+
+t is  3945 
+
+t is  3946 
+
+t is  3947 
+
+t is  3948 
+
+t is  3949 
+
+t is  3950 
+
+t is  3951 
+
+t is  3952 
+
+t is  3953 
+
+t is  3954 
+
+t is  3955 
+
+t is  3956 
+
+t is  3957 
+
+t is  3958 
+
+t is  3959 
+
+t is  3960 
+
+t is  3961 
+
+t is  3962 
+
+t is  3963 
+
+t is  3964 
+
+t is  3965 
+
+t is  3966 
+
+t is  3967 
+
+t is  3968 
+
+t is  3969 
+
+t is  3970 
+
+t is  3971 
+
+t is  3972 
+
+t is  3973 
+
+t is  3974 
+
+t is  3975 
+
+t is  3976 
+
+t is  3977 
+
+t is  3978 
+
+t is  3979 
+
+t is  3980 
+
+t is  3981 
+
+t is  3982 
+
+t is  3983 
+
+t is  3984 
+
+t is  3985 
+
+t is  3986 
+
+t is  3987 
+
+t is  3988 
+
+t is  3989 
+
+t is  3990 
+
+t is  3991 
+
+t is  3992 
+
+t is  3993 
+
+t is  3994 
+
+t is  3995 
+
+t is  3996 
+
+t is  3997 
+
+t is  3998 
+
+t is  3999 
+
+t is  4000 
+
+t is  4001 
+
+t is  4002 
+
+t is  4003 
+
+t is  4004 
+
+t is  4005 
+
+t is  4006 
+
+t is  4007 
+
+t is  4008 
+
+t is  4009 
+
+t is  4010 
+
+t is  4011 
+
+t is  4012 
+
+t is  4013 
+
+t is  4014 
+
+t is  4015 
+
+t is  4016 
+
+t is  4017 
+
+t is  4018 
+
+t is  4019 
+
+t is  4020 
+
+t is  4021 
+
+t is  4022 
+
+t is  4023 
+
+t is  4024 
+
+t is  4025 
+
+t is  4026 
+
+t is  4027 
+
+t is  4028 
+
+t is  4029 
+
+t is  4030 
+
+t is  4031 
+
+t is  4032 
+
+t is  4033 
+
+t is  4034 
+
+t is  4035 
+
+t is  4036 
+
+t is  4037 
+
+t is  4038 
+
+t is  4039 
+
+t is  4040 
+
+t is  4041 
+
+t is  4042 
+
+t is  4043 
+
+t is  4044 
+
+t is  4045 
+
+t is  4046 
+
+t is  4047 
+
+t is  4048 
+
+t is  4049 
+
+t is  4050 
+
+t is  4051 
+
+t is  4052 
+
+t is  4053 
+
+t is  4054 
+
+t is  4055 
+
+t is  4056 
+
+t is  4057 
+
+t is  4058 
+
+t is  4059 
+
+t is  4060 
+
+t is  4061 
+
+t is  4062 
+
+t is  4063 
+
+t is  4064 
+
+t is  4065 
+
+t is  4066 
+
+t is  4067 
+
+t is  4068 
+
+t is  4069 
+
+t is  4070 
+
+t is  4071 
+
+t is  4072 
+
+t is  4073 
+
+t is  4074 
+
+t is  4075 
+
+t is  4076 
+
+t is  4077 
+
+t is  4078 
+
+t is  4079 
+
+t is  4080 
+
+t is  4081 
+
+t is  4082 
+
+t is  4083 
+
+t is  4084 
+
+t is  4085 
+
+t is  4086 
+
+t is  4087 
+
+t is  4088 
+
+t is  4089 
+
+t is  4090 
+
+t is  4091 
+
+t is  4092 
+
+t is  4093 
+
+t is  4094 
+
+t is  4095 
+
+t is  4096 
+
+t is  4097 
+
+t is  4098 
+
+t is  4099 
+
+t is  4100 
+
+t is  4101 
+
+t is  4102 
+
+t is  4103 
+
+t is  4104 
+
+t is  4105 
+
+t is  4106 
+
+t is  4107 
+
+t is  4108 
+
+t is  4109 
+
+t is  4110 
+
+t is  4111 
+
+t is  4112 
+
+t is  4113 
+
+t is  4114 
+
+t is  4115 
+
+t is  4116 
+
+t is  4117 
+
+t is  4118 
+
+t is  4119 
+
+t is  4120 
+
+t is  4121 
+
+t is  4122 
+
+t is  4123 
+
+t is  4124 
+
+t is  4125 
+
+t is  4126 
+
+t is  4127 
+
+t is  4128 
+
+t is  4129 
+
+t is  4130 
+
+t is  4131 
+
+t is  4132 
+
+t is  4133 
+
+t is  4134 
+
+t is  4135 
+
+t is  4136 
+
+t is  4137 
+
+t is  4138 
+
+t is  4139 
+
+t is  4140 
+
+t is  4141 
+
+t is  4142 
+
+t is  4143 
+
+t is  4144 
+
+t is  4145 
+
+t is  4146 
+
+t is  4147 
+
+t is  4148 
+
+t is  4149 
+
+t is  4150 
+
+t is  4151 
+
+t is  4152 
+
+t is  4153 
+
+t is  4154 
+
+t is  4155 
+
+t is  4156 
+
+t is  4157 
+
+t is  4158 
+
+t is  4159 
+
+t is  4160 
+
+t is  4161 
+
+t is  4162 
+
+t is  4163 
+
+t is  4164 
+
+t is  4165 
+
+t is  4166 
+
+t is  4167 
+
+t is  4168 
+
+t is  4169 
+
+t is  4170 
+
+t is  4171 
+
+t is  4172 
+
+t is  4173 
+
+t is  4174 
+
+t is  4175 
+
+t is  4176 
+
+t is  4177 
+
+t is  4178 
+
+t is  4179 
+
+t is  4180 
+
+t is  4181 
+
+t is  4182 
+
+t is  4183 
+
+t is  4184 
+
+t is  4185 
+
+t is  4186 
+
+t is  4187 
+
+t is  4188 
+
+t is  4189 
+
+t is  4190 
+
+t is  4191 
+
+t is  4192 
+
+t is  4193 
+
+t is  4194 
+
+t is  4195 
+
+t is  4196 
+
+t is  4197 
+
+t is  4198 
+
+t is  4199 
+
+t is  4200 
+
+t is  4201 
+
+t is  4202 
+
+t is  4203 
+
+t is  4204 
+
+t is  4205 
+
+t is  4206 
+
+t is  4207 
+
+t is  4208 
+
+t is  4209 
+
+t is  4210 
+
+t is  4211 
+
+t is  4212 
+
+t is  4213 
+
+t is  4214 
+
+t is  4215 
+
+t is  4216 
+
+t is  4217 
+
+t is  4218 
+
+t is  4219 
+
+t is  4220 
+
+t is  4221 
+
+t is  4222 
+
+t is  4223 
+
+t is  4224 
+
+t is  4225 
+
+t is  4226 
+
+t is  4227 
+
+t is  4228 
+
+t is  4229 
+
+t is  4230 
+
+t is  4231 
+
+t is  4232 
+
+t is  4233 
+
+t is  4234 
+
+t is  4235 
+
+t is  4236 
+
+t is  4237 
+
+t is  4238 
+
+t is  4239 
+
+t is  4240 
+
+t is  4241 
+
+t is  4242 
+
+t is  4243 
+
+t is  4244 
+
+t is  4245 
+
+t is  4246 
+
+t is  4247 
+
+t is  4248 
+
+t is  4249 
+
+t is  4250 
+
+t is  4251 
+
+t is  4252 
+
+t is  4253 
+
+t is  4254 
+
+t is  4255 
+
+t is  4256 
+
+t is  4257 
+
+t is  4258 
+
+t is  4259 
+
+t is  4260 
+
+t is  4261 
+
+t is  4262 
+
+t is  4263 
+
+t is  4264 
+
+t is  4265 
+
+t is  4266 
+
+t is  4267 
+
+t is  4268 
+
+t is  4269 
+
+t is  4270 
+
+t is  4271 
+
+t is  4272 
+
+t is  4273 
+
+t is  4274 
+
+t is  4275 
+
+t is  4276 
+
+t is  4277 
+
+t is  4278 
+
+t is  4279 
+
+t is  4280 
+
+t is  4281 
+
+t is  4282 
+
+t is  4283 
+
+t is  4284 
+
+t is  4285 
+
+t is  4286 
+
+t is  4287 
+
+t is  4288 
+
+t is  4289 
+
+t is  4290 
+
+t is  4291 
+
+t is  4292 
+
+t is  4293 
+
+t is  4294 
+
+t is  4295 
+
+t is  4296 
+
+t is  4297 
+
+t is  4298 
+
+t is  4299 
+
+t is  4300 
+
+t is  4301 
+
+t is  4302 
+
+t is  4303 
+
+t is  4304 
+
+t is  4305 
+
+t is  4306 
+
+t is  4307 
+
+t is  4308 
+
+t is  4309 
+
+t is  4310 
+
+t is  4311 
+
+t is  4312 
+
+t is  4313 
+
+t is  4314 
+
+t is  4315 
+
+t is  4316 
+
+t is  4317 
+
+t is  4318 
+
+t is  4319 
+
+t is  4320 
+
+t is  4321 
+
+t is  4322 
+
+t is  4323 
+
+t is  4324 
+
+t is  4325 
+
+t is  4326 
+
+t is  4327 
+
+t is  4328 
+
+t is  4329 
+
+t is  4330 
+
+t is  4331 
+
+t is  4332 
+
+t is  4333 
+
+t is  4334 
+
+t is  4335 
+
+t is  4336 
+
+t is  4337 
+
+t is  4338 
+
+t is  4339 
+
+t is  4340 
+
+t is  4341 
+
+t is  4342 
+
+t is  4343 
+
+t is  4344 
+
+t is  4345 
+
+t is  4346 
+
+t is  4347 
+
+t is  4348 
+
+t is  4349 
+
+t is  4350 
+
+t is  4351 
+
+t is  4352 
+
+t is  4353 
+
+t is  4354 
+
+t is  4355 
+
+t is  4356 
+
+t is  4357 
+
+t is  4358 
+
+t is  4359 
+
+t is  4360 
+
+t is  4361 
+
+t is  4362 
+
+t is  4363 
+
+t is  4364 
+
+t is  4365 
+
+t is  4366 
+
+t is  4367 
+
+t is  4368 
+
+t is  4369 
+
+t is  4370 
+
+t is  4371 
+
+t is  4372 
+
+t is  4373 
+
+t is  4374 
+
+t is  4375 
+
+t is  4376 
+
+t is  4377 
+
+t is  4378 
+
+t is  4379 
+
+t is  4380 
+
+t is  4381 
+
+t is  4382 
+
+t is  4383 
+
+t is  4384 
+
+t is  4385 
+
+t is  4386 
+
+t is  4387 
+
+t is  4388 
+
+t is  4389 
+
+t is  4390 
+
+t is  4391 
+
+t is  4392 
+
+t is  4393 
+
+t is  4394 
+
+t is  4395 
+
+t is  4396 
+
+t is  4397 
+
+t is  4398 
+
+t is  4399 
+
+t is  4400 
+
+t is  4401 
+
+t is  4402 
+
+t is  4403 
+
+t is  4404 
+
+t is  4405 
+
+t is  4406 
+
+t is  4407 
+
+t is  4408 
+
+t is  4409 
+
+t is  4410 
+
+t is  4411 
+
+t is  4412 
+
+t is  4413 
+
+t is  4414 
+
+t is  4415 
+
+t is  4416 
+
+t is  4417 
+
+t is  4418 
+
+t is  4419 
+
+t is  4420 
+
+t is  4421 
+
+t is  4422 
+
+t is  4423 
+
+t is  4424 
+
+t is  4425 
+
+t is  4426 
+
+t is  4427 
+
+t is  4428 
+
+t is  4429 
+
+t is  4430 
+
+t is  4431 
+
+t is  4432 
+
+t is  4433 
+
+t is  4434 
+
+t is  4435 
+
+t is  4436 
+
+t is  4437 
+
+t is  4438 
+
+t is  4439 
+
+t is  4440 
+
+t is  4441 
+
+t is  4442 
+
+t is  4443 
+
+t is  4444 
+
+t is  4445 
+
+t is  4446 
+
+t is  4447 
+
+t is  4448 
+
+t is  4449 
+
+t is  4450 
+
+t is  4451 
+
+t is  4452 
+
+t is  4453 
+
+t is  4454 
+
+t is  4455 
+
+t is  4456 
+
+t is  4457 
+
+t is  4458 
+
+t is  4459 
+
+t is  4460 
+
+t is  4461 
+
+t is  4462 
+
+t is  4463 
+
+t is  4464 
+
+t is  4465 
+
+t is  4466 
+
+t is  4467 
+
+t is  4468 
+
+t is  4469 
+
+t is  4470 
+
+t is  4471 
+
+t is  4472 
+
+t is  4473 
+
+t is  4474 
+
+t is  4475 
+
+t is  4476 
+
+t is  4477 
+
+t is  4478 
+
+t is  4479 
+
+t is  4480 
+
+t is  4481 
+
+t is  4482 
+
+t is  4483 
+
+t is  4484 
+
+t is  4485 
+
+t is  4486 
+
+t is  4487 
+
+t is  4488 
+
+t is  4489 
+
+t is  4490 
+
+t is  4491 
+
+t is  4492 
+
+t is  4493 
+
+t is  4494 
+
+t is  4495 
+
+t is  4496 
+
+t is  4497 
+
+t is  4498 
+
+t is  4499 
+
+t is  4500 
+
+t is  4501 
+
+t is  4502 
+
+t is  4503 
+
+t is  4504 
+
+t is  4505 
+
+t is  4506 
+
+t is  4507 
+
+t is  4508 
+
+t is  4509 
+
+t is  4510 
+
+t is  4511 
+
+t is  4512 
+
+t is  4513 
+
+t is  4514 
+
+t is  4515 
+
+t is  4516 
+
+t is  4517 
+
+t is  4518 
+
+t is  4519 
+
+t is  4520 
+
+t is  4521 
+
+t is  4522 
+
+t is  4523 
+
+t is  4524 
+
+t is  4525 
+
+t is  4526 
+
+t is  4527 
+
+t is  4528 
+
+t is  4529 
+
+t is  4530 
+
+t is  4531 
+
+t is  4532 
+
+t is  4533 
+
+t is  4534 
+
+t is  4535 
+
+t is  4536 
+
+t is  4537 
+
+t is  4538 
+
+t is  4539 
+
+t is  4540 
+
+t is  4541 
+
+t is  4542 
+
+t is  4543 
+
+t is  4544 
+
+t is  4545 
+
+t is  4546 
+
+t is  4547 
+
+t is  4548 
+
+t is  4549 
+
+t is  4550 
+
+t is  4551 
+
+t is  4552 
+
+t is  4553 
+
+t is  4554 
+
+t is  4555 
+
+t is  4556 
+
+t is  4557 
+
+t is  4558 
+
+t is  4559 
+
+t is  4560 
+
+t is  4561 
+
+t is  4562 
+
+t is  4563 
+
+t is  4564 
+
+t is  4565 
+
+t is  4566 
+
+t is  4567 
+
+t is  4568 
+
+t is  4569 
+
+t is  4570 
+
+t is  4571 
+
+t is  4572 
+
+t is  4573 
+
+t is  4574 
+
+t is  4575 
+
+t is  4576 
+
+t is  4577 
+
+t is  4578 
+
+t is  4579 
+
+t is  4580 
+
+t is  4581 
+
+t is  4582 
+
+t is  4583 
+
+t is  4584 
+
+t is  4585 
+
+t is  4586 
+
+t is  4587 
+
+t is  4588 
+
+t is  4589 
+
+t is  4590 
+
+t is  4591 
+
+t is  4592 
+
+t is  4593 
+
+t is  4594 
+
+t is  4595 
+
+t is  4596 
+
+t is  4597 
+
+t is  4598 
+
+t is  4599 
+
+t is  4600 
+
+t is  4601 
+
+t is  4602 
+
+t is  4603 
+
+t is  4604 
+
+t is  4605 
+
+t is  4606 
+
+t is  4607 
+
+t is  4608 
+
+t is  4609 
+
+t is  4610 
+
+t is  4611 
+
+t is  4612 
+
+t is  4613 
+
+t is  4614 
+
+t is  4615 
+
+t is  4616 
+
+t is  4617 
+
+t is  4618 
+
+t is  4619 
+
+t is  4620 
+
+t is  4621 
+
+t is  4622 
+
+t is  4623 
+
+t is  4624 
+
+t is  4625 
+
+t is  4626 
+
+t is  4627 
+
+t is  4628 
+
+t is  4629 
+
+t is  4630 
+
+t is  4631 
+
+t is  4632 
+
+t is  4633 
+
+t is  4634 
+
+t is  4635 
+
+t is  4636 
+
+t is  4637 
+
+t is  4638 
+
+t is  4639 
+
+t is  4640 
+
+t is  4641 
+
+t is  4642 
+
+t is  4643 
+
+t is  4644 
+
+t is  4645 
+
+t is  4646 
+
+t is  4647 
+
+t is  4648 
+
+t is  4649 
+
+t is  4650 
+
+t is  4651 
+
+t is  4652 
+
+t is  4653 
+
+t is  4654 
+
+t is  4655 
+
+t is  4656 
+
+t is  4657 
+
+t is  4658 
+
+t is  4659 
+
+t is  4660 
+
+t is  4661 
+
+t is  4662 
+
+t is  4663 
+
+t is  4664 
+
+t is  4665 
+
+t is  4666 
+
+t is  4667 
+
+t is  4668 
+
+t is  4669 
+
+t is  4670 
+
+t is  4671 
+
+t is  4672 
+
+t is  4673 
+
+t is  4674 
+
+t is  4675 
+
+t is  4676 
+
+t is  4677 
+
+t is  4678 
+
+t is  4679 
+
+t is  4680 
+
+t is  4681 
+
+t is  4682 
+
+t is  4683 
+
+t is  4684 
+
+t is  4685 
+
+t is  4686 
+
+t is  4687 
+
+t is  4688 
+
+t is  4689 
+
+t is  4690 
+
+t is  4691 
+
+t is  4692 
+
+t is  4693 
+
+t is  4694 
+
+t is  4695 
+
+t is  4696 
+
+t is  4697 
+
+t is  4698 
+
+t is  4699 
+
+t is  4700 
+
+t is  4701 
+
+t is  4702 
+
+t is  4703 
+
+t is  4704 
+
+t is  4705 
+
+t is  4706 
+
+t is  4707 
+
+t is  4708 
+
+t is  4709 
+
+t is  4710 
+
+t is  4711 
+
+t is  4712 
+
+t is  4713 
+
+t is  4714 
+
+t is  4715 
+
+t is  4716 
+
+t is  4717 
+
+t is  4718 
+
+t is  4719 
+
+t is  4720 
+
+t is  4721 
+
+t is  4722 
+
+t is  4723 
+
+t is  4724 
+
+t is  4725 
+
+t is  4726 
+
+t is  4727 
+
+t is  4728 
+
+t is  4729 
+
+t is  4730 
+
+t is  4731 
+
+t is  4732 
+
+t is  4733 
+
+t is  4734 
+
+t is  4735 
+
+t is  4736 
+
+t is  4737 
+
+t is  4738 
+
+t is  4739 
+
+t is  4740 
+
+t is  4741 
+
+t is  4742 
+
+t is  4743 
+
+t is  4744 
+
+t is  4745 
+
+t is  4746 
+
+t is  4747 
+
+t is  4748 
+
+t is  4749 
+
+t is  4750 
+
+t is  4751 
+
+t is  4752 
+
+t is  4753 
+
+t is  4754 
+
+t is  4755 
+
+t is  4756 
+
+t is  4757 
+
+t is  4758 
+
+t is  4759 
+
+t is  4760 
+
+t is  4761 
+
+t is  4762 
+
+t is  4763 
+
+t is  4764 
+
+t is  4765 
+
+t is  4766 
+
+t is  4767 
+
+t is  4768 
+
+t is  4769 
+
+t is  4770 
+
+t is  4771 
+
+t is  4772 
+
+t is  4773 
+
+t is  4774 
+
+t is  4775 
+
+t is  4776 
+
+t is  4777 
+
+t is  4778 
+
+t is  4779 
+
+t is  4780 
+
+t is  4781 
+
+t is  4782 
+
+t is  4783 
+
+t is  4784 
+
+t is  4785 
+
+t is  4786 
+
+t is  4787 
+
+t is  4788 
+
+t is  4789 
+
+t is  4790 
+
+t is  4791 
+
+t is  4792 
+
+t is  4793 
+
+t is  4794 
+
+t is  4795 
+
+t is  4796 
+
+t is  4797 
+
+t is  4798 
+
+t is  4799 
+
+t is  4800 
+
+t is  4801 
+
+t is  4802 
+
+t is  4803 
+
+t is  4804 
+
+t is  4805 
+
+t is  4806 
+
+t is  4807 
+
+t is  4808 
+
+t is  4809 
+
+t is  4810 
+
+t is  4811 
+
+t is  4812 
+
+t is  4813 
+
+t is  4814 
+
+t is  4815 
+
+t is  4816 
+
+t is  4817 
+
+t is  4818 
+
+t is  4819 
+
+t is  4820 
+
+t is  4821 
+
+t is  4822 
+
+t is  4823 
+
+t is  4824 
+
+t is  4825 
+
+t is  4826 
+
+t is  4827 
+
+t is  4828 
+
+t is  4829 
+
+t is  4830 
+
+t is  4831 
+
+t is  4832 
+
+t is  4833 
+
+t is  4834 
+
+t is  4835 
+
+t is  4836 
+
+t is  4837 
+
+t is  4838 
+
+t is  4839 
+
+t is  4840 
+
+t is  4841 
+
+t is  4842 
+
+t is  4843 
+
+t is  4844 
+
+t is  4845 
+
+t is  4846 
+
+t is  4847 
+
+t is  4848 
+
+t is  4849 
+
+t is  4850 
+
+t is  4851 
+
+t is  4852 
+
+t is  4853 
+
+t is  4854 
+
+t is  4855 
+
+t is  4856 
+
+t is  4857 
+
+t is  4858 
+
+t is  4859 
+
+t is  4860 
+
+t is  4861 
+
+t is  4862 
+
+t is  4863 
+
+t is  4864 
+
+t is  4865 
+
+t is  4866 
+
+t is  4867 
+
+t is  4868 
+
+t is  4869 
+
+t is  4870 
+
+t is  4871 
+
+t is  4872 
+
+t is  4873 
+
+t is  4874 
+
+t is  4875 
+
+t is  4876 
+
+t is  4877 
+
+t is  4878 
+
+t is  4879 
+
+t is  4880 
+
+t is  4881 
+
+t is  4882 
+
+t is  4883 
+
+t is  4884 
+
+t is  4885 
+
+t is  4886 
+
+t is  4887 
+
+t is  4888 
+
+t is  4889 
+
+t is  4890 
+
+t is  4891 
+
+t is  4892 
+
+t is  4893 
+
+t is  4894 
+
+t is  4895 
+
+t is  4896 
+
+t is  4897 
+
+t is  4898 
+
+t is  4899 
+
+t is  4900 
+
+t is  4901 
+
+t is  4902 
+
+t is  4903 
+
+t is  4904 
+
+t is  4905 
+
+t is  4906 
+
+t is  4907 
+
+t is  4908 
+
+t is  4909 
+
+t is  4910 
+
+t is  4911 
+
+t is  4912 
+
+t is  4913 
+
+t is  4914 
+
+t is  4915 
+
+t is  4916 
+
+t is  4917 
+
+t is  4918 
+
+t is  4919 
+
+t is  4920 
+
+t is  4921 
+
+t is  4922 
+
+t is  4923 
+
+t is  4924 
+
+t is  4925 
+
+t is  4926 
+
+t is  4927 
+
+t is  4928 
+
+t is  4929 
+
+t is  4930 
+
+t is  4931 
+
+t is  4932 
+
+t is  4933 
+
+t is  4934 
+
+t is  4935 
+
+t is  4936 
+
+t is  4937 
+
+t is  4938 
+
+t is  4939 
+
+t is  4940 
+
+t is  4941 
+
+t is  4942 
+
+t is  4943 
+
+t is  4944 
+
+t is  4945 
+
+t is  4946 
+
+t is  4947 
+
+t is  4948 
+
+t is  4949 
+
+t is  4950 
+
+t is  4951 
+
+t is  4952 
+
+t is  4953 
+
+t is  4954 
+
+t is  4955 
+
+t is  4956 
+
+t is  4957 
+
+t is  4958 
+
+t is  4959 
+
+t is  4960 
+
+t is  4961 
+
+t is  4962 
+
+t is  4963 
+
+t is  4964 
+
+t is  4965 
+
+t is  4966 
+
+t is  4967 
+
+t is  4968 
+
+t is  4969 
+
+t is  4970 
+
+t is  4971 
+
+t is  4972 
+
+t is  4973 
+
+t is  4974 
+
+t is  4975 
+
+t is  4976 
+
+t is  4977 
+
+t is  4978 
+
+t is  4979 
+
+t is  4980 
+
+t is  4981 
+
+t is  4982 
+
+t is  4983 
+
+t is  4984 
+
+t is  4985 
+
+t is  4986 
+
+t is  4987 
+
+t is  4988 
+
+t is  4989 
+
+t is  4990 
+
+t is  4991 
+
+t is  4992 
+
+t is  4993 
+
+t is  4994 
+
+t is  4995 
+
+t is  4996 
+
+t is  4997 
+
+t is  4998 
+
+t is  4999 
+
+t is  5000 
+
+t is  5001 
+
+t is  5002 
+
+t is  5003 
+
+t is  5004 
+
+t is  5005 
+
+t is  5006 
+
+t is  5007 
+
+t is  5008 
+
+t is  5009 
+
+t is  5010 
+
+t is  5011 
+
+t is  5012 
+
+t is  5013 
+
+t is  5014 
+
+t is  5015 
+
+t is  5016 
+
+t is  5017 
+
+t is  5018 
+
+t is  5019 
+
+t is  5020 
+
+t is  5021 
+
+t is  5022 
+
+t is  5023 
+
+t is  5024 
+
+t is  5025 
+
+t is  5026 
+
+t is  5027 
+
+t is  5028 
+
+t is  5029 
+
+t is  5030 
+
+t is  5031 
+
+t is  5032 
+
+t is  5033 
+
+t is  5034 
+
+t is  5035 
+
+t is  5036 
+
+t is  5037 
+
+t is  5038 
+
+t is  5039 
+
+t is  5040 
+
+t is  5041 
+
+t is  5042 
+
+t is  5043 
+
+t is  5044 
+
+t is  5045 
+
+t is  5046 
+
+t is  5047 
+
+t is  5048 
+
+t is  5049 
+
+t is  5050 
+
+t is  5051 
+
+t is  5052 
+
+t is  5053 
+
+t is  5054 
+
+t is  5055 
+
+t is  5056 
+
+t is  5057 
+
+t is  5058 
+
+t is  5059 
+
+t is  5060 
+
+t is  5061 
+
+t is  5062 
+
+t is  5063 
+
+t is  5064 
+
+t is  5065 
+
+t is  5066 
+
+t is  5067 
+
+t is  5068 
+
+t is  5069 
+
+t is  5070 
+
+t is  5071 
+
+t is  5072 
+
+t is  5073 
+
+t is  5074 
+
+t is  5075 
+
+t is  5076 
+
+t is  5077 
+
+t is  5078 
+
+t is  5079 
+
+t is  5080 
+
+t is  5081 
+
+t is  5082 
+
+t is  5083 
+
+t is  5084 
+
+t is  5085 
+
+t is  5086 
+
+t is  5087 
+
+t is  5088 
+
+t is  5089 
+
+t is  5090 
+
+t is  5091 
+
+t is  5092 
+
+t is  5093 
+
+t is  5094 
+
+t is  5095 
+
+t is  5096 
+
+t is  5097 
+
+t is  5098 
+
+t is  5099 
+
+t is  5100 
+
+t is  5101 
+
+t is  5102 
+
+t is  5103 
+
+t is  5104 
+
+t is  5105 
+
+t is  5106 
+
+t is  5107 
+
+t is  5108 
+
+t is  5109 
+
+t is  5110 
+
+t is  5111 
+
+t is  5112 
+
+t is  5113 
+
+t is  5114 
+
+t is  5115 
+
+t is  5116 
+
+t is  5117 
+
+t is  5118 
+
+t is  5119 
+
+t is  5120 
+
+t is  5121 
+
+t is  5122 
+
+t is  5123 
+
+t is  5124 
+
+t is  5125 
+
+t is  5126 
+
+t is  5127 
+
+t is  5128 
+
+t is  5129 
+
+t is  5130 
+
+t is  5131 
+
+t is  5132 
+
+t is  5133 
+
+t is  5134 
+
+t is  5135 
+
+t is  5136 
+
+t is  5137 
+
+t is  5138 
+
+t is  5139 
+
+t is  5140 
+
+t is  5141 
+
+t is  5142 
+
+t is  5143 
+
+t is  5144 
+
+t is  5145 
+
+t is  5146 
+
+t is  5147 
+
+t is  5148 
+
+t is  5149 
+
+t is  5150 
+
+t is  5151 
+
+t is  5152 
+
+t is  5153 
+
+t is  5154 
+
+t is  5155 
+
+t is  5156 
+
+t is  5157 
+
+t is  5158 
+
+t is  5159 
+
+t is  5160 
+
+t is  5161 
+
+t is  5162 
+
+t is  5163 
+
+t is  5164 
+
+t is  5165 
+
+t is  5166 
+
+t is  5167 
+
+t is  5168 
+
+t is  5169 
+
+t is  5170 
+
+t is  5171 
+
+t is  5172 
+
+t is  5173 
+
+t is  5174 
+
+t is  5175 
+
+t is  5176 
+
+t is  5177 
+
+t is  5178 
+
+t is  5179 
+
+t is  5180 
+
+t is  5181 
+
+t is  5182 
+
+t is  5183 
+
+t is  5184 
+
+t is  5185 
+
+t is  5186 
+
+t is  5187 
+
+t is  5188 
+
+t is  5189 
+
+t is  5190 
+
+t is  5191 
+
+t is  5192 
+
+t is  5193 
+
+t is  5194 
+
+t is  5195 
+
+t is  5196 
+
+t is  5197 
+
+t is  5198 
+
+t is  5199 
+
+t is  5200 
+
+t is  5201 
+
+t is  5202 
+
+t is  5203 
+
+t is  5204 
+
+t is  5205 
+
+t is  5206 
+
+t is  5207 
+
+t is  5208 
+
+t is  5209 
+
+t is  5210 
+
+t is  5211 
+
+t is  5212 
+
+t is  5213 
+
+t is  5214 
+
+t is  5215 
+
+t is  5216 
+
+t is  5217 
+
+t is  5218 
+
+t is  5219 
+
+t is  5220 
+
+t is  5221 
+
+t is  5222 
+
+t is  5223 
+
+t is  5224 
+
+t is  5225 
+
+t is  5226 
+
+t is  5227 
+
+t is  5228 
+
+t is  5229 
+
+t is  5230 
+
+t is  5231 
+
+t is  5232 
+
+t is  5233 
+
+t is  5234 
+
+t is  5235 
+
+t is  5236 
+
+t is  5237 
+
+t is  5238 
+
+t is  5239 
+
+t is  5240 
+
+t is  5241 
+
+t is  5242 
+
+t is  5243 
+
+t is  5244 
+
+t is  5245 
+
+t is  5246 
+
+t is  5247 
+
+t is  5248 
+
+t is  5249 
+
+t is  5250 
+
+t is  5251 
+
+t is  5252 
+
+t is  5253 
+
+t is  5254 
+
+t is  5255 
+
+t is  5256 
+
+t is  5257 
+
+t is  5258 
+
+t is  5259 
+
+t is  5260 
+
+t is  5261 
+
+t is  5262 
+
+t is  5263 
+
+t is  5264 
+
+t is  5265 
+
+t is  5266 
+
+t is  5267 
+
+t is  5268 
+
+t is  5269 
+
+t is  5270 
+
+t is  5271 
+
+t is  5272 
+
+t is  5273 
+
+t is  5274 
+
+t is  5275 
+
+t is  5276 
+
+t is  5277 
+
+t is  5278 
+
+t is  5279 
+
+t is  5280 
+
+t is  5281 
+
+t is  5282 
+
+t is  5283 
+
+t is  5284 
+
+t is  5285 
+
+t is  5286 
+
+t is  5287 
+
+t is  5288 
+
+t is  5289 
+
+t is  5290 
+
+t is  5291 
+
+t is  5292 
+
+t is  5293 
+
+t is  5294 
+
+t is  5295 
+
+t is  5296 
+
+t is  5297 
+
+t is  5298 
+
+t is  5299 
+
+t is  5300 
+
+t is  5301 
+
+t is  5302 
+
+t is  5303 
+
+t is  5304 
+
+t is  5305 
+
+t is  5306 
+
+t is  5307 
+
+t is  5308 
+
+t is  5309 
+
+t is  5310 
+
+t is  5311 
+
+t is  5312 
+
+t is  5313 
+
+t is  5314 
+
+t is  5315 
+
+t is  5316 
+
+t is  5317 
+
+t is  5318 
+
+t is  5319 
+
+t is  5320 
+
+t is  5321 
+
+t is  5322 
+
+t is  5323 
+
+t is  5324 
+
+t is  5325 
+
+t is  5326 
+
+t is  5327 
+
+t is  5328 
+
+t is  5329 
+
+t is  5330 
+
+t is  5331 
+
+t is  5332 
+
+t is  5333 
+
+t is  5334 
+
+t is  5335 
+
+t is  5336 
+
+t is  5337 
+
+t is  5338 
+
+t is  5339 
+
+t is  5340 
+
+t is  5341 
+
+t is  5342 
+
+t is  5343 
+
+t is  5344 
+
+t is  5345 
+
+t is  5346 
+
+t is  5347 
+
+t is  5348 
+
+t is  5349 
+
+t is  5350 
+
+t is  5351 
+
+t is  5352 
+
+t is  5353 
+
+t is  5354 
+
+t is  5355 
+
+t is  5356 
+
+t is  5357 
+
+t is  5358 
+
+t is  5359 
+
+t is  5360 
+
+t is  5361 
+
+t is  5362 
+
+t is  5363 
+
+t is  5364 
+
+t is  5365 
+
+t is  5366 
+
+t is  5367 
+
+t is  5368 
+
+t is  5369 
+
+t is  5370 
+
+t is  5371 
+
+t is  5372 
+
+t is  5373 
+
+t is  5374 
+
+t is  5375 
+
+t is  5376 
+
+t is  5377 
+
+t is  5378 
+
+t is  5379 
+
+t is  5380 
+
+t is  5381 
+
+t is  5382 
+
+t is  5383 
+
+t is  5384 
+
+t is  5385 
+
+t is  5386 
+
+t is  5387 
+
+t is  5388 
+
+t is  5389 
+
+t is  5390 
+
+t is  5391 
+
+t is  5392 
+
+t is  5393 
+
+t is  5394 
+
+t is  5395 
+
+t is  5396 
+
+t is  5397 
+
+t is  5398 
+
+t is  5399 
+
+t is  5400 
+
+t is  5401 
+
+t is  5402 
+
+t is  5403 
+
+t is  5404 
+
+t is  5405 
+
+t is  5406 
+
+t is  5407 
+
+t is  5408 
+
+t is  5409 
+
+t is  5410 
+
+t is  5411 
+
+t is  5412 
+
+t is  5413 
+
+t is  5414 
+
+t is  5415 
+
+t is  5416 
+
+t is  5417 
+
+t is  5418 
+
+t is  5419 
+
+t is  5420 
+
+t is  5421 
+
+t is  5422 
+
+t is  5423 
+
+t is  5424 
+
+t is  5425 
+
+t is  5426 
+
+t is  5427 
+
+t is  5428 
+
+t is  5429 
+
+t is  5430 
+
+t is  5431 
+
+t is  5432 
+
+t is  5433 
+
+t is  5434 
+
+t is  5435 
+
+t is  5436 
+
+t is  5437 
+
+t is  5438 
+
+t is  5439 
+
+t is  5440 
+
+t is  5441 
+
+t is  5442 
+
+t is  5443 
+
+t is  5444 
+
+t is  5445 
+
+t is  5446 
+
+t is  5447 
+
+t is  5448 
+
+t is  5449 
+
+t is  5450 
+
+t is  5451 
+
+t is  5452 
+
+t is  5453 
+
+t is  5454 
+
+t is  5455 
+
+t is  5456 
+
+t is  5457 
+
+t is  5458 
+
+t is  5459 
+
+t is  5460 
+
+t is  5461 
+
+t is  5462 
+
+t is  5463 
+
+t is  5464 
+
+t is  5465 
+
+t is  5466 
+
+t is  5467 
+
+t is  5468 
+
+t is  5469 
+
+t is  5470 
+
+t is  5471 
+
+t is  5472 
+
+t is  5473 
+
+t is  5474 
+
+t is  5475 
+
+t is  5476 
+
+t is  5477 
+
+t is  5478 
+
+t is  5479 
+
+t is  5480 
+
+t is  5481 
+
+t is  5482 
+
+t is  5483 
+
+t is  5484 
+
+t is  5485 
+
+t is  5486 
+
+t is  5487 
+
+t is  5488 
+
+t is  5489 
+
+t is  5490 
+
+t is  5491 
+
+t is  5492 
+
+t is  5493 
+
+t is  5494 
+
+t is  5495 
+
+t is  5496 
+
+t is  5497 
+
+t is  5498 
+
+t is  5499 
+
+t is  5500 
+
+t is  5501 
+
+t is  5502 
+
+t is  5503 
+
+t is  5504 
+
+t is  5505 
+
+t is  5506 
+
+t is  5507 
+
+t is  5508 
+
+t is  5509 
+
+t is  5510 
+
+t is  5511 
+
+t is  5512 
+
+t is  5513 
+
+t is  5514 
+
+t is  5515 
+
+t is  5516 
+
+t is  5517 
+
+t is  5518 
+
+t is  5519 
+
+t is  5520 
+
+t is  5521 
+
+t is  5522 
+
+t is  5523 
+
+t is  5524 
+
+t is  5525 
+
+t is  5526 
+
+t is  5527 
+
+t is  5528 
+
+t is  5529 
+
+t is  5530 
+
+t is  5531 
+
+t is  5532 
+
+t is  5533 
+
+t is  5534 
+
+t is  5535 
+
+t is  5536 
+
+t is  5537 
+
+t is  5538 
+
+t is  5539 
+
+t is  5540 
+
+t is  5541 
+
+t is  5542 
+
+t is  5543 
+
+t is  5544 
+
+t is  5545 
+
+t is  5546 
+
+t is  5547 
+
+t is  5548 
+
+t is  5549 
+
+t is  5550 
+
+t is  5551 
+
+t is  5552 
+
+t is  5553 
+
+t is  5554 
+
+t is  5555 
+
+t is  5556 
+
+t is  5557 
+
+t is  5558 
+
+t is  5559 
+
+t is  5560 
+
+t is  5561 
+
+t is  5562 
+
+t is  5563 
+
+t is  5564 
+
+t is  5565 
+
+t is  5566 
+
+t is  5567 
+
+t is  5568 
+
+t is  5569 
+
+t is  5570 
+
+t is  5571 
+
+t is  5572 
+
+t is  5573 
+
+t is  5574 
+
+t is  5575 
+
+t is  5576 
+
+t is  5577 
+
+t is  5578 
+
+t is  5579 
+
+t is  5580 
+
+t is  5581 
+
+t is  5582 
+
+t is  5583 
+
+t is  5584 
+
+t is  5585 
+
+t is  5586 
+
+t is  5587 
+
+t is  5588 
+
+t is  5589 
+
+t is  5590 
+
+t is  5591 
+
+t is  5592 
+
+t is  5593 
+
+t is  5594 
+
+t is  5595 
+
+t is  5596 
+
+t is  5597 
+
+t is  5598 
+
+t is  5599 
+
+t is  5600 
+
+t is  5601 
+
+t is  5602 
+
+t is  5603 
+
+t is  5604 
+
+t is  5605 
+
+t is  5606 
+
+t is  5607 
+
+t is  5608 
+
+t is  5609 
+
+t is  5610 
+
+t is  5611 
+
+t is  5612 
+
+t is  5613 
+
+t is  5614 
+
+t is  5615 
+
+t is  5616 
+
+t is  5617 
+
+t is  5618 
+
+t is  5619 
+
+t is  5620 
+
+t is  5621 
+
+t is  5622 
+
+t is  5623 
+
+t is  5624 
+
+t is  5625 
+
+t is  5626 
+
+t is  5627 
+
+t is  5628 
+
+t is  5629 
+
+t is  5630 
+
+t is  5631 
+
+t is  5632 
+
+t is  5633 
+
+t is  5634 
+
+t is  5635 
+
+t is  5636 
+
+t is  5637 
+
+t is  5638 
+
+t is  5639 
+
+t is  5640 
+
+t is  5641 
+
+t is  5642 
+
+t is  5643 
+
+t is  5644 
+
+t is  5645 
+
+t is  5646 
+
+t is  5647 
+
+t is  5648 
+
+t is  5649 
+
+t is  5650 
+
+t is  5651 
+
+t is  5652 
+
+t is  5653 
+
+t is  5654 
+
+t is  5655 
+
+t is  5656 
+
+t is  5657 
+
+t is  5658 
+
+t is  5659 
+
+t is  5660 
+
+t is  5661 
+
+t is  5662 
+
+t is  5663 
+
+t is  5664 
+
+t is  5665 
+
+t is  5666 
+
+t is  5667 
+
+t is  5668 
+
+t is  5669 
+
+t is  5670 
+
+t is  5671 
+
+t is  5672 
+
+t is  5673 
+
+t is  5674 
+
+t is  5675 
+
+t is  5676 
+
+t is  5677 
+
+t is  5678 
+
+t is  5679 
+
+t is  5680 
+
+t is  5681 
+
+t is  5682 
+
+t is  5683 
+
+t is  5684 
+
+t is  5685 
+
+t is  5686 
+
+t is  5687 
+
+t is  5688 
+
+t is  5689 
+
+t is  5690 
+
+t is  5691 
+
+t is  5692 
+
+t is  5693 
+
+t is  5694 
+
+t is  5695 
+
+t is  5696 
+
+t is  5697 
+
+t is  5698 
+
+t is  5699 
+
+t is  5700 
+
+t is  5701 
+
+t is  5702 
+
+t is  5703 
+
+t is  5704 
+
+t is  5705 
+
+t is  5706 
+
+t is  5707 
+
+t is  5708 
+
+t is  5709 
+
+t is  5710 
+
+t is  5711 
+
+t is  5712 
+
+t is  5713 
+
+t is  5714 
+
+t is  5715 
+
+t is  5716 
+
+t is  5717 
+
+t is  5718 
+
+t is  5719 
+
+t is  5720 
+
+t is  5721 
+
+t is  5722 
+
+t is  5723 
+
+t is  5724 
+
+t is  5725 
+
+t is  5726 
+
+t is  5727 
+
+t is  5728 
+
+t is  5729 
+
+t is  5730 
+
+t is  5731 
+
+t is  5732 
+
+t is  5733 
+
+t is  5734 
+
+t is  5735 
+
+t is  5736 
+
+t is  5737 
+
+t is  5738 
+
+t is  5739 
+
+t is  5740 
+
+t is  5741 
+
+t is  5742 
+
+t is  5743 
+
+t is  5744 
+
+t is  5745 
+
+t is  5746 
+
+t is  5747 
+
+t is  5748 
+
+t is  5749 
+
+t is  5750 
+
+t is  5751 
+
+t is  5752 
+
+t is  5753 
+
+t is  5754 
+
+t is  5755 
+
+t is  5756 
+
+t is  5757 
+
+t is  5758 
+
+t is  5759 
+
+t is  5760 
+
+t is  5761 
+
+t is  5762 
+
+t is  5763 
+
+t is  5764 
+
+t is  5765 
+
+t is  5766 
+
+t is  5767 
+
+t is  5768 
+
+t is  5769 
+
+t is  5770 
+
+t is  5771 
+
+t is  5772 
+
+t is  5773 
+
+t is  5774 
+
+t is  5775 
+
+t is  5776 
+
+t is  5777 
+
+t is  5778 
+
+t is  5779 
+
+t is  5780 
+
+t is  5781 
+
+t is  5782 
+
+t is  5783 
+
+t is  5784 
+
+t is  5785 
+
+t is  5786 
+
+t is  5787 
+
+t is  5788 
+
+t is  5789 
+
+t is  5790 
+
+t is  5791 
+
+t is  5792 
+
+t is  5793 
+
+t is  5794 
+
+t is  5795 
+
+t is  5796 
+
+t is  5797 
+
+t is  5798 
+
+t is  5799 
+
+t is  5800 
+
+t is  5801 
+
+t is  5802 
+
+t is  5803 
+
+t is  5804 
+
+t is  5805 
+
+t is  5806 
+
+t is  5807 
+
+t is  5808 
+
+t is  5809 
+
+t is  5810 
+
+t is  5811 
+
+t is  5812 
+
+t is  5813 
+
+t is  5814 
+
+t is  5815 
+
+t is  5816 
+
+t is  5817 
+
+t is  5818 
+
+t is  5819 
+
+t is  5820 
+
+t is  5821 
+
+t is  5822 
+
+t is  5823 
+
+t is  5824 
+
+t is  5825 
+
+t is  5826 
+
+t is  5827 
+
+t is  5828 
+
+t is  5829 
+
+t is  5830 
+
+t is  5831 
+
+t is  5832 
+
+t is  5833 
+
+t is  5834 
+
+t is  5835 
+
+t is  5836 
+
+t is  5837 
+
+t is  5838 
+
+t is  5839 
+
+t is  5840 
+
+t is  5841 
+
+t is  5842 
+
+t is  5843 
+
+t is  5844 
+
+t is  5845 
+
+t is  5846 
+
+t is  5847 
+
+t is  5848 
+
+t is  5849 
+
+t is  5850 
+
+t is  5851 
+
+t is  5852 
+
+t is  5853 
+
+t is  5854 
+
+t is  5855 
+
+t is  5856 
+
+t is  5857 
+
+t is  5858 
+
+t is  5859 
+
+t is  5860 
+
+t is  5861 
+
+t is  5862 
+
+t is  5863 
+
+t is  5864 
+
+t is  5865 
+
+t is  5866 
+
+t is  5867 
+
+t is  5868 
+
+t is  5869 
+
+t is  5870 
+
+t is  5871 
+
+t is  5872 
+
+t is  5873 
+
+t is  5874 
+
+t is  5875 
+
+t is  5876 
+
+t is  5877 
+
+t is  5878 
+
+t is  5879 
+
+t is  5880 
+
+t is  5881 
+
+t is  5882 
+
+t is  5883 
+
+t is  5884 
+
+t is  5885 
+
+t is  5886 
+
+t is  5887 
+
+t is  5888 
+
+t is  5889 
+
+t is  5890 
+
+t is  5891 
+
+t is  5892 
+
+t is  5893 
+
+t is  5894 
+
+t is  5895 
+
+t is  5896 
+
+t is  5897 
+
+t is  5898 
+
+t is  5899 
+
+t is  5900 
+
+t is  5901 
+
+t is  5902 
+
+t is  5903 
+
+t is  5904 
+
+t is  5905 
+
+t is  5906 
+
+t is  5907 
+
+t is  5908 
+
+t is  5909 
+
+t is  5910 
+
+t is  5911 
+
+t is  5912 
+
+t is  5913 
+
+t is  5914 
+
+t is  5915 
+
+t is  5916 
+
+t is  5917 
+
+t is  5918 
+
+t is  5919 
+
+t is  5920 
+
+t is  5921 
+
+t is  5922 
+
+t is  5923 
+
+t is  5924 
+
+t is  5925 
+
+t is  5926 
+
+t is  5927 
+
+t is  5928 
+
+t is  5929 
+
+t is  5930 
+
+t is  5931 
+
+t is  5932 
+
+t is  5933 
+
+t is  5934 
+
+t is  5935 
+
+t is  5936 
+
+t is  5937 
+
+t is  5938 
+
+t is  5939 
+
+t is  5940 
+
+t is  5941 
+
+t is  5942 
+
+t is  5943 
+
+t is  5944 
+
+t is  5945 
+
+t is  5946 
+
+t is  5947 
+
+t is  5948 
+
+t is  5949 
+
+t is  5950 
+
+t is  5951 
+
+t is  5952 
+
+t is  5953 
+
+t is  5954 
+
+t is  5955 
+
+t is  5956 
+
+t is  5957 
+
+t is  5958 
+
+t is  5959 
+
+t is  5960 
+
+t is  5961 
+
+t is  5962 
+
+t is  5963 
+
+t is  5964 
+
+t is  5965 
+
+t is  5966 
+
+t is  5967 
+
+t is  5968 
+
+t is  5969 
+
+t is  5970 
+
+t is  5971 
+
+t is  5972 
+
+t is  5973 
+
+t is  5974 
+
+t is  5975 
+
+t is  5976 
+
+t is  5977 
+
+t is  5978 
+
+t is  5979 
+
+t is  5980 
+
+t is  5981 
+
+t is  5982 
+
+t is  5983 
+
+t is  5984 
+
+t is  5985 
+
+t is  5986 
+
+t is  5987 
+
+t is  5988 
+
+t is  5989 
+
+t is  5990 
+
+t is  5991 
+
+t is  5992 
+
+t is  5993 
+
+t is  5994 
+
+t is  5995 
+
+t is  5996 
+
+t is  5997 
+
+t is  5998 
+
+t is  5999 
+
+t is  6000 
+
+t is  6001 
+
+t is  6002 
+
+t is  6003 
+
+t is  6004 
+
+t is  6005 
+
+t is  6006 
+
+t is  6007 
+
+t is  6008 
+
+t is  6009 
+
+t is  6010 
+
+t is  6011 
+
+t is  6012 
+
+t is  6013 
+
+t is  6014 
+
+t is  6015 
+
+t is  6016 
+
+t is  6017 
+
+t is  6018 
+
+t is  6019 
+
+t is  6020 
+
+t is  6021 
+
+t is  6022 
+
+t is  6023 
+
+t is  6024 
+
+t is  6025 
+
+t is  6026 
+
+t is  6027 
+
+t is  6028 
+
+t is  6029 
+
+t is  6030 
+
+t is  6031 
+
+t is  6032 
+
+t is  6033 
+
+t is  6034 
+
+t is  6035 
+
+t is  6036 
+
+t is  6037 
+
+t is  6038 
+
+t is  6039 
+
+t is  6040 
+
+t is  6041 
+
+t is  6042 
+
+t is  6043 
+
+t is  6044 
+
+t is  6045 
+
+t is  6046 
+
+t is  6047 
+
+t is  6048 
+
+t is  6049 
+
+t is  6050 
+
+t is  6051 
+
+t is  6052 
+
+t is  6053 
+
+t is  6054 
+
+t is  6055 
+
+t is  6056 
+
+t is  6057 
+
+t is  6058 
+
+t is  6059 
+
+t is  6060 
+
+t is  6061 
+
+t is  6062 
+
+t is  6063 
+
+t is  6064 
+
+t is  6065 
+
+t is  6066 
+
+t is  6067 
+
+t is  6068 
+
+t is  6069 
+
+t is  6070 
+
+t is  6071 
+
+t is  6072 
+
+t is  6073 
+
+t is  6074 
+
+t is  6075 
+
+t is  6076 
+
+t is  6077 
+
+t is  6078 
+
+t is  6079 
+
+t is  6080 
+
+t is  6081 
+
+t is  6082 
+
+t is  6083 
+
+t is  6084 
+
+t is  6085 
+
+t is  6086 
+
+t is  6087 
+
+t is  6088 
+
+t is  6089 
+
+t is  6090 
+
+t is  6091 
+
+t is  6092 
+
+t is  6093 
+
+t is  6094 
+
+t is  6095 
+
+t is  6096 
+
+t is  6097 
+
+t is  6098 
+
+t is  6099 
+
+t is  6100 
+
+t is  6101 
+
+t is  6102 
+
+t is  6103 
+
+t is  6104 
+
+t is  6105 
+
+t is  6106 
+
+t is  6107 
+
+t is  6108 
+
+t is  6109 
+
+t is  6110 
+
+t is  6111 
+
+t is  6112 
+
+t is  6113 
+
+t is  6114 
+
+t is  6115 
+
+t is  6116 
+
+t is  6117 
+
+t is  6118 
+
+t is  6119 
+
+t is  6120 
+
+t is  6121 
+
+t is  6122 
+
+t is  6123 
+
+t is  6124 
+
+t is  6125 
+
+t is  6126 
+
+t is  6127 
+
+t is  6128 
+
+t is  6129 
+
+t is  6130 
+
+t is  6131 
+
+t is  6132 
+
+t is  6133 
+
+t is  6134 
+
+t is  6135 
+
+t is  6136 
+
+t is  6137 
+
+t is  6138 
+
+t is  6139 
+
+t is  6140 
+
+t is  6141 
+
+t is  6142 
+
+t is  6143 
+
+t is  6144 
+
+t is  6145 
+
+t is  6146 
+
+t is  6147 
+
+t is  6148 
+
+t is  6149 
+
+t is  6150 
+
+t is  6151 
+
+t is  6152 
+
+t is  6153 
+
+t is  6154 
+
+t is  6155 
+
+t is  6156 
+
+t is  6157 
+
+t is  6158 
+
+t is  6159 
+
+t is  6160 
+
+t is  6161 
+
+t is  6162 
+
+t is  6163 
+
+t is  6164 
+
+t is  6165 
+
+t is  6166 
+
+t is  6167 
+
+t is  6168 
+
+t is  6169 
+
+t is  6170 
+
+t is  6171 
+
+t is  6172 
+
+t is  6173 
+
+t is  6174 
+
+t is  6175 
+
+t is  6176 
+
+t is  6177 
+
+t is  6178 
+
+t is  6179 
+
+t is  6180 
+
+t is  6181 
+
+t is  6182 
+
+t is  6183 
+
+t is  6184 
+
+t is  6185 
+
+t is  6186 
+
+t is  6187 
+
+t is  6188 
+
+t is  6189 
+
+t is  6190 
+
+t is  6191 
+
+t is  6192 
+
+t is  6193 
+
+t is  6194 
+
+t is  6195 
+
+t is  6196 
+
+t is  6197 
+
+t is  6198 
+
+t is  6199 
+
+t is  6200 
+
+t is  6201 
+
+t is  6202 
+
+t is  6203 
+
+t is  6204 
+
+t is  6205 
+
+t is  6206 
+
+t is  6207 
+
+t is  6208 
+
+t is  6209 
+
+t is  6210 
+
+t is  6211 
+
+t is  6212 
+
+t is  6213 
+
+t is  6214 
+
+t is  6215 
+
+t is  6216 
+
+t is  6217 
+
+t is  6218 
+
+t is  6219 
+
+t is  6220 
+
+t is  6221 
+
+t is  6222 
+
+t is  6223 
+
+t is  6224 
+
+t is  6225 
+
+t is  6226 
+
+t is  6227 
+
+t is  6228 
+
+t is  6229 
+
+t is  6230 
+
+t is  6231 
+
+t is  6232 
+
+t is  6233 
+
+t is  6234 
+
+t is  6235 
+
+t is  6236 
+
+t is  6237 
+
+t is  6238 
+
+t is  6239 
+
+t is  6240 
+
+t is  6241 
+
+t is  6242 
+
+t is  6243 
+
+t is  6244 
+
+t is  6245 
+
+t is  6246 
+
+t is  6247 
+
+t is  6248 
+
+t is  6249 
+
+t is  6250 
+
+t is  6251 
+
+t is  6252 
+
+t is  6253 
+
+t is  6254 
+
+t is  6255 
+
+t is  6256 
+
+t is  6257 
+
+t is  6258 
+
+t is  6259 
+
+t is  6260 
+
+t is  6261 
+
+t is  6262 
+
+t is  6263 
+
+t is  6264 
+
+t is  6265 
+
+t is  6266 
+
+t is  6267 
+
+t is  6268 
+
+t is  6269 
+
+t is  6270 
+
+t is  6271 
+
+t is  6272 
+
+t is  6273 
+
+t is  6274 
+
+t is  6275 
+
+t is  6276 
+
+t is  6277 
+
+t is  6278 
+
+t is  6279 
+
+t is  6280 
+
+t is  6281 
+
+t is  6282 
+
+t is  6283 
+
+t is  6284 
+
+t is  6285 
+
+t is  6286 
+
+t is  6287 
+
+t is  6288 
+
+t is  6289 
+
+t is  6290 
+
+t is  6291 
+
+t is  6292 
+
+t is  6293 
+
+t is  6294 
+
+t is  6295 
+
+t is  6296 
+
+t is  6297 
+
+t is  6298 
+
+t is  6299 
+
+t is  6300 
+
+t is  6301 
+
+t is  6302 
+
+t is  6303 
+
+t is  6304 
+
+t is  6305 
+
+t is  6306 
+
+t is  6307 
+
+t is  6308 
+
+t is  6309 
+
+t is  6310 
+
+t is  6311 
+
+t is  6312 
+
+t is  6313 
+
+t is  6314 
+
+t is  6315 
+
+t is  6316 
+
+t is  6317 
+
+t is  6318 
+
+t is  6319 
+
+t is  6320 
+
+t is  6321 
+
+t is  6322 
+
+t is  6323 
+
+t is  6324 
+
+t is  6325 
+
+t is  6326 
+
+t is  6327 
+
+t is  6328 
+
+t is  6329 
+
+t is  6330 
+
+t is  6331 
+
+t is  6332 
+
+t is  6333 
+
+t is  6334 
+
+t is  6335 
+
+t is  6336 
+
+t is  6337 
+
+t is  6338 
+
+t is  6339 
+
+t is  6340 
+
+t is  6341 
+
+t is  6342 
+
+t is  6343 
+
+t is  6344 
+
+t is  6345 
+
+t is  6346 
+
+t is  6347 
+
+t is  6348 
+
+t is  6349 
+
+t is  6350 
+
+t is  6351 
+
+t is  6352 
+
+t is  6353 
+
+t is  6354 
+
+t is  6355 
+
+t is  6356 
+
+t is  6357 
+
+t is  6358 
+
+t is  6359 
+
+t is  6360 
+
+t is  6361 
+
+t is  6362 
+
+t is  6363 
+
+t is  6364 
+
+t is  6365 
+
+t is  6366 
+
+t is  6367 
+
+t is  6368 
+
+t is  6369 
+
+t is  6370 
+
+t is  6371 
+
+t is  6372 
+
+t is  6373 
+
+t is  6374 
+
+t is  6375 
+
+t is  6376 
+
+t is  6377 
+
+t is  6378 
+
+t is  6379 
+
+t is  6380 
+
+t is  6381 
+
+t is  6382 
+
+t is  6383 
+
+t is  6384 
+
+t is  6385 
+
+t is  6386 
+
+t is  6387 
+
+t is  6388 
+
+t is  6389 
+
+t is  6390 
+
+t is  6391 
+
+t is  6392 
+
+t is  6393 
+
+t is  6394 
+
+t is  6395 
+
+t is  6396 
+
+t is  6397 
+
+t is  6398 
+
+t is  6399 
+
+t is  6400 
+
+t is  6401 
+
+t is  6402 
+
+t is  6403 
+
+t is  6404 
+
+t is  6405 
+
+t is  6406 
+
+t is  6407 
+
+t is  6408 
+
+t is  6409 
+
+t is  6410 
+
+t is  6411 
+
+t is  6412 
+
+t is  6413 
+
+t is  6414 
+
+t is  6415 
+
+t is  6416 
+
+t is  6417 
+
+t is  6418 
+
+t is  6419 
+
+t is  6420 
+
+t is  6421 
+
+t is  6422 
+
+t is  6423 
+
+t is  6424 
+
+t is  6425 
+
+t is  6426 
+
+t is  6427 
+
+t is  6428 
+
+t is  6429 
+
+t is  6430 
+
+t is  6431 
+
+t is  6432 
+
+t is  6433 
+
+t is  6434 
+
+t is  6435 
+
+t is  6436 
+
+t is  6437 
+
+t is  6438 
+
+t is  6439 
+
+t is  6440 
+
+t is  6441 
+
+t is  6442 
+
+t is  6443 
+
+t is  6444 
+
+t is  6445 
+
+t is  6446 
+
+t is  6447 
+
+t is  6448 
+
+t is  6449 
+
+t is  6450 
+
+t is  6451 
+
+t is  6452 
+
+t is  6453 
+
+t is  6454 
+
+t is  6455 
+
+t is  6456 
+
+t is  6457 
+
+t is  6458 
+
+t is  6459 
+
+t is  6460 
+
+t is  6461 
+
+t is  6462 
+
+t is  6463 
+
+t is  6464 
+
+t is  6465 
+
+t is  6466 
+
+t is  6467 
+
+t is  6468 
+
+t is  6469 
+
+t is  6470 
+
+t is  6471 
+
+t is  6472 
+
+t is  6473 
+
+t is  6474 
+
+t is  6475 
+
+t is  6476 
+
+t is  6477 
+
+t is  6478 
+
+t is  6479 
+
+t is  6480 
+
+t is  6481 
+
+t is  6482 
+
+t is  6483 
+
+t is  6484 
+
+t is  6485 
+
+t is  6486 
+
+t is  6487 
+
+t is  6488 
+
+t is  6489 
+
+t is  6490 
+
+t is  6491 
+
+t is  6492 
+
+t is  6493 
+
+t is  6494 
+
+t is  6495 
+
+t is  6496 
+
+t is  6497 
+
+t is  6498 
+
+t is  6499 
+
+t is  6500 
+
+t is  6501 
+
+t is  6502 
+
+t is  6503 
+
+t is  6504 
+
+t is  6505 
+
+t is  6506 
+
+t is  6507 
+
+t is  6508 
+
+t is  6509 
+
+t is  6510 
+
+t is  6511 
+
+t is  6512 
+
+t is  6513 
+
+t is  6514 
+
+t is  6515 
+
+t is  6516 
+
+t is  6517 
+
+t is  6518 
+
+t is  6519 
+
+t is  6520 
+
+t is  6521 
+
+t is  6522 
+
+t is  6523 
+
+t is  6524 
+
+t is  6525 
+
+t is  6526 
+
+t is  6527 
+
+t is  6528 
+
+t is  6529 
+
+t is  6530 
+
+t is  6531 
+
+t is  6532 
+
+t is  6533 
+
+t is  6534 
+
+t is  6535 
+
+t is  6536 
+
+t is  6537 
+
+t is  6538 
+
+t is  6539 
+
+t is  6540 
+
+t is  6541 
+
+t is  6542 
+
+t is  6543 
+
+t is  6544 
+
+t is  6545 
+
+t is  6546 
+
+t is  6547 
+
+t is  6548 
+
+t is  6549 
+
+t is  6550 
+
+t is  6551 
+
+t is  6552 
+
+t is  6553 
+
+t is  6554 
+
+t is  6555 
+
+t is  6556 
+
+t is  6557 
+
+t is  6558 
+
+t is  6559 
+
+t is  6560 
+
+t is  6561 
+
+t is  6562 
+
+t is  6563 
+
+t is  6564 
+
+t is  6565 
+
+t is  6566 
+
+t is  6567 
+
+t is  6568 
+
+t is  6569 
+
+t is  6570 
+
+t is  6571 
+
+t is  6572 
+
+t is  6573 
+
+t is  6574 
+
+t is  6575 
+
+t is  6576 
+
+t is  6577 
+
+t is  6578 
+
+t is  6579 
+
+t is  6580 
+
+t is  6581 
+
+t is  6582 
+
+t is  6583 
+
+t is  6584 
+
+t is  6585 
+
+t is  6586 
+
+t is  6587 
+
+t is  6588 
+
+t is  6589 
+
+t is  6590 
+
+t is  6591 
+
+t is  6592 
+
+t is  6593 
+
+t is  6594 
+
+t is  6595 
+
+t is  6596 
+
+t is  6597 
+
+t is  6598 
+
+t is  6599 
+
+t is  6600 
+
+t is  6601 
+
+t is  6602 
+
+t is  6603 
+
+t is  6604 
+
+t is  6605 
+
+t is  6606 
+
+t is  6607 
+
+t is  6608 
+
+t is  6609 
+
+t is  6610 
+
+t is  6611 
+
+t is  6612 
+
+t is  6613 
+
+t is  6614 
+
+t is  6615 
+
+t is  6616 
+
+t is  6617 
+
+t is  6618 
+
+t is  6619 
+
+t is  6620 
+
+t is  6621 
+
+t is  6622 
+
+t is  6623 
+
+t is  6624 
+
+t is  6625 
+
+t is  6626 
+
+t is  6627 
+
+t is  6628 
+
+t is  6629 
+
+t is  6630 
+
+t is  6631 
+
+t is  6632 
+
+t is  6633 
+
+t is  6634 
+
+t is  6635 
+
+t is  6636 
+
+t is  6637 
+
+t is  6638 
+
+t is  6639 
+
+t is  6640 
+
+t is  6641 
+
+t is  6642 
+
+t is  6643 
+
+t is  6644 
+
+t is  6645 
+
+t is  6646 
+
+t is  6647 
+
+t is  6648 
+
+t is  6649 
+
+t is  6650 
+
+t is  6651 
+
+t is  6652 
+
+t is  6653 
+
+t is  6654 
+
+t is  6655 
+
+t is  6656 
+
+t is  6657 
+
+t is  6658 
+
+t is  6659 
+
+t is  6660 
+
+t is  6661 
+
+t is  6662 
+
+t is  6663 
+
+t is  6664 
+
+t is  6665 
+
+t is  6666 
+
+t is  6667 
+
+t is  6668 
+
+t is  6669 
+
+t is  6670 
+
+t is  6671 
+
+t is  6672 
+
+t is  6673 
+
+t is  6674 
+
+t is  6675 
+
+t is  6676 
+
+t is  6677 
+
+t is  6678 
+
+t is  6679 
+
+t is  6680 
+
+t is  6681 
+
+t is  6682 
+
+t is  6683 
+
+t is  6684 
+
+t is  6685 
+
+t is  6686 
+
+t is  6687 
+
+t is  6688 
+
+t is  6689 
+
+t is  6690 
+
+t is  6691 
+
+t is  6692 
+
+t is  6693 
+
+t is  6694 
+
+t is  6695 
+
+t is  6696 
+
+t is  6697 
+
+t is  6698 
+
+t is  6699 
+
+t is  6700 
+
+t is  6701 
+
+t is  6702 
+
+t is  6703 
+
+t is  6704 
+
+t is  6705 
+
+t is  6706 
+
+t is  6707 
+
+t is  6708 
+
+t is  6709 
+
+t is  6710 
+
+t is  6711 
+
+t is  6712 
+
+t is  6713 
+
+t is  6714 
+
+t is  6715 
+
+t is  6716 
+
+t is  6717 
+
+t is  6718 
+
+t is  6719 
+
+t is  6720 
+
+t is  6721 
+
+t is  6722 
+
+t is  6723 
+
+t is  6724 
+
+t is  6725 
+
+t is  6726 
+
+t is  6727 
+
+t is  6728 
+
+t is  6729 
+
+t is  6730 
+
+t is  6731 
+
+t is  6732 
+
+t is  6733 
+
+t is  6734 
+
+t is  6735 
+
+t is  6736 
+
+t is  6737 
+
+t is  6738 
+
+t is  6739 
+
+t is  6740 
+
+t is  6741 
+
+t is  6742 
+
+t is  6743 
+
+t is  6744 
+
+t is  6745 
+
+t is  6746 
+
+t is  6747 
+
+t is  6748 
+
+t is  6749 
+
+t is  6750 
+
+t is  6751 
+
+t is  6752 
+
+t is  6753 
+
+t is  6754 
+
+t is  6755 
+
+t is  6756 
+
+t is  6757 
+
+t is  6758 
+
+t is  6759 
+
+t is  6760 
+
+t is  6761 
+
+t is  6762 
+
+t is  6763 
+
+t is  6764 
+
+t is  6765 
+
+t is  6766 
+
+t is  6767 
+
+t is  6768 
+
+t is  6769 
+
+t is  6770 
+
+t is  6771 
+
+t is  6772 
+
+t is  6773 
+
+t is  6774 
+
+t is  6775 
+
+t is  6776 
+
+t is  6777 
+
+t is  6778 
+
+t is  6779 
+
+t is  6780 
+
+t is  6781 
+
+t is  6782 
+
+t is  6783 
+
+t is  6784 
+
+t is  6785 
+
+t is  6786 
+
+t is  6787 
+
+t is  6788 
+
+t is  6789 
+
+t is  6790 
+
+t is  6791 
+
+t is  6792 
+
+t is  6793 
+
+t is  6794 
+
+t is  6795 
+
+t is  6796 
+
+t is  6797 
+
+t is  6798 
+
+t is  6799 
+
+t is  6800 
+
+t is  6801 
+
+t is  6802 
+
+t is  6803 
+
+t is  6804 
+
+t is  6805 
+
+t is  6806 
+
+t is  6807 
+
+t is  6808 
+
+t is  6809 
+
+t is  6810 
+
+t is  6811 
+
+t is  6812 
+
+t is  6813 
+
+t is  6814 
+
+t is  6815 
+
+t is  6816 
+
+t is  6817 
+
+t is  6818 
+
+t is  6819 
+
+t is  6820 
+
+t is  6821 
+
+t is  6822 
+
+t is  6823 
+
+t is  6824 
+
+t is  6825 
+
+t is  6826 
+
+t is  6827 
+
+t is  6828 
+
+t is  6829 
+
+t is  6830 
+
+t is  6831 
+
+t is  6832 
+
+t is  6833 
+
+t is  6834 
+
+t is  6835 
+
+t is  6836 
+
+t is  6837 
+
+t is  6838 
+
+t is  6839 
+
+t is  6840 
+
+t is  6841 
+
+t is  6842 
+
+t is  6843 
+
+t is  6844 
+
+t is  6845 
+
+t is  6846 
+
+t is  6847 
+
+t is  6848 
+
+t is  6849 
+
+t is  6850 
+
+t is  6851 
+
+t is  6852 
+
+t is  6853 
+
+t is  6854 
+
+t is  6855 
+
+t is  6856 
+
+t is  6857 
+
+t is  6858 
+
+t is  6859 
+
+t is  6860 
+
+t is  6861 
+
+t is  6862 
+
+t is  6863 
+
+t is  6864 
+
+t is  6865 
+
+t is  6866 
+
+t is  6867 
+
+t is  6868 
+
+t is  6869 
+
+t is  6870 
+
+t is  6871 
+
+t is  6872 
+
+t is  6873 
+
+t is  6874 
+
+t is  6875 
+
+t is  6876 
+
+t is  6877 
+
+t is  6878 
+
+t is  6879 
+
+t is  6880 
+
+t is  6881 
+
+t is  6882 
+
+t is  6883 
+
+t is  6884 
+
+t is  6885 
+
+t is  6886 
+
+t is  6887 
+
+t is  6888 
+
+t is  6889 
+
+t is  6890 
+
+t is  6891 
+
+t is  6892 
+
+t is  6893 
+
+t is  6894 
+
+t is  6895 
+
+t is  6896 
+
+t is  6897 
+
+t is  6898 
+
+t is  6899 
+
+t is  6900 
+
+t is  6901 
+
+t is  6902 
+
+t is  6903 
+
+t is  6904 
+
+t is  6905 
+
+t is  6906 
+
+t is  6907 
+
+t is  6908 
+
+t is  6909 
+
+t is  6910 
+
+t is  6911 
+
+t is  6912 
+
+t is  6913 
+
+t is  6914 
+
+t is  6915 
+
+t is  6916 
+
+t is  6917 
+
+t is  6918 
+
+t is  6919 
+
+t is  6920 
+
+t is  6921 
+
+t is  6922 
+
+t is  6923 
+
+t is  6924 
+
+t is  6925 
+
+t is  6926 
+
+t is  6927 
+
+t is  6928 
+
+t is  6929 
+
+t is  6930 
+
+t is  6931 
+
+t is  6932 
+
+t is  6933 
+
+t is  6934 
+
+t is  6935 
+
+t is  6936 
+
+t is  6937 
+
+t is  6938 
+
+t is  6939 
+
+t is  6940 
+
+t is  6941 
+
+t is  6942 
+
+t is  6943 
+
+t is  6944 
+
+t is  6945 
+
+t is  6946 
+
+t is  6947 
+
+t is  6948 
+
+t is  6949 
+
+t is  6950 
+
+t is  6951 
+
+t is  6952 
+
+t is  6953 
+
+t is  6954 
+
+t is  6955 
+
+t is  6956 
+
+t is  6957 
+
+t is  6958 
+
+t is  6959 
+
+t is  6960 
+
+t is  6961 
+
+t is  6962 
+
+t is  6963 
+
+t is  6964 
+
+t is  6965 
+
+t is  6966 
+
+t is  6967 
+
+t is  6968 
+
+t is  6969 
+
+t is  6970 
+
+t is  6971 
+
+t is  6972 
+
+t is  6973 
+
+t is  6974 
+
+t is  6975 
+
+t is  6976 
+
+t is  6977 
+
+t is  6978 
+
+t is  6979 
+
+t is  6980 
+
+t is  6981 
+
+t is  6982 
+
+t is  6983 
+
+t is  6984 
+
+t is  6985 
+
+t is  6986 
+
+t is  6987 
+
+t is  6988 
+
+t is  6989 
+
+t is  6990 
+
+t is  6991 
+
+t is  6992 
+
+t is  6993 
+
+t is  6994 
+
+t is  6995 
+
+t is  6996 
+
+t is  6997 
+
+t is  6998 
+
+t is  6999 
+
+t is  7000 
+
+t is  7001 
+
+t is  7002 
+
+t is  7003 
+
+t is  7004 
+
+t is  7005 
+
+t is  7006 
+
+t is  7007 
+
+t is  7008 
+
+t is  7009 
+
+t is  7010 
+
+t is  7011 
+
+t is  7012 
+
+t is  7013 
+
+t is  7014 
+
+t is  7015 
+
+t is  7016 
+
+t is  7017 
+
+t is  7018 
+
+t is  7019 
+
+t is  7020 
+
+t is  7021 
+
+t is  7022 
+
+t is  7023 
+
+t is  7024 
+
+t is  7025 
+
+t is  7026 
+
+t is  7027 
+
+t is  7028 
+
+t is  7029 
+
+t is  7030 
+
+t is  7031 
+
+t is  7032 
+
+t is  7033 
+
+t is  7034 
+
+t is  7035 
+
+t is  7036 
+
+t is  7037 
+
+t is  7038 
+
+t is  7039 
+
+t is  7040 
+
+t is  7041 
+
+t is  7042 
+
+t is  7043 
+
+t is  7044 
+
+t is  7045 
+
+t is  7046 
+
+t is  7047 
+
+t is  7048 
+
+t is  7049 
+
+t is  7050 
+
+t is  7051 
+
+t is  7052 
+
+t is  7053 
+
+t is  7054 
+
+t is  7055 
+
+t is  7056 
+
+t is  7057 
+
+t is  7058 
+
+t is  7059 
+
+t is  7060 
+
+t is  7061 
+
+t is  7062 
+
+t is  7063 
+
+t is  7064 
+
+t is  7065 
+
+t is  7066 
+
+t is  7067 
+
+t is  7068 
+
+t is  7069 
+
+t is  7070 
+
+t is  7071 
+
+t is  7072 
+
+t is  7073 
+
+t is  7074 
+
+t is  7075 
+
+t is  7076 
+
+t is  7077 
+
+t is  7078 
+
+t is  7079 
+
+t is  7080 
+
+t is  7081 
+
+t is  7082 
+
+t is  7083 
+
+t is  7084 
+
+t is  7085 
+
+t is  7086 
+
+t is  7087 
+
+t is  7088 
+
+t is  7089 
+
+t is  7090 
+
+t is  7091 
+
+t is  7092 
+
+t is  7093 
+
+t is  7094 
+
+t is  7095 
+
+t is  7096 
+
+t is  7097 
+
+t is  7098 
+
+t is  7099 
+
+t is  7100 
+
+t is  7101 
+
+t is  7102 
+
+t is  7103 
+
+t is  7104 
+
+t is  7105 
+
+t is  7106 
+
+t is  7107 
+
+t is  7108 
+
+t is  7109 
+
+t is  7110 
+
+t is  7111 
+
+t is  7112 
+
+t is  7113 
+
+t is  7114 
+
+t is  7115 
+
+t is  7116 
+
+t is  7117 
+
+t is  7118 
+
+t is  7119 
+
+t is  7120 
+
+t is  7121 
+
+t is  7122 
+
+t is  7123 
+
+t is  7124 
+
+t is  7125 
+
+t is  7126 
+
+t is  7127 
+
+t is  7128 
+
+t is  7129 
+
+t is  7130 
+
+t is  7131 
+
+t is  7132 
+
+t is  7133 
+
+t is  7134 
+
+t is  7135 
+
+t is  7136 
+
+t is  7137 
+
+t is  7138 
+
+t is  7139 
+
+t is  7140 
+
+t is  7141 
+
+t is  7142 
+
+t is  7143 
+
+t is  7144 
+
+t is  7145 
+
+t is  7146 
+
+t is  7147 
+
+t is  7148 
+
+t is  7149 
+
+t is  7150 
+
+t is  7151 
+
+t is  7152 
+
+t is  7153 
+
+t is  7154 
+
+t is  7155 
+
+t is  7156 
+
+t is  7157 
+
+t is  7158 
+
+t is  7159 
+
+t is  7160 
+
+t is  7161 
+
+t is  7162 
+
+t is  7163 
+
+t is  7164 
+
+t is  7165 
+
+t is  7166 
+
+t is  7167 
+
+t is  7168 
+
+t is  7169 
+
+t is  7170 
+
+t is  7171 
+
+t is  7172 
+
+t is  7173 
+
+t is  7174 
+
+t is  7175 
+
+t is  7176 
+
+t is  7177 
+
+t is  7178 
+
+t is  7179 
+
+t is  7180 
+
+t is  7181 
+
+t is  7182 
+
+t is  7183 
+
+t is  7184 
+
+t is  7185 
+
+t is  7186 
+
+t is  7187 
+
+t is  7188 
+
+t is  7189 
+
+t is  7190 
+
+t is  7191 
+
+t is  7192 
+
+t is  7193 
+
+t is  7194 
+
+t is  7195 
+
+t is  7196 
+
+t is  7197 
+
+t is  7198 
+
+t is  7199 
+
+t is  7200 
+
+t is  7201 
+
+t is  7202 
+
+t is  7203 
+
+t is  7204 
+
+t is  7205 
+
+t is  7206 
+
+t is  7207 
+
+t is  7208 
+
+t is  7209 
+
+t is  7210 
+
+t is  7211 
+
+t is  7212 
+
+t is  7213 
+
+t is  7214 
+
+t is  7215 
+
+t is  7216 
+
+t is  7217 
+
+t is  7218 
+
+t is  7219 
+
+t is  7220 
+
+t is  7221 
+
+t is  7222 
+
+t is  7223 
+
+t is  7224 
+
+t is  7225 
+
+t is  7226 
+
+t is  7227 
+
+t is  7228 
+
+t is  7229 
+
+t is  7230 
+
+t is  7231 
+
+t is  7232 
+
+t is  7233 
+
+t is  7234 
+
+t is  7235 
+
+t is  7236 
+
+t is  7237 
+
+t is  7238 
+
+t is  7239 
+
+t is  7240 
+
+t is  7241 
+
+t is  7242 
+
+t is  7243 
+
+t is  7244 
+
+t is  7245 
+
+t is  7246 
+
+t is  7247 
+
+t is  7248 
+
+t is  7249 
+
+t is  7250 
+
+t is  7251 
+
+t is  7252 
+
+t is  7253 
+
+t is  7254 
+
+t is  7255 
+
+t is  7256 
+
+t is  7257 
+
+t is  7258 
+
+t is  7259 
+
+t is  7260 
+
+t is  7261 
+
+t is  7262 
+
+t is  7263 
+
+t is  7264 
+
+t is  7265 
+
+t is  7266 
+
+t is  7267 
+
+t is  7268 
+
+t is  7269 
+
+t is  7270 
+
+t is  7271 
+
+t is  7272 
+
+t is  7273 
+
+t is  7274 
+
+t is  7275 
+
+t is  7276 
+
+t is  7277 
+
+t is  7278 
+
+t is  7279 
+
+t is  7280 
+
+t is  7281 
+
+t is  7282 
+
+t is  7283 
+
+t is  7284 
+
+t is  7285 
+
+t is  7286 
+
+t is  7287 
+
+t is  7288 
+
+t is  7289 
+
+t is  7290 
+
+t is  7291 
+
+t is  7292 
+
+t is  7293 
+
+t is  7294 
+
+t is  7295 
+
+t is  7296 
+
+t is  7297 
+
+t is  7298 
+
+t is  7299 
+
+t is  7300 
+
+t is  7301 
+
+t is  7302 
+
+t is  7303 
+
+t is  7304 
+
+t is  7305 
+
+t is  7306 
+
+t is  7307 
+
+t is  7308 
+
+t is  7309 
+
+t is  7310 
+
+t is  7311 
+
+t is  7312 
+
+t is  7313 
+
+t is  7314 
+
+t is  7315 
+
+t is  7316 
+
+t is  7317 
+
+t is  7318 
+
+t is  7319 
+
+t is  7320 
+
+t is  7321 
+
+t is  7322 
+
+t is  7323 
+
+t is  7324 
+
+t is  7325 
+
+t is  7326 
+
+t is  7327 
+
+t is  7328 
+
+t is  7329 
+
+t is  7330 
+
+t is  7331 
+
+t is  7332 
+
+t is  7333 
+
+t is  7334 
+
+t is  7335 
+
+t is  7336 
+
+t is  7337 
+
+t is  7338 
+
+t is  7339 
+
+t is  7340 
+
+t is  7341 
+
+t is  7342 
+
+t is  7343 
+
+t is  7344 
+
+t is  7345 
+
+t is  7346 
+
+t is  7347 
+
+t is  7348 
+
+t is  7349 
+
+t is  7350 
+
+t is  7351 
+
+t is  7352 
+
+t is  7353 
+
+t is  7354 
+
+t is  7355 
+
+t is  7356 
+
+t is  7357 
+
+t is  7358 
+
+t is  7359 
+
+t is  7360 
+
+t is  7361 
+
+t is  7362 
+
+t is  7363 
+
+t is  7364 
+
+t is  7365 
+
+t is  7366 
+
+t is  7367 
+
+t is  7368 
+
+t is  7369 
+
+t is  7370 
+
+t is  7371 
+
+t is  7372 
+
+t is  7373 
+
+t is  7374 
+
+t is  7375 
+
+t is  7376 
+
+t is  7377 
+
+t is  7378 
+
+t is  7379 
+
+t is  7380 
+
+t is  7381 
+
+t is  7382 
+
+t is  7383 
+
+t is  7384 
+
+t is  7385 
+
+t is  7386 
+
+t is  7387 
+
+t is  7388 
+
+t is  7389 
+
+t is  7390 
+
+t is  7391 
+
+t is  7392 
+
+t is  7393 
+
+t is  7394 
+
+t is  7395 
+
+t is  7396 
+
+t is  7397 
+
+t is  7398 
+
+t is  7399 
+
+t is  7400 
+
+t is  7401 
+
+t is  7402 
+
+t is  7403 
+
+t is  7404 
+
+t is  7405 
+
+t is  7406 
+
+t is  7407 
+
+t is  7408 
+
+t is  7409 
+
+t is  7410 
+
+t is  7411 
+
+t is  7412 
+
+t is  7413 
+
+t is  7414 
+
+t is  7415 
+
+t is  7416 
+
+t is  7417 
+
+t is  7418 
+
+t is  7419 
+
+t is  7420 
+
+t is  7421 
+
+t is  7422 
+
+t is  7423 
+
+t is  7424 
+
+t is  7425 
+
+t is  7426 
+
+t is  7427 
+
+t is  7428 
+
+t is  7429 
+
+t is  7430 
+
+t is  7431 
+
+t is  7432 
+
+t is  7433 
+
+t is  7434 
+
+t is  7435 
+
+t is  7436 
+
+t is  7437 
+
+t is  7438 
+
+t is  7439 
+
+t is  7440 
+
+t is  7441 
+
+t is  7442 
+
+t is  7443 
+
+t is  7444 
+
+t is  7445 
+
+t is  7446 
+
+t is  7447 
+
+t is  7448 
+
+t is  7449 
+
+t is  7450 
+
+t is  7451 
+
+t is  7452 
+
+t is  7453 
+
+t is  7454 
+
+t is  7455 
+
+t is  7456 
+
+t is  7457 
+
+t is  7458 
+
+t is  7459 
+
+t is  7460 
+
+t is  7461 
+
+t is  7462 
+
+t is  7463 
+
+t is  7464 
+
+t is  7465 
+
+t is  7466 
+
+t is  7467 
+
+t is  7468 
+
+t is  7469 
+
+t is  7470 
+
+t is  7471 
+
+t is  7472 
+
+t is  7473 
+
+t is  7474 
+
+t is  7475 
+
+t is  7476 
+
+t is  7477 
+
+t is  7478 
+
+t is  7479 
+
+t is  7480 
+
+t is  7481 
+
+t is  7482 
+
+t is  7483 
+
+t is  7484 
+
+t is  7485 
+
+t is  7486 
+
+t is  7487 
+
+t is  7488 
+
+t is  7489 
+
+t is  7490 
+
+t is  7491 
+
+t is  7492 
+
+t is  7493 
+
+t is  7494 
+
+t is  7495 
+
+t is  7496 
+
+t is  7497 
+
+t is  7498 
+
+t is  7499 
+
+t is  7500 
+
+t is  7501 
+
+t is  7502 
+
+t is  7503 
+
+t is  7504 
+
+t is  7505 
+
+t is  7506 
+
+t is  7507 
+
+t is  7508 
+
+t is  7509 
+
+t is  7510 
+
+t is  7511 
+
+t is  7512 
+
+t is  7513 
+
+t is  7514 
+
+t is  7515 
+
+t is  7516 
+
+t is  7517 
+
+t is  7518 
+
+t is  7519 
+
+t is  7520 
+
+t is  7521 
+
+t is  7522 
+
+t is  7523 
+
+t is  7524 
+
+t is  7525 
+
+t is  7526 
+
+t is  7527 
+
+t is  7528 
+
+t is  7529 
+
+t is  7530 
+
+t is  7531 
+
+t is  7532 
+
+t is  7533 
+
+t is  7534 
+
+t is  7535 
+
+t is  7536 
+
+t is  7537 
+
+t is  7538 
+
+t is  7539 
+
+t is  7540 
+
+t is  7541 
+
+t is  7542 
+
+t is  7543 
+
+t is  7544 
+
+t is  7545 
+
+t is  7546 
+
+t is  7547 
+
+t is  7548 
+
+t is  7549 
+
+t is  7550 
+
+t is  7551 
+
+t is  7552 
+
+t is  7553 
+
+t is  7554 
+
+t is  7555 
+
+t is  7556 
+
+t is  7557 
+
+t is  7558 
+
+t is  7559 
+
+t is  7560 
+
+t is  7561 
+
+t is  7562 
+
+t is  7563 
+
+t is  7564 
+
+t is  7565 
+
+t is  7566 
+
+t is  7567 
+
+t is  7568 
+
+t is  7569 
+
+t is  7570 
+
+t is  7571 
+
+t is  7572 
+
+t is  7573 
+
+t is  7574 
+
+t is  7575 
+
+t is  7576 
+
+t is  7577 
+
+t is  7578 
+
+t is  7579 
+
+t is  7580 
+
+t is  7581 
+
+t is  7582 
+
+t is  7583 
+
+t is  7584 
+
+t is  7585 
+
+t is  7586 
+
+t is  7587 
+
+t is  7588 
+
+t is  7589 
+
+t is  7590 
+
+t is  7591 
+
+t is  7592 
+
+t is  7593 
+
+t is  7594 
+
+t is  7595 
+
+t is  7596 
+
+t is  7597 
+
+t is  7598 
+
+t is  7599 
+
+t is  7600 
+
+t is  7601 
+
+t is  7602 
+
+t is  7603 
+
+t is  7604 
+
+t is  7605 
+
+t is  7606 
+
+t is  7607 
+
+t is  7608 
+
+t is  7609 
+
+t is  7610 
+
+t is  7611 
+
+t is  7612 
+
+t is  7613 
+
+t is  7614 
+
+t is  7615 
+
+t is  7616 
+
+t is  7617 
+
+t is  7618 
+
+t is  7619 
+
+t is  7620 
+
+t is  7621 
+
+t is  7622 
+
+t is  7623 
+
+t is  7624 
+
+t is  7625 
+
+t is  7626 
+
+t is  7627 
+
+t is  7628 
+
+t is  7629 
+
+t is  7630 
+
+t is  7631 
+
+t is  7632 
+
+t is  7633 
+
+t is  7634 
+
+t is  7635 
+
+t is  7636 
+
+t is  7637 
+
+t is  7638 
+
+t is  7639 
+
+t is  7640 
+
+t is  7641 
+
+t is  7642 
+
+t is  7643 
+
+t is  7644 
+
+t is  7645 
+
+t is  7646 
+
+t is  7647 
+
+t is  7648 
+
+t is  7649 
+
+t is  7650 
+
+t is  7651 
+
+t is  7652 
+
+t is  7653 
+
+t is  7654 
+
+t is  7655 
+
+t is  7656 
+
+t is  7657 
+
+t is  7658 
+
+t is  7659 
+
+t is  7660 
+
+t is  7661 
+
+t is  7662 
+
+t is  7663 
+
+t is  7664 
+
+t is  7665 
+
+t is  7666 
+
+t is  7667 
+
+t is  7668 
+
+t is  7669 
+
+t is  7670 
+
+t is  7671 
+
+t is  7672 
+
+t is  7673 
+
+t is  7674 
+
+t is  7675 
+
+t is  7676 
+
+t is  7677 
+
+t is  7678 
+
+t is  7679 
+
+t is  7680 
+
+t is  7681 
+
+t is  7682 
+
+t is  7683 
+
+t is  7684 
+
+t is  7685 
+
+t is  7686 
+
+t is  7687 
+
+t is  7688 
+
+t is  7689 
+
+t is  7690 
+
+t is  7691 
+
+t is  7692 
+
+t is  7693 
+
+t is  7694 
+
+t is  7695 
+
+t is  7696 
+
+t is  7697 
+
+t is  7698 
+
+t is  7699 
+
+t is  7700 
+
+t is  7701 
+
+t is  7702 
+
+t is  7703 
+
+t is  7704 
+
+t is  7705 
+
+t is  7706 
+
+t is  7707 
+
+t is  7708 
+
+t is  7709 
+
+t is  7710 
+
+t is  7711 
+
+t is  7712 
+
+t is  7713 
+
+t is  7714 
+
+t is  7715 
+
+t is  7716 
+
+t is  7717 
+
+t is  7718 
+
+t is  7719 
+
+t is  7720 
+
+t is  7721 
+
+t is  7722 
+
+t is  7723 
+
+t is  7724 
+
+t is  7725 
+
+t is  7726 
+
+t is  7727 
+
+t is  7728 
+
+t is  7729 
+
+t is  7730 
+
+t is  7731 
+
+t is  7732 
+
+t is  7733 
+
+t is  7734 
+
+t is  7735 
+
+t is  7736 
+
+t is  7737 
+
+t is  7738 
+
+t is  7739 
+
+t is  7740 
+
+t is  7741 
+
+t is  7742 
+
+t is  7743 
+
+t is  7744 
+
+t is  7745 
+
+t is  7746 
+
+t is  7747 
+
+t is  7748 
+
+t is  7749 
+
+t is  7750 
+
+t is  7751 
+
+t is  7752 
+
+t is  7753 
+
+t is  7754 
+
+t is  7755 
+
+t is  7756 
+
+t is  7757 
+
+t is  7758 
+
+t is  7759 
+
+t is  7760 
+
+t is  7761 
+
+t is  7762 
+
+t is  7763 
+
+t is  7764 
+
+t is  7765 
+
+t is  7766 
+
+t is  7767 
+
+t is  7768 
+
+t is  7769 
+
+t is  7770 
+
+t is  7771 
+
+t is  7772 
+
+t is  7773 
+
+t is  7774 
+
+t is  7775 
+
+t is  7776 
+
+t is  7777 
+
+t is  7778 
+
+t is  7779 
+
+t is  7780 
+
+t is  7781 
+
+t is  7782 
+
+t is  7783 
+
+t is  7784 
+
+t is  7785 
+
+t is  7786 
+
+t is  7787 
+
+t is  7788 
+
+t is  7789 
+
+t is  7790 
+
+t is  7791 
+
+t is  7792 
+
+t is  7793 
+
+t is  7794 
+
+t is  7795 
+
+t is  7796 
+
+t is  7797 
+
+t is  7798 
+
+t is  7799 
+
+t is  7800 
+
+t is  7801 
+
+t is  7802 
+
+t is  7803 
+
+t is  7804 
+
+t is  7805 
+
+t is  7806 
+
+t is  7807 
+
+t is  7808 
+
+t is  7809 
+
+t is  7810 
+
+t is  7811 
+
+t is  7812 
+
+t is  7813 
+
+t is  7814 
+
+t is  7815 
+
+t is  7816 
+
+t is  7817 
+
+t is  7818 
+
+t is  7819 
+
+t is  7820 
+
+t is  7821 
+
+t is  7822 
+
+t is  7823 
+
+t is  7824 
+
+t is  7825 
+
+t is  7826 
+
+t is  7827 
+
+t is  7828 
+
+t is  7829 
+
+t is  7830 
+
+t is  7831 
+
+t is  7832 
+
+t is  7833 
+
+t is  7834 
+
+t is  7835 
+
+t is  7836 
+
+t is  7837 
+
+t is  7838 
+
+t is  7839 
+
+t is  7840 
+
+t is  7841 
+
+t is  7842 
+
+t is  7843 
+
+t is  7844 
+
+t is  7845 
+
+t is  7846 
+
+t is  7847 
+
+t is  7848 
+
+t is  7849 
+
+t is  7850 
+
+t is  7851 
+
+t is  7852 
+
+t is  7853 
+
+t is  7854 
+
+t is  7855 
+
+t is  7856 
+
+t is  7857 
+
+t is  7858 
+
+t is  7859 
+
+t is  7860 
+
+t is  7861 
+
+t is  7862 
+
+t is  7863 
+
+t is  7864 
+
+t is  7865 
+
+t is  7866 
+
+t is  7867 
+
+t is  7868 
+
+t is  7869 
+
+t is  7870 
+
+t is  7871 
+
+t is  7872 
+
+t is  7873 
+
+t is  7874 
+
+t is  7875 
+
+t is  7876 
+
+t is  7877 
+
+t is  7878 
+
+t is  7879 
+
+t is  7880 
+
+t is  7881 
+
+t is  7882 
+
+t is  7883 
+
+t is  7884 
+
+t is  7885 
+
+t is  7886 
+
+t is  7887 
+
+t is  7888 
+
+t is  7889 
+
+t is  7890 
+
+t is  7891 
+
+t is  7892 
+
+t is  7893 
+
+t is  7894 
+
+t is  7895 
+
+t is  7896 
+
+t is  7897 
+
+t is  7898 
+
+t is  7899 
+
+t is  7900 
+
+t is  7901 
+
+t is  7902 
+
+t is  7903 
+
+t is  7904 
+
+t is  7905 
+
+t is  7906 
+
+t is  7907 
+
+t is  7908 
+
+t is  7909 
+
+t is  7910 
+
+t is  7911 
+
+t is  7912 
+
+t is  7913 
+
+t is  7914 
+
+t is  7915 
+
+t is  7916 
+
+t is  7917 
+
+t is  7918 
+
+t is  7919 
+
+t is  7920 
+
+t is  7921 
+
+t is  7922 
+
+t is  7923 
+
+t is  7924 
+
+t is  7925 
+
+t is  7926 
+
+t is  7927 
+
+t is  7928 
+
+t is  7929 
+
+t is  7930 
+
+t is  7931 
+
+t is  7932 
+
+t is  7933 
+
+t is  7934 
+
+t is  7935 
+
+t is  7936 
+
+t is  7937 
+
+t is  7938 
+
+t is  7939 
+
+t is  7940 
+
+t is  7941 
+
+t is  7942 
+
+t is  7943 
+
+t is  7944 
+
+t is  7945 
+
+t is  7946 
+
+t is  7947 
+
+t is  7948 
+
+t is  7949 
+
+t is  7950 
+
+t is  7951 
+
+t is  7952 
+
+t is  7953 
+
+t is  7954 
+
+t is  7955 
+
+t is  7956 
+
+t is  7957 
+
+t is  7958 
+
+t is  7959 
+
+t is  7960 
+
+t is  7961 
+
+t is  7962 
+
+t is  7963 
+
+t is  7964 
+
+t is  7965 
+
+t is  7966 
+
+t is  7967 
+
+t is  7968 
+
+t is  7969 
+
+t is  7970 
+
+t is  7971 
+
+t is  7972 
+
+t is  7973 
+
+t is  7974 
+
+t is  7975 
+
+t is  7976 
+
+t is  7977 
+
+t is  7978 
+
+t is  7979 
+
+t is  7980 
+
+t is  7981 
+
+t is  7982 
+
+t is  7983 
+
+t is  7984 
+
+t is  7985 
+
+t is  7986 
+
+t is  7987 
+
+t is  7988 
+
+t is  7989 
+
+t is  7990 
+
+t is  7991 
+
+t is  7992 
+
+t is  7993 
+
+t is  7994 
+
+t is  7995 
+
+t is  7996 
+
+t is  7997 
+
+t is  7998 
+
+t is  7999 
+
+t is  8000 
+
+t is  8001 
+
+t is  8002 
+
+t is  8003 
+
+t is  8004 
+
+t is  8005 
+
+t is  8006 
+
+t is  8007 
+
+t is  8008 
+
+t is  8009 
+
+t is  8010 
+
+t is  8011 
+
+t is  8012 
+
+t is  8013 
+
+t is  8014 
+
+t is  8015 
+
+t is  8016 
+
+t is  8017 
+
+t is  8018 
+
+t is  8019 
+
+t is  8020 
+
+t is  8021 
+
+t is  8022 
+
+t is  8023 
+
+t is  8024 
+
+t is  8025 
+
+t is  8026 
+
+t is  8027 
+
+t is  8028 
+
+t is  8029 
+
+t is  8030 
+
+t is  8031 
+
+t is  8032 
+
+t is  8033 
+
+t is  8034 
+
+t is  8035 
+
+t is  8036 
+
+t is  8037 
+
+t is  8038 
+
+t is  8039 
+
+t is  8040 
+
+t is  8041 
+
+t is  8042 
+
+t is  8043 
+
+t is  8044 
+
+t is  8045 
+
+t is  8046 
+
+t is  8047 
+
+t is  8048 
+
+t is  8049 
+
+t is  8050 
+
+t is  8051 
+
+t is  8052 
+
+t is  8053 
+
+t is  8054 
+
+t is  8055 
+
+t is  8056 
+
+t is  8057 
+
+t is  8058 
+
+t is  8059 
+
+t is  8060 
+
+t is  8061 
+
+t is  8062 
+
+t is  8063 
+
+t is  8064 
+
+t is  8065 
+
+t is  8066 
+
+t is  8067 
+
+t is  8068 
+
+t is  8069 
+
+t is  8070 
+
+t is  8071 
+
+t is  8072 
+
+t is  8073 
+
+t is  8074 
+
+t is  8075 
+
+t is  8076 
+
+t is  8077 
+
+t is  8078 
+
+t is  8079 
+
+t is  8080 
+
+t is  8081 
+
+t is  8082 
+
+t is  8083 
+
+t is  8084 
+
+t is  8085 
+
+t is  8086 
+
+t is  8087 
+
+t is  8088 
+
+t is  8089 
+
+t is  8090 
+
+t is  8091 
+
+t is  8092 
+
+t is  8093 
+
+t is  8094 
+
+t is  8095 
+
+t is  8096 
+
+t is  8097 
+
+t is  8098 
+
+t is  8099 
+
+t is  8100 
+
+t is  8101 
+
+t is  8102 
+
+t is  8103 
+
+t is  8104 
+
+t is  8105 
+
+t is  8106 
+
+t is  8107 
+
+t is  8108 
+
+t is  8109 
+
+t is  8110 
+
+t is  8111 
+
+t is  8112 
+
+t is  8113 
+
+t is  8114 
+
+t is  8115 
+
+t is  8116 
+
+t is  8117 
+
+t is  8118 
+
+t is  8119 
+
+t is  8120 
+
+t is  8121 
+
+t is  8122 
+
+t is  8123 
+
+t is  8124 
+
+t is  8125 
+
+t is  8126 
+
+t is  8127 
+
+t is  8128 
+
+t is  8129 
+
+t is  8130 
+
+t is  8131 
+
+t is  8132 
+
+t is  8133 
+
+t is  8134 
+
+t is  8135 
+
+t is  8136 
+
+t is  8137 
+
+t is  8138 
+
+t is  8139 
+
+t is  8140 
+
+t is  8141 
+
+t is  8142 
+
+t is  8143 
+
+t is  8144 
+
+t is  8145 
+
+t is  8146 
+
+t is  8147 
+
+t is  8148 
+
+t is  8149 
+
+t is  8150 
+
+t is  8151 
+
+t is  8152 
+
+t is  8153 
+
+t is  8154 
+
+t is  8155 
+
+t is  8156 
+
+t is  8157 
+
+t is  8158 
+
+t is  8159 
+
+t is  8160 
+
+t is  8161 
+
+t is  8162 
+
+t is  8163 
+
+t is  8164 
+
+t is  8165 
+
+t is  8166 
+
+t is  8167 
+
+t is  8168 
+
+t is  8169 
+
+t is  8170 
+
+t is  8171 
+
+t is  8172 
+
+t is  8173 
+
+t is  8174 
+
+t is  8175 
+
+t is  8176 
+
+t is  8177 
+
+t is  8178 
+
+t is  8179 
+
+t is  8180 
+
+t is  8181 
+
+t is  8182 
+
+t is  8183 
+
+t is  8184 
+
+t is  8185 
+
+t is  8186 
+
+t is  8187 
+
+t is  8188 
+
+t is  8189 
+
+t is  8190 
+
+t is  8191 
+
+t is  8192 
+
+t is  8193 
+
+t is  8194 
+
+t is  8195 
+
+t is  8196 
+
+t is  8197 
+
+t is  8198 
+
+t is  8199 
+
+t is  8200 
+
+t is  8201 
+
+t is  8202 
+
+t is  8203 
+
+t is  8204 
+
+t is  8205 
+
+t is  8206 
+
+t is  8207 
+
+t is  8208 
+
+t is  8209 
+
+t is  8210 
+
+t is  8211 
+
+t is  8212 
+
+t is  8213 
+
+t is  8214 
+
+t is  8215 
+
+t is  8216 
+
+t is  8217 
+
+t is  8218 
+
+t is  8219 
+
+t is  8220 
+
+t is  8221 
+
+t is  8222 
+
+t is  8223 
+
+t is  8224 
+
+t is  8225 
+
+t is  8226 
+
+t is  8227 
+
+t is  8228 
+
+t is  8229 
+
+t is  8230 
+
+t is  8231 
+
+t is  8232 
+
+t is  8233 
+
+t is  8234 
+
+t is  8235 
+
+t is  8236 
+
+t is  8237 
+
+t is  8238 
+
+t is  8239 
+
+t is  8240 
+
+t is  8241 
+
+t is  8242 
+
+t is  8243 
+
+t is  8244 
+
+t is  8245 
+
+t is  8246 
+
+t is  8247 
+
+t is  8248 
+
+t is  8249 
+
+t is  8250 
+
+t is  8251 
+
+t is  8252 
+
+t is  8253 
+
+t is  8254 
+
+t is  8255 
+
+t is  8256 
+
+t is  8257 
+
+t is  8258 
+
+t is  8259 
+
+t is  8260 
+
+t is  8261 
+
+t is  8262 
+
+t is  8263 
+
+t is  8264 
+
+t is  8265 
+
+t is  8266 
+
+t is  8267 
+
+t is  8268 
+
+t is  8269 
+
+t is  8270 
+
+t is  8271 
+
+t is  8272 
+
+t is  8273 
+
+t is  8274 
+
+t is  8275 
+
+t is  8276 
+
+t is  8277 
+
+t is  8278 
+
+t is  8279 
+
+t is  8280 
+
+t is  8281 
+
+t is  8282 
+
+t is  8283 
+
+t is  8284 
+
+t is  8285 
+
+t is  8286 
+
+t is  8287 
+
+t is  8288 
+
+t is  8289 
+
+t is  8290 
+
+t is  8291 
+
+t is  8292 
+
+t is  8293 
+
+t is  8294 
+
+t is  8295 
+
+t is  8296 
+
+t is  8297 
+
+t is  8298 
+
+t is  8299 
+
+t is  8300 
+
+t is  8301 
+
+t is  8302 
+
+t is  8303 
+
+t is  8304 
+
+t is  8305 
+
+t is  8306 
+
+t is  8307 
+
+t is  8308 
+
+t is  8309 
+
+t is  8310 
+
+t is  8311 
+
+t is  8312 
+
+t is  8313 
+
+t is  8314 
+
+t is  8315 
+
+t is  8316 
+
+t is  8317 
+
+t is  8318 
+
+t is  8319 
+
+t is  8320 
+
+t is  8321 
+
+t is  8322 
+
+t is  8323 
+
+t is  8324 
+
+t is  8325 
+
+t is  8326 
+
+t is  8327 
+
+t is  8328 
+
+t is  8329 
+
+t is  8330 
+
+t is  8331 
+
+t is  8332 
+
+t is  8333 
+
+t is  8334 
+
+t is  8335 
+
+t is  8336 
+
+t is  8337 
+
+t is  8338 
+
+t is  8339 
+
+t is  8340 
+
+t is  8341 
+
+t is  8342 
+
+t is  8343 
+
+t is  8344 
+
+t is  8345 
+
+t is  8346 
+
+t is  8347 
+
+t is  8348 
+
+t is  8349 
+
+t is  8350 
+
+t is  8351 
+
+t is  8352 
+
+t is  8353 
+
+t is  8354 
+
+t is  8355 
+
+t is  8356 
+
+t is  8357 
+
+t is  8358 
+
+t is  8359 
+
+t is  8360 
+
+t is  8361 
+
+t is  8362 
+
+t is  8363 
+
+t is  8364 
+
+t is  8365 
+
+t is  8366 
+
+t is  8367 
+
+t is  8368 
+
+t is  8369 
+
+t is  8370 
+
+t is  8371 
+
+t is  8372 
+
+t is  8373 
+
+t is  8374 
+
+t is  8375 
+
+t is  8376 
+
+t is  8377 
+
+t is  8378 
+
+t is  8379 
+
+t is  8380 
+
+t is  8381 
+
+t is  8382 
+
+t is  8383 
+
+t is  8384 
+
+t is  8385 
+
+t is  8386 
+
+t is  8387 
+
+t is  8388 
+
+t is  8389 
+
+t is  8390 
+
+t is  8391 
+
+t is  8392 
+
+t is  8393 
+
+t is  8394 
+
+t is  8395 
+
+t is  8396 
+
+t is  8397 
+
+t is  8398 
+
+t is  8399 
+
+t is  8400 
+
+t is  8401 
+
+t is  8402 
+
+t is  8403 
+
+t is  8404 
+
+t is  8405 
+
+t is  8406 
+
+t is  8407 
+
+t is  8408 
+
+t is  8409 
+
+t is  8410 
+
+t is  8411 
+
+t is  8412 
+
+t is  8413 
+
+t is  8414 
+
+t is  8415 
+
+t is  8416 
+
+t is  8417 
+
+t is  8418 
+
+t is  8419 
+
+t is  8420 
+
+t is  8421 
+
+t is  8422 
+
+t is  8423 
+
+t is  8424 
+
+t is  8425 
+
+t is  8426 
+
+t is  8427 
+
+t is  8428 
+
+t is  8429 
+
+t is  8430 
+
+t is  8431 
+
+t is  8432 
+
+t is  8433 
+
+t is  8434 
+
+t is  8435 
+
+t is  8436 
+
+t is  8437 
+
+t is  8438 
+
+t is  8439 
+
+t is  8440 
+
+t is  8441 
+
+t is  8442 
+
+t is  8443 
+
+t is  8444 
+
+t is  8445 
+
+t is  8446 
+
+t is  8447 
+
+t is  8448 
+
+t is  8449 
+
+t is  8450 
+
+t is  8451 
+
+t is  8452 
+
+t is  8453 
+
+t is  8454 
+
+t is  8455 
+
+t is  8456 
+
+t is  8457 
+
+t is  8458 
+
+t is  8459 
+
+t is  8460 
+
+t is  8461 
+
+t is  8462 
+
+t is  8463 
+
+t is  8464 
+
+t is  8465 
+
+t is  8466 
+
+t is  8467 
+
+t is  8468 
+
+t is  8469 
+
+t is  8470 
+
+t is  8471 
+
+t is  8472 
+
+t is  8473 
+
+t is  8474 
+
+t is  8475 
+
+t is  8476 
+
+t is  8477 
+
+t is  8478 
+
+t is  8479 
+
+t is  8480 
+
+t is  8481 
+
+t is  8482 
+
+t is  8483 
+
+t is  8484 
+
+t is  8485 
+
+t is  8486 
+
+t is  8487 
+
+t is  8488 
+
+t is  8489 
+
+t is  8490 
+
+t is  8491 
+
+t is  8492 
+
+t is  8493 
+
+t is  8494 
+
+t is  8495 
+
+t is  8496 
+
+t is  8497 
+
+t is  8498 
+
+t is  8499 
+
+t is  8500 
+
+t is  8501 
+
+t is  8502 
+
+t is  8503 
+
+t is  8504 
+
+t is  8505 
+
+t is  8506 
+
+t is  8507 
+
+t is  8508 
+
+t is  8509 
+
+t is  8510 
+
+t is  8511 
+
+t is  8512 
+
+t is  8513 
+
+t is  8514 
+
+t is  8515 
+
+t is  8516 
+
+t is  8517 
+
+t is  8518 
+
+t is  8519 
+
+t is  8520 
+
+t is  8521 
+
+t is  8522 
+
+t is  8523 
+
+t is  8524 
+
+t is  8525 
+
+t is  8526 
+
+t is  8527 
+
+t is  8528 
+
+t is  8529 
+
+t is  8530 
+
+t is  8531 
+
+t is  8532 
+
+t is  8533 
+
+t is  8534 
+
+t is  8535 
+
+t is  8536 
+
+t is  8537 
+
+t is  8538 
+
+t is  8539 
+
+t is  8540 
+
+t is  8541 
+
+t is  8542 
+
+t is  8543 
+
+t is  8544 
+
+t is  8545 
+
+t is  8546 
+
+t is  8547 
+
+t is  8548 
+
+t is  8549 
+
+t is  8550 
+
+t is  8551 
+
+t is  8552 
+
+t is  8553 
+
+t is  8554 
+
+t is  8555 
+
+t is  8556 
+
+t is  8557 
+
+t is  8558 
+
+t is  8559 
+
+t is  8560 
+
+t is  8561 
+
+t is  8562 
+
+t is  8563 
+
+t is  8564 
+
+t is  8565 
+
+t is  8566 
+
+t is  8567 
+
+t is  8568 
+
+t is  8569 
+
+t is  8570 
+
+t is  8571 
+
+t is  8572 
+
+t is  8573 
+
+t is  8574 
+
+t is  8575 
+
+t is  8576 
+
+t is  8577 
+
+t is  8578 
+
+t is  8579 
+
+t is  8580 
+
+t is  8581 
+
+t is  8582 
+
+t is  8583 
+
+t is  8584 
+
+t is  8585 
+
+t is  8586 
+
+t is  8587 
+
+t is  8588 
+
+t is  8589 
+
+t is  8590 
+
+t is  8591 
+
+t is  8592 
+
+t is  8593 
+
+t is  8594 
+
+t is  8595 
+
+t is  8596 
+
+t is  8597 
+
+t is  8598 
+
+t is  8599 
+
+t is  8600 
+
+t is  8601 
+
+t is  8602 
+
+t is  8603 
+
+t is  8604 
+
+t is  8605 
+
+t is  8606 
+
+t is  8607 
+
+t is  8608 
+
+t is  8609 
+
+t is  8610 
+
+t is  8611 
+
+t is  8612 
+
+t is  8613 
+
+t is  8614 
+
+t is  8615 
+
+t is  8616 
+
+t is  8617 
+
+t is  8618 
+
+t is  8619 
+
+t is  8620 
+
+t is  8621 
+
+t is  8622 
+
+t is  8623 
+
+t is  8624 
+
+t is  8625 
+
+t is  8626 
+
+t is  8627 
+
+t is  8628 
+
+t is  8629 
+
+t is  8630 
+
+t is  8631 
+
+t is  8632 
+
+t is  8633 
+
+t is  8634 
+
+t is  8635 
+
+t is  8636 
+
+t is  8637 
+
+t is  8638 
+
+t is  8639 
+
+t is  8640 
+
+t is  8641 
+
+t is  8642 
+
+t is  8643 
+
+t is  8644 
+
+t is  8645 
+
+t is  8646 
+
+t is  8647 
+
+t is  8648 
+
+t is  8649 
+
+t is  8650 
+
+t is  8651 
+
+t is  8652 
+
+t is  8653 
+
+t is  8654 
+
+t is  8655 
+
+t is  8656 
+
+t is  8657 
+
+t is  8658 
+
+t is  8659 
+
+t is  8660 
+
+t is  8661 
+
+t is  8662 
+
+t is  8663 
+
+t is  8664 
+
+t is  8665 
+
+t is  8666 
+
+t is  8667 
+
+t is  8668 
+
+t is  8669 
+
+t is  8670 
+
+t is  8671 
+
+t is  8672 
+
+t is  8673 
+
+t is  8674 
+
+t is  8675 
+
+t is  8676 
+
+t is  8677 
+
+t is  8678 
+
+t is  8679 
+
+t is  8680 
+
+t is  8681 
+
+t is  8682 
+
+t is  8683 
+
+t is  8684 
+
+t is  8685 
+
+t is  8686 
+
+t is  8687 
+
+t is  8688 
+
+t is  8689 
+
+t is  8690 
+
+t is  8691 
+
+t is  8692 
+
+t is  8693 
+
+t is  8694 
+
+t is  8695 
+
+t is  8696 
+
+t is  8697 
+
+t is  8698 
+
+t is  8699 
+
+t is  8700 
+
+t is  8701 
+
+t is  8702 
+
+t is  8703 
+
+t is  8704 
+
+t is  8705 
+
+t is  8706 
+
+t is  8707 
+
+t is  8708 
+
+t is  8709 
+
+t is  8710 
+
+t is  8711 
+
+t is  8712 
+
+t is  8713 
+
+t is  8714 
+
+t is  8715 
+
+t is  8716 
+
+t is  8717 
+
+t is  8718 
+
+t is  8719 
+
+t is  8720 
+
+t is  8721 
+
+t is  8722 
+
+t is  8723 
+
+t is  8724 
+
+t is  8725 
+
+t is  8726 
+
+t is  8727 
+
+t is  8728 
+
+t is  8729 
+
+t is  8730 
+
+t is  8731 
+
+t is  8732 
+
+t is  8733 
+
+t is  8734 
+
+t is  8735 
+
+t is  8736 
+
+t is  8737 
+
+t is  8738 
+
+t is  8739 
+
+t is  8740 
+
+t is  8741 
+
+t is  8742 
+
+t is  8743 
+
+t is  8744 
+
+t is  8745 
+
+t is  8746 
+
+t is  8747 
+
+t is  8748 
+
+t is  8749 
+
+t is  8750 
+
+t is  8751 
+
+t is  8752 
+
+t is  8753 
+
+t is  8754 
+
+t is  8755 
+
+t is  8756 
+
+t is  8757 
+
+t is  8758 
+
+t is  8759 
+
+t is  8760 
+
+t is  8761 
+
+t is  8762 
+
+t is  8763 
+
+t is  8764 
+
+t is  8765 
+
+t is  8766 
+
+t is  8767 
+
+t is  8768 
+
+t is  8769 
+
+t is  8770 
+
+t is  8771 
+
+t is  8772 
+
+t is  8773 
+
+t is  8774 
+
+t is  8775 
+
+t is  8776 
+
+t is  8777 
+
+t is  8778 
+
+t is  8779 
+
+t is  8780 
+
+t is  8781 
+
+t is  8782 
+
+t is  8783 
+
+t is  8784 
+
+t is  8785 
+
+t is  8786 
+
+t is  8787 
+
+t is  8788 
+
+t is  8789 
+
+t is  8790 
+
+t is  8791 
+
+t is  8792 
+
+t is  8793 
+
+t is  8794 
+
+t is  8795 
+
+t is  8796 
+
+t is  8797 
+
+t is  8798 
+
+t is  8799 
+
+t is  8800 
+
+t is  8801 
+
+t is  8802 
+
+t is  8803 
+
+t is  8804 
+
+t is  8805 
+
+t is  8806 
+
+t is  8807 
+
+t is  8808 
+
+t is  8809 
+
+t is  8810 
+
+t is  8811 
+
+t is  8812 
+
+t is  8813 
+
+t is  8814 
+
+t is  8815 
+
+t is  8816 
+
+t is  8817 
+
+t is  8818 
+
+t is  8819 
+
+t is  8820 
+
+t is  8821 
+
+t is  8822 
+
+t is  8823 
+
+t is  8824 
+
+t is  8825 
+
+t is  8826 
+
+t is  8827 
+
+t is  8828 
+
+t is  8829 
+
+t is  8830 
+
+t is  8831 
+
+t is  8832 
+
+t is  8833 
+
+t is  8834 
+
+t is  8835 
+
+t is  8836 
+
+t is  8837 
+
+t is  8838 
+
+t is  8839 
+
+t is  8840 
+
+t is  8841 
+
+t is  8842 
+
+t is  8843 
+
+t is  8844 
+
+t is  8845 
+
+t is  8846 
+
+t is  8847 
+
+t is  8848 
+
+t is  8849 
+
+t is  8850 
+
+t is  8851 
+
+t is  8852 
+
+t is  8853 
+
+t is  8854 
+
+t is  8855 
+
+t is  8856 
+
+t is  8857 
+
+t is  8858 
+
+t is  8859 
+
+t is  8860 
+
+t is  8861 
+
+t is  8862 
+
+t is  8863 
+
+t is  8864 
+
+t is  8865 
+
+t is  8866 
+
+t is  8867 
+
+t is  8868 
+
+t is  8869 
+
+t is  8870 
+
+t is  8871 
+
+t is  8872 
+
+t is  8873 
+
+t is  8874 
+
+t is  8875 
+
+t is  8876 
+
+t is  8877 
+
+t is  8878 
+
+t is  8879 
+
+t is  8880 
+
+t is  8881 
+
+t is  8882 
+
+t is  8883 
+
+t is  8884 
+
+t is  8885 
+
+t is  8886 
+
+t is  8887 
+
+t is  8888 
+
+t is  8889 
+
+t is  8890 
+
+t is  8891 
+
+t is  8892 
+
+t is  8893 
+
+t is  8894 
+
+t is  8895 
+
+t is  8896 
+
+t is  8897 
+
+t is  8898 
+
+t is  8899 
+
+t is  8900 
+
+t is  8901 
+
+t is  8902 
+
+t is  8903 
+
+t is  8904 
+
+t is  8905 
+
+t is  8906 
+
+t is  8907 
+
+t is  8908 
+
+t is  8909 
+
+t is  8910 
+
+t is  8911 
+
+t is  8912 
+
+t is  8913 
+
+t is  8914 
+
+t is  8915 
+
+t is  8916 
+
+t is  8917 
+
+t is  8918 
+
+t is  8919 
+
+t is  8920 
+
+t is  8921 
+
+t is  8922 
+
+t is  8923 
+
+t is  8924 
+
+t is  8925 
+
+t is  8926 
+
+t is  8927 
+
+t is  8928 
+
+t is  8929 
+
+t is  8930 
+
+t is  8931 
+
+t is  8932 
+
+t is  8933 
+
+t is  8934 
+
+t is  8935 
+
+t is  8936 
+
+t is  8937 
+
+t is  8938 
+
+t is  8939 
+
+t is  8940 
+
+t is  8941 
+
+t is  8942 
+
+t is  8943 
+
+t is  8944 
+
+t is  8945 
+
+t is  8946 
+
+t is  8947 
+
+t is  8948 
+
+t is  8949 
+
+t is  8950 
+
+t is  8951 
+
+t is  8952 
+
+t is  8953 
+
+t is  8954 
+
+t is  8955 
+
+t is  8956 
+
+t is  8957 
+
+t is  8958 
+
+t is  8959 
+
+t is  8960 
+
+t is  8961 
+
+t is  8962 
+
+t is  8963 
+
+t is  8964 
+
+t is  8965 
+
+t is  8966 
+
+t is  8967 
+
+t is  8968 
+
+t is  8969 
+
+t is  8970 
+
+t is  8971 
+
+t is  8972 
+
+t is  8973 
+
+t is  8974 
+
+t is  8975 
+
+t is  8976 
+
+t is  8977 
+
+t is  8978 
+
+t is  8979 
+
+t is  8980 
+
+t is  8981 
+
+t is  8982 
+
+t is  8983 
+
+t is  8984 
+
+t is  8985 
+
+t is  8986 
+
+t is  8987 
+
+t is  8988 
+
+t is  8989 
+
+t is  8990 
+
+t is  8991 
+
+t is  8992 
+
+t is  8993 
+
+t is  8994 
+
+t is  8995 
+
+t is  8996 
+
+t is  8997 
+
+t is  8998 
+
+t is  8999 
+
+t is  9000 
+
+t is  9001 
+
+t is  9002 
+
+t is  9003 
+
+t is  9004 
+
+t is  9005 
+
+t is  9006 
+
+t is  9007 
+
+t is  9008 
+
+t is  9009 
+
+t is  9010 
+
+t is  9011 
+
+t is  9012 
+
+t is  9013 
+
+t is  9014 
+
+t is  9015 
+
+t is  9016 
+
+t is  9017 
+
+t is  9018 
+
+t is  9019 
+
+t is  9020 
+
+t is  9021 
+
+t is  9022 
+
+t is  9023 
+
+t is  9024 
+
+t is  9025 
+
+t is  9026 
+
+t is  9027 
+
+t is  9028 
+
+t is  9029 
+
+t is  9030 
+
+t is  9031 
+
+t is  9032 
+
+t is  9033 
+
+t is  9034 
+
+t is  9035 
+
+t is  9036 
+
+t is  9037 
+
+t is  9038 
+
+t is  9039 
+
+t is  9040 
+
+t is  9041 
+
+t is  9042 
+
+t is  9043 
+
+t is  9044 
+
+t is  9045 
+
+t is  9046 
+
+t is  9047 
+
+t is  9048 
+
+t is  9049 
+
+t is  9050 
+
+t is  9051 
+
+t is  9052 
+
+t is  9053 
+
+t is  9054 
+
+t is  9055 
+
+t is  9056 
+
+t is  9057 
+
+t is  9058 
+
+t is  9059 
+
+t is  9060 
+
+t is  9061 
+
+t is  9062 
+
+t is  9063 
+
+t is  9064 
+
+t is  9065 
+
+t is  9066 
+
+t is  9067 
+
+t is  9068 
+
+t is  9069 
+
+t is  9070 
+
+t is  9071 
+
+t is  9072 
+
+t is  9073 
+
+t is  9074 
+
+t is  9075 
+
+t is  9076 
+
+t is  9077 
+
+t is  9078 
+
+t is  9079 
+
+t is  9080 
+
+t is  9081 
+
+t is  9082 
+
+t is  9083 
+
+t is  9084 
+
+t is  9085 
+
+t is  9086 
+
+t is  9087 
+
+t is  9088 
+
+t is  9089 
+
+t is  9090 
+
+t is  9091 
+
+t is  9092 
+
+t is  9093 
+
+t is  9094 
+
+t is  9095 
+
+t is  9096 
+
+t is  9097 
+
+t is  9098 
+
+t is  9099 
+
+t is  9100 
+
+t is  9101 
+
+t is  9102 
+
+t is  9103 
+
+t is  9104 
+
+t is  9105 
+
+t is  9106 
+
+t is  9107 
+
+t is  9108 
+
+t is  9109 
+
+t is  9110 
+
+t is  9111 
+
+t is  9112 
+
+t is  9113 
+
+t is  9114 
+
+t is  9115 
+
+t is  9116 
+
+t is  9117 
+
+t is  9118 
+
+t is  9119 
+
+t is  9120 
+
+t is  9121 
+
+t is  9122 
+
+t is  9123 
+
+t is  9124 
+
+t is  9125 
+
+t is  9126 
+
+t is  9127 
+
+t is  9128 
+
+t is  9129 
+
+t is  9130 
+
+t is  9131 
+
+t is  9132 
+
+t is  9133 
+
+t is  9134 
+
+t is  9135 
+
+t is  9136 
+
+t is  9137 
+
+t is  9138 
+
+t is  9139 
+
+t is  9140 
+
+t is  9141 
+
+t is  9142 
+
+t is  9143 
+
+t is  9144 
+
+t is  9145 
+
+t is  9146 
+
+t is  9147 
+
+t is  9148 
+
+t is  9149 
+
+t is  9150 
+
+t is  9151 
+
+t is  9152 
+
+t is  9153 
+
+t is  9154 
+
+t is  9155 
+
+t is  9156 
+
+t is  9157 
+
+t is  9158 
+
+t is  9159 
+
+t is  9160 
+
+t is  9161 
+
+t is  9162 
+
+t is  9163 
+
+t is  9164 
+
+t is  9165 
+
+t is  9166 
+
+t is  9167 
+
+t is  9168 
+
+t is  9169 
+
+t is  9170 
+
+t is  9171 
+
+t is  9172 
+
+t is  9173 
+
+t is  9174 
+
+t is  9175 
+
+t is  9176 
+
+t is  9177 
+
+t is  9178 
+
+t is  9179 
+
+t is  9180 
+
+t is  9181 
+
+t is  9182 
+
+t is  9183 
+
+t is  9184 
+
+t is  9185 
+
+t is  9186 
+
+t is  9187 
+
+t is  9188 
+
+t is  9189 
+
+t is  9190 
+
+t is  9191 
+
+t is  9192 
+
+t is  9193 
+
+t is  9194 
+
+t is  9195 
+
+t is  9196 
+
+t is  9197 
+
+t is  9198 
+
+t is  9199 
+
+t is  9200 
+
+t is  9201 
+
+t is  9202 
+
+t is  9203 
+
+t is  9204 
+
+t is  9205 
+
+t is  9206 
+
+t is  9207 
+
+t is  9208 
+
+t is  9209 
+
+t is  9210 
+
+t is  9211 
+
+t is  9212 
+
+t is  9213 
+
+t is  9214 
+
+t is  9215 
+
+t is  9216 
+
+t is  9217 
+
+t is  9218 
+
+t is  9219 
+
+t is  9220 
+
+t is  9221 
+
+t is  9222 
+
+t is  9223 
+
+t is  9224 
+
+t is  9225 
+
+t is  9226 
+
+t is  9227 
+
+t is  9228 
+
+t is  9229 
+
+t is  9230 
+
+t is  9231 
+
+t is  9232 
+
+t is  9233 
+
+t is  9234 
+
+t is  9235 
+
+t is  9236 
+
+t is  9237 
+
+t is  9238 
+
+t is  9239 
+
+t is  9240 
+
+t is  9241 
+
+t is  9242 
+
+t is  9243 
+
+t is  9244 
+
+t is  9245 
+
+t is  9246 
+
+t is  9247 
+
+t is  9248 
+
+t is  9249 
+
+t is  9250 
+
+t is  9251 
+
+t is  9252 
+
+t is  9253 
+
+t is  9254 
+
+t is  9255 
+
+t is  9256 
+
+t is  9257 
+
+t is  9258 
+
+t is  9259 
+
+t is  9260 
+
+t is  9261 
+
+t is  9262 
+
+t is  9263 
+
+t is  9264 
+
+t is  9265 
+
+t is  9266 
+
+t is  9267 
+
+t is  9268 
+
+t is  9269 
+
+t is  9270 
+
+t is  9271 
+
+t is  9272 
+
+t is  9273 
+
+t is  9274 
+
+t is  9275 
+
+t is  9276 
+
+t is  9277 
+
+t is  9278 
+
+t is  9279 
+
+t is  9280 
+
+t is  9281 
+
+t is  9282 
+
+t is  9283 
+
+t is  9284 
+
+t is  9285 
+
+t is  9286 
+
+t is  9287 
+
+t is  9288 
+
+t is  9289 
+
+t is  9290 
+
+t is  9291 
+
+t is  9292 
+
+t is  9293 
+
+t is  9294 
+
+t is  9295 
+
+t is  9296 
+
+t is  9297 
+
+t is  9298 
+
+t is  9299 
+
+t is  9300 
+
+t is  9301 
+
+t is  9302 
+
+t is  9303 
+
+t is  9304 
+
+t is  9305 
+
+t is  9306 
+
+t is  9307 
+
+t is  9308 
+
+t is  9309 
+
+t is  9310 
+
+t is  9311 
+
+t is  9312 
+
+t is  9313 
+
+t is  9314 
+
+t is  9315 
+
+t is  9316 
+
+t is  9317 
+
+t is  9318 
+
+t is  9319 
+
+t is  9320 
+
+t is  9321 
+
+t is  9322 
+
+t is  9323 
+
+t is  9324 
+
+t is  9325 
+
+t is  9326 
+
+t is  9327 
+
+t is  9328 
+
+t is  9329 
+
+t is  9330 
+
+t is  9331 
+
+t is  9332 
+
+t is  9333 
+
+t is  9334 
+
+t is  9335 
+
+t is  9336 
+
+t is  9337 
+
+t is  9338 
+
+t is  9339 
+
+t is  9340 
+
+t is  9341 
+
+t is  9342 
+
+t is  9343 
+
+t is  9344 
+
+t is  9345 
+
+t is  9346 
+
+t is  9347 
+
+t is  9348 
+
+t is  9349 
+
+t is  9350 
+
+t is  9351 
+
+t is  9352 
+
+t is  9353 
+
+t is  9354 
+
+t is  9355 
+
+t is  9356 
+
+t is  9357 
+
+t is  9358 
+
+t is  9359 
+
+t is  9360 
+
+t is  9361 
+
+t is  9362 
+
+t is  9363 
+
+t is  9364 
+
+t is  9365 
+
+t is  9366 
+
+t is  9367 
+
+t is  9368 
+
+t is  9369 
+
+t is  9370 
+
+t is  9371 
+
+t is  9372 
+
+t is  9373 
+
+t is  9374 
+
+t is  9375 
+
+t is  9376 
+
+t is  9377 
+
+t is  9378 
+
+t is  9379 
+
+t is  9380 
+
+t is  9381 
+
+t is  9382 
+
+t is  9383 
+
+t is  9384 
+
+t is  9385 
+
+t is  9386 
+
+t is  9387 
+
+t is  9388 
+
+t is  9389 
+
+t is  9390 
+
+t is  9391 
+
+t is  9392 
+
+t is  9393 
+
+t is  9394 
+
+t is  9395 
+
+t is  9396 
+
+t is  9397 
+
+t is  9398 
+
+t is  9399 
+
+t is  9400 
+
+t is  9401 
+
+t is  9402 
+
+t is  9403 
+
+t is  9404 
+
+t is  9405 
+
+t is  9406 
+
+t is  9407 
+
+t is  9408 
+
+t is  9409 
+
+t is  9410 
+
+t is  9411 
+
+t is  9412 
+
+t is  9413 
+
+t is  9414 
+
+t is  9415 
+
+t is  9416 
+
+t is  9417 
+
+t is  9418 
+
+t is  9419 
+
+t is  9420 
+
+t is  9421 
+
+t is  9422 
+
+t is  9423 
+
+t is  9424 
+
+t is  9425 
+
+t is  9426 
+
+t is  9427 
+
+t is  9428 
+
+t is  9429 
+
+t is  9430 
+
+t is  9431 
+
+t is  9432 
+
+t is  9433 
+
+t is  9434 
+
+t is  9435 
+
+t is  9436 
+
+t is  9437 
+
+t is  9438 
+
+t is  9439 
+
+t is  9440 
+
+t is  9441 
+
+t is  9442 
+
+t is  9443 
+
+t is  9444 
+
+t is  9445 
+
+t is  9446 
+
+t is  9447 
+
+t is  9448 
+
+t is  9449 
+
+t is  9450 
+
+t is  9451 
+
+t is  9452 
+
+t is  9453 
+
+t is  9454 
+
+t is  9455 
+
+t is  9456 
+
+t is  9457 
+
+t is  9458 
+
+t is  9459 
+
+t is  9460 
+
+t is  9461 
+
+t is  9462 
+
+t is  9463 
+
+t is  9464 
+
+t is  9465 
+
+t is  9466 
+
+t is  9467 
+
+t is  9468 
+
+t is  9469 
+
+t is  9470 
+
+t is  9471 
+
+t is  9472 
+
+t is  9473 
+
+t is  9474 
+
+t is  9475 
+
+t is  9476 
+
+t is  9477 
+
+t is  9478 
+
+t is  9479 
+
+t is  9480 
+
+t is  9481 
+
+t is  9482 
+
+t is  9483 
+
+t is  9484 
+
+t is  9485 
+
+t is  9486 
+
+t is  9487 
+
+t is  9488 
+
+t is  9489 
+
+t is  9490 
+
+t is  9491 
+
+t is  9492 
+
+t is  9493 
+
+t is  9494 
+
+t is  9495 
+
+t is  9496 
+
+t is  9497 
+
+t is  9498 
+
+t is  9499 
+
+t is  9500 
+
+t is  9501 
+
+t is  9502 
+
+t is  9503 
+
+t is  9504 
+
+t is  9505 
+
+t is  9506 
+
+t is  9507 
+
+t is  9508 
+
+t is  9509 
+
+t is  9510 
+
+t is  9511 
+
+t is  9512 
+
+t is  9513 
+
+t is  9514 
+
+t is  9515 
+
+t is  9516 
+
+t is  9517 
+
+t is  9518 
+
+t is  9519 
+
+t is  9520 
+
+t is  9521 
+
+t is  9522 
+
+t is  9523 
+
+t is  9524 
+
+t is  9525 
+
+t is  9526 
+
+t is  9527 
+
+t is  9528 
+
+t is  9529 
+
+t is  9530 
+
+t is  9531 
+
+t is  9532 
+
+t is  9533 
+
+t is  9534 
+
+t is  9535 
+
+t is  9536 
+
+t is  9537 
+
+t is  9538 
+
+t is  9539 
+
+t is  9540 
+
+t is  9541 
+
+t is  9542 
+
+t is  9543 
+
+t is  9544 
+
+t is  9545 
+
+t is  9546 
+
+t is  9547 
+
+t is  9548 
+
+t is  9549 
+
+t is  9550 
+
+t is  9551 
+
+t is  9552 
+
+t is  9553 
+
+t is  9554 
+
+t is  9555 
+
+t is  9556 
+
+t is  9557 
+
+t is  9558 
+
+t is  9559 
+
+t is  9560 
+
+t is  9561 
+
+t is  9562 
+
+t is  9563 
+
+t is  9564 
+
+t is  9565 
+
+t is  9566 
+
+t is  9567 
+
+t is  9568 
+
+t is  9569 
+
+t is  9570 
+
+t is  9571 
+
+t is  9572 
+
+t is  9573 
+
+t is  9574 
+
+t is  9575 
+
+t is  9576 
+
+t is  9577 
+
+t is  9578 
+
+t is  9579 
+
+t is  9580 
+
+t is  9581 
+
+t is  9582 
+
+t is  9583 
+
+t is  9584 
+
+t is  9585 
+
+t is  9586 
+
+t is  9587 
+
+t is  9588 
+
+t is  9589 
+
+t is  9590 
+
+t is  9591 
+
+t is  9592 
+
+t is  9593 
+
+t is  9594 
+
+t is  9595 
+
+t is  9596 
+
+t is  9597 
+
+t is  9598 
+
+t is  9599 
+
+t is  9600 
+
+t is  9601 
+
+t is  9602 
+
+t is  9603 
+
+t is  9604 
+
+t is  9605 
+
+t is  9606 
+
+t is  9607 
+
+t is  9608 
+
+t is  9609 
+
+t is  9610 
+
+t is  9611 
+
+t is  9612 
+
+t is  9613 
+
+t is  9614 
+
+t is  9615 
+
+t is  9616 
+
+t is  9617 
+
+t is  9618 
+
+t is  9619 
+
+t is  9620 
+
+t is  9621 
+
+t is  9622 
+
+t is  9623 
+
+t is  9624 
+
+t is  9625 
+
+t is  9626 
+
+t is  9627 
+
+t is  9628 
+
+t is  9629 
+
+t is  9630 
+
+t is  9631 
+
+t is  9632 
+
+t is  9633 
+
+t is  9634 
+
+t is  9635 
+
+t is  9636 
+
+t is  9637 
+
+t is  9638 
+
+t is  9639 
+
+t is  9640 
+
+t is  9641 
+
+t is  9642 
+
+t is  9643 
+
+t is  9644 
+
+t is  9645 
+
+t is  9646 
+
+t is  9647 
+
+t is  9648 
+
+t is  9649 
+
+t is  9650 
+
+t is  9651 
+
+t is  9652 
+
+t is  9653 
+
+t is  9654 
+
+t is  9655 
+
+t is  9656 
+
+t is  9657 
+
+t is  9658 
+
+t is  9659 
+
+t is  9660 
+
+t is  9661 
+
+t is  9662 
+
+t is  9663 
+
+t is  9664 
+
+t is  9665 
+
+t is  9666 
+
+t is  9667 
+
+t is  9668 
+
+t is  9669 
+
+t is  9670 
+
+t is  9671 
+
+t is  9672 
+
+t is  9673 
+
+t is  9674 
+
+t is  9675 
+
+t is  9676 
+
+t is  9677 
+
+t is  9678 
+
+t is  9679 
+
+t is  9680 
+
+t is  9681 
+
+t is  9682 
+
+t is  9683 
+
+t is  9684 
+
+t is  9685 
+
+t is  9686 
+
+t is  9687 
+
+t is  9688 
+
+t is  9689 
+
+t is  9690 
+
+t is  9691 
+
+t is  9692 
+
+t is  9693 
+
+t is  9694 
+
+t is  9695 
+
+t is  9696 
+
+t is  9697 
+
+t is  9698 
+
+t is  9699 
+
+t is  9700 
+
+t is  9701 
+
+t is  9702 
+
+t is  9703 
+
+t is  9704 
+
+t is  9705 
+
+t is  9706 
+
+t is  9707 
+
+t is  9708 
+
+t is  9709 
+
+t is  9710 
+
+t is  9711 
+
+t is  9712 
+
+t is  9713 
+
+t is  9714 
+
+t is  9715 
+
+t is  9716 
+
+t is  9717 
+
+t is  9718 
+
+t is  9719 
+
+t is  9720 
+
+t is  9721 
+
+t is  9722 
+
+t is  9723 
+
+t is  9724 
+
+t is  9725 
+
+t is  9726 
+
+t is  9727 
+
+t is  9728 
+
+t is  9729 
+
+t is  9730 
+
+t is  9731 
+
+t is  9732 
+
+t is  9733 
+
+t is  9734 
+
+t is  9735 
+
+t is  9736 
+
+t is  9737 
+
+t is  9738 
+
+t is  9739 
+
+t is  9740 
+
+t is  9741 
+
+t is  9742 
+
+t is  9743 
+
+t is  9744 
+
+t is  9745 
+
+t is  9746 
+
+t is  9747 
+
+t is  9748 
+
+t is  9749 
+
+t is  9750 
+
+t is  9751 
+
+t is  9752 
+
+t is  9753 
+
+t is  9754 
+
+t is  9755 
+
+t is  9756 
+
+t is  9757 
+
+t is  9758 
+
+t is  9759 
+
+t is  9760 
+
+t is  9761 
+
+t is  9762 
+
+t is  9763 
+
+t is  9764 
+
+t is  9765 
+
+t is  9766 
+
+t is  9767 
+
+t is  9768 
+
+t is  9769 
+
+t is  9770 
+
+t is  9771 
+
+t is  9772 
+
+t is  9773 
+
+t is  9774 
+
+t is  9775 
+
+t is  9776 
+
+t is  9777 
+
+t is  9778 
+
+t is  9779 
+
+t is  9780 
+
+t is  9781 
+
+t is  9782 
+
+t is  9783 
+
+t is  9784 
+
+t is  9785 
+
+t is  9786 
+
+t is  9787 
+
+t is  9788 
+
+t is  9789 
+
+t is  9790 
+
+t is  9791 
+
+t is  9792 
+
+t is  9793 
+
+t is  9794 
+
+t is  9795 
+
+t is  9796 
+
+t is  9797 
+
+t is  9798 
+
+t is  9799 
+
+t is  9800 
+
+t is  9801 
+
+t is  9802 
+
+t is  9803 
+
+t is  9804 
+
+t is  9805 
+
+t is  9806 
+
+t is  9807 
+
+t is  9808 
+
+t is  9809 
+
+t is  9810 
+
+t is  9811 
+
+t is  9812 
+
+t is  9813 
+
+t is  9814 
+
+t is  9815 
+
+t is  9816 
+
+t is  9817 
+
+t is  9818 
+
+t is  9819 
+
+t is  9820 
+
+t is  9821 
+
+t is  9822 
+
+t is  9823 
+
+t is  9824 
+
+t is  9825 
+
+t is  9826 
+
+t is  9827 
+
+t is  9828 
+
+t is  9829 
+
+t is  9830 
+
+t is  9831 
+
+t is  9832 
+
+t is  9833 
+
+t is  9834 
+
+t is  9835 
+
+t is  9836 
+
+t is  9837 
+
+t is  9838 
+
+t is  9839 
+
+t is  9840 
+
+t is  9841 
+
+t is  9842 
+
+t is  9843 
+
+t is  9844 
+
+t is  9845 
+
+t is  9846 
+
+t is  9847 
+
+t is  9848 
+
+t is  9849 
+
+t is  9850 
+
+t is  9851 
+
+t is  9852 
+
+t is  9853 
+
+t is  9854 
+
+t is  9855 
+
+t is  9856 
+
+t is  9857 
+
+t is  9858 
+
+t is  9859 
+
+t is  9860 
+
+t is  9861 
+
+t is  9862 
+
+t is  9863 
+
+t is  9864 
+
+t is  9865 
+
+t is  9866 
+
+t is  9867 
+
+t is  9868 
+
+t is  9869 
+
+t is  9870 
+
+t is  9871 
+
+t is  9872 
+
+t is  9873 
+
+t is  9874 
+
+t is  9875 
+
+t is  9876 
+
+t is  9877 
+
+t is  9878 
+
+t is  9879 
+
+t is  9880 
+
+t is  9881 
+
+t is  9882 
+
+t is  9883 
+
+t is  9884 
+
+t is  9885 
+
+t is  9886 
+
+t is  9887 
+
+t is  9888 
+
+t is  9889 
+
+t is  9890 
+
+t is  9891 
+
+t is  9892 
+
+t is  9893 
+
+t is  9894 
+
+t is  9895 
+
+t is  9896 
+
+t is  9897 
+
+t is  9898 
+
+t is  9899 
+
+t is  9900 
+
+t is  9901 
+
+t is  9902 
+
+t is  9903 
+
+t is  9904 
+
+t is  9905 
+
+t is  9906 
+
+t is  9907 
+
+t is  9908 
+
+t is  9909 
+
+t is  9910 
+
+t is  9911 
+
+t is  9912 
+
+t is  9913 
+
+t is  9914 
+
+t is  9915 
+
+t is  9916 
+
+t is  9917 
+
+t is  9918 
+
+t is  9919 
+
+t is  9920 
+
+t is  9921 
+
+t is  9922 
+
+t is  9923 
+
+t is  9924 
+
+t is  9925 
+
+t is  9926 
+
+t is  9927 
+
+t is  9928 
+
+t is  9929 
+
+t is  9930 
+
+t is  9931 
+
+t is  9932 
+
+t is  9933 
+
+t is  9934 
+
+t is  9935 
+
+t is  9936 
+
+t is  9937 
+
+t is  9938 
+
+t is  9939 
+
+t is  9940 
+
+t is  9941 
+
+t is  9942 
+
+t is  9943 
+
+t is  9944 
+
+t is  9945 
+
+t is  9946 
+
+t is  9947 
+
+t is  9948 
+
+t is  9949 
+
+t is  9950 
+
+t is  9951 
+
+t is  9952 
+
+t is  9953 
+
+t is  9954 
+
+t is  9955 
+
+t is  9956 
+
+t is  9957 
+
+t is  9958 
+
+t is  9959 
+
+t is  9960 
+
+t is  9961 
+
+t is  9962 
+
+t is  9963 
+
+t is  9964 
+
+t is  9965 
+
+t is  9966 
+
+t is  9967 
+
+t is  9968 
+
+t is  9969 
+
+t is  9970 
+
+t is  9971 
+
+t is  9972 
+
+t is  9973 
+
+t is  9974 
+
+t is  9975 
+
+t is  9976 
+
+t is  9977 
+
+t is  9978 
+
+t is  9979 
+
+t is  9980 
+
+t is  9981 
+
+t is  9982 
+
+t is  9983 
+
+t is  9984 
+
+t is  9985 
+
+t is  9986 
+
+t is  9987 
+
+t is  9988 
+
+t is  9989 
+
+t is  9990 
+
+t is  9991 
+
+t is  9992 
+
+t is  9993 
+
+t is  9994 
+
+t is  9995 
+
+t is  9996 
+
+t is  9997 
+
+t is  9998 
+
+t is  9999 
+
+t is  0 
+
+Traceback (most recent call last):
+  File "main.py", line 366, in <module>
+    act = Center.actv(pre_feature[uk], fg)                                        # get the action V
+AttributeError: 'Center_DQN' object has no attribute 'actv'
