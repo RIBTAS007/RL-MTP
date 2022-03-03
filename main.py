@@ -151,15 +151,15 @@ Center = Center_DQN((84, 84, 1), 9, num_UAV, batch_size)
 #---------------------------------------------------------------------------------------------------------------------------
 
 y = []
-for t in range(0, Ed):            # To store all timestamps for plotting
-    y.append(t)
-plt.close()
-fig = plt.figure()
-ax = fig.add_subplot(1, 1, 1)
-plt.xlim((0, 300))
-plt.ylim((0, 400))
-plt.grid(True)
-plt.ion()  # interactive mode on
+# for t in range(0, Ed):            # To store all timestamps for plotting
+#     y.append(t)
+# plt.close()
+# fig = plt.figure()
+# ax = fig.add_subplot(1, 1, 1)
+# plt.xlim((0, 300))
+# plt.ylim((0, 400))
+# plt.grid(True)
+# plt.ion()  # interactive mode on
 
 
 #---------------------------------------------------------------------------------------------------------------------------
@@ -170,7 +170,7 @@ for t in range(Ed):                                     # for each epoc do 10000
     fp.write("t is ")
     fp.write(repr(t))
     fp.write("\n")
-    print("t is ", t, "\n")
+    # print("t is ", t, "\n")
     # st = time.time()
     gp.gen_datarate(averate, region_rate)               # for each region generate the data rate
     # print("gen_datarate took", time.time() - st, "to run \n")
@@ -292,17 +292,17 @@ for t in range(Ed):                                     # for each epoc do 10000
     # Plot the UAVs in the map
     # ----------------------------------------------------------------------------------------------------------------------
 
-    if t>0:
-      ax.clear()
-    plt.xlim((0,600))
-    plt.ylim((0,400))
-    plt.grid(True)
-    colors = np.array(
-        ["red", "green", "blue", "pink",   "purple", "magenta"])
-    ax.scatter(X,Y,c= colors,marker='H',label= "UAVs")
-   # ax.scatter(sX,sY, marker='*')
-    if t>0:
-      plt.pause(0.1)
+#     if t>0:
+#       ax.clear()
+#     plt.xlim((0,600))
+#     plt.ylim((0,400))
+#     plt.grid(True)
+#     colors = np.array(
+#         ["red", "green", "blue", "pink",   "purple", "magenta"])
+#     ax.scatter(X,Y,c= colors,marker='H',label= "UAVs")
+#    # ax.scatter(sX,sY, marker='*')
+#     if t>0:
+#       plt.pause(0.1)
 
 fp.close()
 # ----------------------------------------------------------------------------------------------------------------------
@@ -388,6 +388,21 @@ for t in range(Ed):
         reward[uk] = reward[uk]+UAVlist[uk].data_buf-prebuf[uk]   # reward is 1D array that stores reward for each drone
         Mentrd[uk, t]=reward[uk]
 
+    if t%pl_step==0:
+        E_wait = gp.W_wait(600,400,sensorlist)                                         # generate observatiosn after every pl_step
+
+        for uk in range(num_UAV):                                                      # For each UAV
+            aft_feature.append(UAVlist[uk].map_feature(region_rate,UAVlist,E_wait))    #    Obtain the observations Ok(tp+1)
+            # Ok ( tp+1)
+            rd=reward[uk]/1000                                                         #    Obtain the reward r(tp)
+            reward[uk]=0                                                               #    make the reward array 0 so that it can be used again in next iteration
+            UAVlist[uk].reward = rd                                                    #    update the reward for the UAV uk
+
+            # Transmit e(tp) = ((ok(tp), a(tp), r(tp), ok(tp+1)) to the central relay memory
+            if t>0:
+                Center.remember(pre_feature[uk], act_note[uk], rd, aft_feature[uk], uk)     # record the training data
+     
+
     if t>batch_size*pl_step and t%pl_step==0:
        larr = []
        for turn in range(num_UAV):
@@ -396,17 +411,17 @@ for t in range(Ed):
        #print("larr",larr)
        losses = np.append(losses, np.array([larr]).transpose(), axis=1)
 
-    if t>0:
-      ax.clear()
-      plt.xlim((0,600))
-      plt.ylim((0,400))
-      plt.grid(True)
-      colors = np.array(
-        ["red", "green", "blue", "pink",   "purple", "magenta"])
-      ax.scatter(X,Y,c= colors,marker='H',label= "UAVs")
-      # ax.scatter(sX,sY, marker='*')
-      if t>0:
-        plt.pause(0.1)
+    # if t>0:
+    #   ax.clear()
+    #   plt.xlim((0,600))
+    #   plt.ylim((0,400))
+    #   plt.grid(True)
+    #   colors = np.array(
+    #     ["red", "green", "blue", "pink",   "purple", "magenta"])
+    #   ax.scatter(X,Y,c= colors,marker='H',label= "UAVs")
+    #   # ax.scatter(sX,sY, marker='*')
+    #   if t>0:
+    #     plt.pause(0.1)
 
 fp.close()
 
