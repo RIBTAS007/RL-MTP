@@ -148,7 +148,7 @@ def Sensor_Graph(sX, sY):
 # plotting the Average Service Urgency
 # ----------------------------------------------------------------------------------------------------------------------
 
-def Avg_Service_Urgency(cover,y):
+def Avg_Service_Urgencyt(cover,y):
 
     fig=plt.figure()
     plt.xlabel('Timestamp(t)')
@@ -163,7 +163,7 @@ def Avg_Service_Urgency(cover,y):
 # plotting the average loss value
 # ----------------------------------------------------------------------------------------------------------------------
 
-def Avg_Loss(losses):  
+def Avg_Losst(losses):  
 
     #calculate the average loss
     avg_loss = []
@@ -194,7 +194,7 @@ def Avg_Loss(losses):
 # plotting the average loss value
 # ----------------------------------------------------------------------------------------------------------------------
 
-def UAV_Loss(losses):
+def UAV_Losst(losses):
     fi = plt.figure()
     x = []
     for i in range(1, len(losses[1]) + 1):
@@ -217,7 +217,7 @@ def UAV_Loss(losses):
 # ----------------------------------------------------------------------------------------------------------------------
 # plotting the average reward values
 # ----------------------------------------------------------------------------------------------------------------------
-def Avg_Reward_Values(Mentrd):
+def Avg_Reward_Valuest(Mentrd):
     avg_reward = []
     for i in range(len(Mentrd[0])):
         summ = 0
@@ -244,7 +244,7 @@ def Avg_Reward_Values(Mentrd):
 # Plotting the rewards
 #---------------------------------------------------------------------------------------------------------------------------
 
-def UAV_Rewards(Mentrd):
+def UAV_Rewardst(Mentrd):
     fr = plt.figure()
 
     x = []
@@ -265,23 +265,3 @@ def UAV_Rewards(Mentrd):
     plt.savefig('Reward_Valuest.png')
     plt.close(fr)
 
-#---------------------------------------------------------------------------------------------------------------------------
-# Plotting the sensors
-#---------------------------------------------------------------------------------------------------------------------------
-
-def Sensor_Graph(sX, sY):
-
-    x = sX
-    y = sY
-    fs = plt.figure()
-    plt.scatter(x, y, marker="*", label ="sensors" )
-    plt.xlim((0, 600))
-    plt.ylim((0, 400))
-    plt.grid(True)
-    plt.xlabel('x-axis')
-    plt.ylabel('y-axis')
-    plt.title('Sensor locations')
-    plt.grid(True)
-    plt.legend()
-    plt.savefig('Sensorst.png')
-    plt.close(fs)
