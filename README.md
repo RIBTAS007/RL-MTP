@@ -20,10 +20,27 @@ Simulate the path planning and data scheduling
 
 UAVs are supposed to move straight along path in each time slot
 
-
 ## Results
-![Image1](Average_Loss_Values.png)
 
-![Iamge2](Average_Reward_Values.png)
+### Training Graphs
 
-![Image3](Buffer_data.png)
+**Graph for Average Service Urgency**
+![Service](https://github.com/RIBTAS007/RL-MTP/blob/main/Average%20Service%20Urgency%20for%20equal%20alpha.png)
+
+**Graph for Loss Function**
+![Loss values](Average_Loss_Values.png)
+
+**Graph for Rewards**
+![Rewards](Average_Reward_Values.png)
+
+### Testing Graphs
+
+**Graph for Average Service Urgency**
+![Service Urgency](https://github.com/RIBTAS007/RL-MTP/blob/main/Average%20Service%20Urgency%20for%20equal%20alphat.png)
+
+**Graph for Loss Function**
+![Loss Values](Average_Loss_Valuest.png)
+
+**Graph for Rewards**
+![Rewards](Average_Reward_Valuest.png)
+
