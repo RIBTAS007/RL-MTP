@@ -11,7 +11,7 @@ from sensor import sensor_agent
 
 
 
-Ed = 100                        # Total iterations
+Ed = 10000                        # Total iterations
 pl_step = 5                    # How many steps will the system plan the next destination
 
 #---------------------------------------------------------------------------------------------------------------------------
