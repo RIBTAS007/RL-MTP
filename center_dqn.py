@@ -12,8 +12,8 @@ class Center_DQN:
     def __init__(self, state_size, action_size, num_UAV, batch_size):
         self.state_size = state_size                    # 84,84,1
         self.action_size = action_size                  # 9
-#        self.memory = deque(maxlen=124)
-        self.memory = []
+        self.memory = deque(maxlen=132)
+        #self.memory = []
         self.gamma = 0.9                                # discount rate
         self.epsilon = 0.97                             # exploration rate
         self.epsilon_min = 0.05
@@ -28,8 +28,8 @@ class Center_DQN:
         self.model = self._build_model()         # Q nework
         self.tmodel = self._build_model()        # target value
         self.num_U = num_UAV
-        for uk in range(num_UAV):       # each UAV has a memory in the form of a deque of size 12 +10 = 22
-            self.memory.append(deque(maxlen=batch_size+10))
+        # for uk in range(num_UAV):       # each UAV has a memory in the form of a deque of size 12 +10 = 22
+            # self.memory.append(deque(maxlen=batch_size+10))
 
     def _build_model(self):                     # Set network of central training
                                                 # Neural Net for Deep-Q learning Model
@@ -47,7 +47,8 @@ class Center_DQN:
         return model
 
     def remember(self, state, action, reward, next_state, uk):
-        self.memory[uk].append((state, action, reward, next_state))
+        # self.memory[uk].append((state, action, reward, next_state))
+        self.memory.append((state, action, reward, next_state))
 
     def act(self, state, fg):  # state = 84 x84 x 1
         nrd=np.random.rand()
@@ -71,7 +72,8 @@ class Center_DQN:
             self.model.save_weights("./save/temp.h5")
             self.tmodel.load_weights("./save/temp.h5")
 
-        minibatch = random.sample(self.memory[i1], batch_size)
+       # minibatch = random.sample(self.memory[i1], batch_size)
+        minibatch = random.sample(self.memory, batch_size)
 
         train_sp=np.zeros([batch_size,self.state_size[0],self.state_size[1],self.state_size[2]])
         tg=np.zeros([batch_size,self.action_size]) # 12 x 9
@@ -122,7 +124,8 @@ class Center_DQN:
         if self.num==0:
             self.tmodel.load_weights("./save/temp.h5")
 
-        minibatch = random.sample(self.memory[i1], batch_size)
+        # minibatch = random.sample(self.memory[i1], batch_size)
+        minibatch = random.sample(self.memory, batch_size)
 
         train_sp=np.zeros([batch_size,self.state_size[0],self.state_size[1],self.state_size[2]])
         tg=np.zeros([batch_size,self.action_size]) # 12 x 9
@@ -140,7 +143,7 @@ class Center_DQN:
             self.pro[action]+=1
             w=sum(self.pro)/self.pro[action]
 #            if reward<=0:
-#            w=6
+#                w=6
 #            ap=min(0.9,self.alpha*w)
             ap=self.alpha
             target = ap*(reward + self.gamma * np.amax(self.tmodel.predict(next_state)[0]))+(1-ap)*pdc[action] 
