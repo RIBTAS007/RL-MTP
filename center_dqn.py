@@ -140,9 +140,9 @@ class Center_DQN:
             self.pro[action]+=1
             w=sum(self.pro)/self.pro[action]
 #            if reward<=0:
-#                w=6
-            ap=min(0.9,self.alpha*w)
-#            ap=self.alpha
+#            w=6
+#            ap=min(0.9,self.alpha*w)
+            ap=self.alpha
             target = ap*(reward + self.gamma * np.amax(self.tmodel.predict(next_state)[0]))+(1-ap)*pdc[action] 
 
             target_f = self.model.predict(state)
