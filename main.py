@@ -1,3 +1,4 @@
+
 import numpy as np
 import matplotlib.pyplot as plt
 import time
@@ -400,8 +401,8 @@ for t in range(Ed):
             UAVlist[uk].reward = rd                                                    #    update the reward for the UAV uk
 
             # Transmit e(tp) = ((ok(tp), a(tp), r(tp), ok(tp+1)) to the central relay memory
-            # if t>0:
-                # Center.remember(pre_feature[uk], act_note[uk], rd, aft_feature[uk], uk)     # record the training data
+            if t>0:
+                Center.remember(pre_feature[uk], act_note[uk], rd, aft_feature[uk], uk)     # record the training data
      
 
     if t>batch_size*pl_step and t%pl_step==0:
