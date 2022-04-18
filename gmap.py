@@ -126,7 +126,6 @@ region obstacle =
 
 def gen_gama(g0,d0,the,d):  #input position as array
     gam=np.random.exponential()
-#    gama=gam*g0*((d0/np.linalg.norm(P_cen-P_self))**the)
     gama=gam*g0*((d0/d)**the)
     return gama
 
@@ -162,8 +161,8 @@ def W_wait(width,height,sensorlist):
             E_wait[pos[1],max(0,pos[0]-j)] +=sensorlist[i].wait           # 0,-1
             E_wait[pos[1],pos[0]+j] +=sensorlist[i].wait                  # 0, +1
             E_wait[pos[1]+j,pos[0]] +=sensorlist[i].wait                  # +1, 0
-           # E_wait[pos[1]-j,pos[0]+j] +=sensorlist[i].wait                # -1 , +1
-           # E_wait[pos[1]+j,pos[0]-j] +=sensorlist[i].wait                # +1, -1
+            E_wait[pos[1]-j,pos[0]+j] +=sensorlist[i].wait                # -1 , +1
+            E_wait[pos[1]+j,pos[0]-j] +=sensorlist[i].wait                # +1, -1
     return E_wait
 
      
