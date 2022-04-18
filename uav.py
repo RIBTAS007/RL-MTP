@@ -135,7 +135,8 @@ class UAV_agent:
 
         self.region_No = j_region(self.position, self.region_ifo)
         self.obs = region_obstacle[self.region_No]
-        return out
+        # print("  UAV", self.No," moves to coordinate (",self.position[0],self.position[1],") \n")
+        return out,self.position[0],self.position[1]
 
             
 
