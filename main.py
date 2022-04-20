@@ -153,7 +153,7 @@ plt.close()
 
 fig = plt.figure()
 ax = fig.add_subplot(1, 1, 1)
-plt.xlim((0, 300))
+plt.xlim((0, 600))
 plt.ylim((0, 400))
 plt.grid(True)
 plt.ion()                                                                    # interactive mode on
